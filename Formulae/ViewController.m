@@ -23,7 +23,7 @@
     [scroller setContentSize:CGSizeMake(320, 1120)];
     NSString *path = [[NSBundle mainBundle] pathForResource:@"computer 62" ofType:@"mp3"];
     AVAudioPlayer* theAudio=[[AVAudioPlayer alloc] initWithContentsOfURL:[NSURL fileURLWithPath:path] error:NULL];
-	theAudio.delegate = self;
+    
 	[theAudio play];
     theAudio.numberOfLoops = 1;
     [super viewDidLoad];
@@ -39,14 +39,13 @@
 		 action:@selector(swipeRightDetected:)];
 		swipeRecognizer.direction = UISwipeGestureRecognizerDirectionRight;
 		[self.view addGestureRecognizer:swipeRecognizer];
-		[swipeRecognizer release];
 	}
 	{UISwipeGestureRecognizer *swipeRecognizer =
 		[[UISwipeGestureRecognizer alloc]	 initWithTarget:self
 												   action:@selector(swipeLeftDetected:)];
 		swipeRecognizer.direction = UISwipeGestureRecognizerDirectionLeft;
 		[self.view addGestureRecognizer:swipeRecognizer];
-		[swipeRecognizer release]; }
+		 }
     
     
     BOOL ranBefore = [[NSUserDefaults standardUserDefaults]boolForKey:@"RanBefore"];
@@ -57,7 +56,6 @@
                 
          
         [alert show];
-        [alert release];
         [[NSUserDefaults standardUserDefaults]setBool:YES forKey:@"RanBefore"];
         [[NSUserDefaults standardUserDefaults] synchronize];
 
@@ -76,7 +74,6 @@
     
     
     [alert show];
-    [alert release];
 
     
     
@@ -116,7 +113,6 @@ moviePlayerController.fullscreen = YES;
     
     NSString *path = [[NSBundle mainBundle] pathForResource:@"Button Click On-SoundBible.com-459633989" ofType:@"mp3"];
     AVAudioPlayer* theAudio=[[AVAudioPlayer alloc] initWithContentsOfURL:[NSURL fileURLWithPath:path] error:NULL];
-	theAudio.delegate = self;
 	[theAudio play];
     theAudio.numberOfLoops = 1;
 
@@ -143,7 +139,6 @@ moviePlayerController.fullscreen = YES;
     
     NSString *path = [[NSBundle mainBundle] pathForResource:@"Button Click On-SoundBible.com-459633989" ofType:@"mp3"];
     AVAudioPlayer* theAudio=[[AVAudioPlayer alloc] initWithContentsOfURL:[NSURL fileURLWithPath:path] error:NULL];
-	theAudio.delegate = self;
 	[theAudio play];
     theAudio.numberOfLoops = 1;
     
@@ -171,7 +166,6 @@ moviePlayerController.fullscreen = YES;
     
     NSString *path = [[NSBundle mainBundle] pathForResource:@"Button Click On-SoundBible.com-459633989" ofType:@"mp3"];
     AVAudioPlayer* theAudio=[[AVAudioPlayer alloc] initWithContentsOfURL:[NSURL fileURLWithPath:path] error:NULL];
-	theAudio.delegate = self;
 	[theAudio play];
     theAudio.numberOfLoops = 1;
 
@@ -197,7 +191,6 @@ moviePlayerController.fullscreen = YES;
     
     NSString *path = [[NSBundle mainBundle] pathForResource:@"Button Click On-SoundBible.com-459633989" ofType:@"mp3"];
     AVAudioPlayer* theAudio=[[AVAudioPlayer alloc] initWithContentsOfURL:[NSURL fileURLWithPath:path] error:NULL];
-	theAudio.delegate = self;
 	[theAudio play];
     theAudio.numberOfLoops = 1;
 
@@ -224,7 +217,6 @@ moviePlayerController.fullscreen = YES;
     
     NSString *path = [[NSBundle mainBundle] pathForResource:@"Button Click On-SoundBible.com-459633989" ofType:@"mp3"];
     AVAudioPlayer* theAudio=[[AVAudioPlayer alloc] initWithContentsOfURL:[NSURL fileURLWithPath:path] error:NULL];
-	theAudio.delegate = self;
 	[theAudio play];
     theAudio.numberOfLoops = 1;
 
@@ -251,7 +243,6 @@ moviePlayerController.fullscreen = YES;
     
     NSString *path = [[NSBundle mainBundle] pathForResource:@"Button Click On-SoundBible.com-459633989" ofType:@"mp3"];
     AVAudioPlayer* theAudio=[[AVAudioPlayer alloc] initWithContentsOfURL:[NSURL fileURLWithPath:path] error:NULL];
-	theAudio.delegate = self;
 	[theAudio play];
     theAudio.numberOfLoops = 1;
 
@@ -277,7 +268,6 @@ moviePlayerController.fullscreen = YES;
         
     NSString *path = [[NSBundle mainBundle] pathForResource:@"Button Click On-SoundBible.com-459633989" ofType:@"mp3"];
     AVAudioPlayer* theAudio=[[AVAudioPlayer alloc] initWithContentsOfURL:[NSURL fileURLWithPath:path] error:NULL];
-	theAudio.delegate = self;
 	[theAudio play];
     theAudio.numberOfLoops = 1;
     
@@ -304,7 +294,6 @@ moviePlayerController.fullscreen = YES;
     
     NSString *path = [[NSBundle mainBundle] pathForResource:@"Button Click On-SoundBible.com-459633989" ofType:@"mp3"];
     AVAudioPlayer* theAudio=[[AVAudioPlayer alloc] initWithContentsOfURL:[NSURL fileURLWithPath:path] error:NULL];
-	theAudio.delegate = self;
 	[theAudio play];
     theAudio.numberOfLoops = 1;
     
@@ -333,7 +322,6 @@ moviePlayerController.fullscreen = YES;
     
     NSString *path = [[NSBundle mainBundle] pathForResource:@"Button Click On-SoundBible.com-459633989" ofType:@"mp3"];
     AVAudioPlayer* theAudio=[[AVAudioPlayer alloc] initWithContentsOfURL:[NSURL fileURLWithPath:path] error:NULL];
-	theAudio.delegate = self;
 	[theAudio play];
     theAudio.numberOfLoops = 1;
     
@@ -362,7 +350,6 @@ moviePlayerController.fullscreen = YES;
     
     NSString *path = [[NSBundle mainBundle] pathForResource:@"Button Click On-SoundBible.com-459633989" ofType:@"mp3"];
     AVAudioPlayer* theAudio=[[AVAudioPlayer alloc] initWithContentsOfURL:[NSURL fileURLWithPath:path] error:NULL];
-	theAudio.delegate = self;
 	[theAudio play];
     theAudio.numberOfLoops = 1;
 
@@ -382,7 +369,6 @@ moviePlayerController.fullscreen = YES;
     
     NSString *path = [[NSBundle mainBundle] pathForResource:@"Page_Turn-Mark_DiAngelo-1304638748" ofType:@"mp3"];
     AVAudioPlayer* theAudio=[[AVAudioPlayer alloc] initWithContentsOfURL:[NSURL fileURLWithPath:path] error:NULL];
-	theAudio.delegate = self;
 	[theAudio play];
     theAudio.numberOfLoops = 1;
 
@@ -405,7 +391,6 @@ moviePlayerController.fullscreen = YES;
     
     NSString *path = [[NSBundle mainBundle] pathForResource:@"Page_Turn-Mark_DiAngelo-1304638748" ofType:@"mp3"];
     AVAudioPlayer* theAudio=[[AVAudioPlayer alloc] initWithContentsOfURL:[NSURL fileURLWithPath:path] error:NULL];
-	theAudio.delegate = self;
 	[theAudio play];
     theAudio.numberOfLoops = 1;
 
@@ -419,7 +404,6 @@ moviePlayerController.fullscreen = YES;
 -(void)webView:(UIWebView *)webView didFailLoadWithError:(NSError *)error {
     UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"This function requires an Internet Connection" message:@"Please turn on Wi-Fi or Cellular Data to access this function" delegate:self cancelButtonTitle:@"Dismiss" otherButtonTitles:nil];
     [alert show];
-    [alert release];
 }
 - (void)didReceiveMemoryWarning
 {

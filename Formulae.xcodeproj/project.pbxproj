@@ -900,6 +900,7 @@
 		63284BED17226E190093C4B3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Achim Grozinger (NKH2X549NQ)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Achim Grozinger (NKH2X549NQ)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -915,6 +916,7 @@
 		63284BEE17226E190093C4B3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Achim Grozinger (NKH2X549NQ)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Achim Grozinger (NKH2X549NQ)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
