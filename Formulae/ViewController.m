@@ -21,11 +21,7 @@
 - (void)viewDidLoad
 { [scroller setScrollEnabled:YES];
     [scroller setContentSize:CGSizeMake(320, 1120)];
-    NSString *path = [[NSBundle mainBundle] pathForResource:@"computer 62" ofType:@"mp3"];
-    AVAudioPlayer* theAudio=[[AVAudioPlayer alloc] initWithContentsOfURL:[NSURL fileURLWithPath:path] error:NULL];
     
-	[theAudio play];
-    theAudio.numberOfLoops = 1;
     [super viewDidLoad];
     
     [webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://twitter.com/formulaeios"]]];
@@ -108,15 +104,7 @@ moviePlayerController.fullscreen = YES;
         
         
     } ];
-    
-    
-    
-    NSString *path = [[NSBundle mainBundle] pathForResource:@"Button Click On-SoundBible.com-459633989" ofType:@"mp3"];
-    AVAudioPlayer* theAudio=[[AVAudioPlayer alloc] initWithContentsOfURL:[NSURL fileURLWithPath:path] error:NULL];
-	[theAudio play];
-    theAudio.numberOfLoops = 1;
 
-    
     [scroller setScrollEnabled:YES];
     [scroller setContentSize:CGSizeMake(320, 850)];
     
@@ -134,13 +122,6 @@ moviePlayerController.fullscreen = YES;
         
         
     } ];
-    
-    
-    
-    NSString *path = [[NSBundle mainBundle] pathForResource:@"Button Click On-SoundBible.com-459633989" ofType:@"mp3"];
-    AVAudioPlayer* theAudio=[[AVAudioPlayer alloc] initWithContentsOfURL:[NSURL fileURLWithPath:path] error:NULL];
-	[theAudio play];
-    theAudio.numberOfLoops = 1;
     
     
     [scroller setScrollEnabled:YES];
@@ -162,13 +143,6 @@ moviePlayerController.fullscreen = YES;
     } ];
     
     
-    
-    
-    NSString *path = [[NSBundle mainBundle] pathForResource:@"Button Click On-SoundBible.com-459633989" ofType:@"mp3"];
-    AVAudioPlayer* theAudio=[[AVAudioPlayer alloc] initWithContentsOfURL:[NSURL fileURLWithPath:path] error:NULL];
-	[theAudio play];
-    theAudio.numberOfLoops = 1;
-
     [scroller setScrollEnabled:YES];
     [scroller setContentSize:CGSizeMake(320, 850)];
     
@@ -186,15 +160,7 @@ moviePlayerController.fullscreen = YES;
         
         
     } ];
-    
-    
-    
-    NSString *path = [[NSBundle mainBundle] pathForResource:@"Button Click On-SoundBible.com-459633989" ofType:@"mp3"];
-    AVAudioPlayer* theAudio=[[AVAudioPlayer alloc] initWithContentsOfURL:[NSURL fileURLWithPath:path] error:NULL];
-	[theAudio play];
-    theAudio.numberOfLoops = 1;
-
-    
+        
     [scroller setScrollEnabled:YES];
     [scroller setContentSize:CGSizeMake(320, 850)];
     
@@ -214,13 +180,6 @@ moviePlayerController.fullscreen = YES;
     } ];
     
     
-    
-    NSString *path = [[NSBundle mainBundle] pathForResource:@"Button Click On-SoundBible.com-459633989" ofType:@"mp3"];
-    AVAudioPlayer* theAudio=[[AVAudioPlayer alloc] initWithContentsOfURL:[NSURL fileURLWithPath:path] error:NULL];
-	[theAudio play];
-    theAudio.numberOfLoops = 1;
-
-    
     [scroller setScrollEnabled:YES];
     [scroller setContentSize:CGSizeMake(320, 850)];
     
@@ -239,14 +198,6 @@ moviePlayerController.fullscreen = YES;
         
     } ];
     
-    
-    
-    NSString *path = [[NSBundle mainBundle] pathForResource:@"Button Click On-SoundBible.com-459633989" ofType:@"mp3"];
-    AVAudioPlayer* theAudio=[[AVAudioPlayer alloc] initWithContentsOfURL:[NSURL fileURLWithPath:path] error:NULL];
-	[theAudio play];
-    theAudio.numberOfLoops = 1;
-
-    
     [scroller setScrollEnabled:YES];
     [scroller setContentSize:CGSizeMake(320, 850)];
     
@@ -264,14 +215,7 @@ moviePlayerController.fullscreen = YES;
         
         
     } ];
-    
-        
-    NSString *path = [[NSBundle mainBundle] pathForResource:@"Button Click On-SoundBible.com-459633989" ofType:@"mp3"];
-    AVAudioPlayer* theAudio=[[AVAudioPlayer alloc] initWithContentsOfURL:[NSURL fileURLWithPath:path] error:NULL];
-	[theAudio play];
-    theAudio.numberOfLoops = 1;
-    
-    
+
     [scroller setScrollEnabled:YES];
     [scroller setContentSize:CGSizeMake(320, 850)];
     
@@ -290,13 +234,7 @@ moviePlayerController.fullscreen = YES;
         
     } ];
     
-    
-    
-    NSString *path = [[NSBundle mainBundle] pathForResource:@"Button Click On-SoundBible.com-459633989" ofType:@"mp3"];
-    AVAudioPlayer* theAudio=[[AVAudioPlayer alloc] initWithContentsOfURL:[NSURL fileURLWithPath:path] error:NULL];
-	[theAudio play];
-    theAudio.numberOfLoops = 1;
-    
+
     
     [scroller setScrollEnabled:YES];
     [scroller setContentSize:CGSizeMake(320, 850)];
@@ -317,15 +255,7 @@ moviePlayerController.fullscreen = YES;
     } ];
     
     
-    
-    
-    
-    NSString *path = [[NSBundle mainBundle] pathForResource:@"Button Click On-SoundBible.com-459633989" ofType:@"mp3"];
-    AVAudioPlayer* theAudio=[[AVAudioPlayer alloc] initWithContentsOfURL:[NSURL fileURLWithPath:path] error:NULL];
-	[theAudio play];
-    theAudio.numberOfLoops = 1;
-    
-    
+
     [scroller setScrollEnabled:YES];
     [scroller setContentSize:CGSizeMake(320, 850)];
     
@@ -346,14 +276,7 @@ moviePlayerController.fullscreen = YES;
     
     } ];
     
-    
-    
-    NSString *path = [[NSBundle mainBundle] pathForResource:@"Button Click On-SoundBible.com-459633989" ofType:@"mp3"];
-    AVAudioPlayer* theAudio=[[AVAudioPlayer alloc] initWithContentsOfURL:[NSURL fileURLWithPath:path] error:NULL];
-	[theAudio play];
-    theAudio.numberOfLoops = 1;
 
-    
     [scroller setScrollEnabled:YES];
     [scroller setContentSize:CGSizeMake(320, 850)];
     
@@ -367,12 +290,6 @@ moviePlayerController.fullscreen = YES;
         
     } ];
     
-    NSString *path = [[NSBundle mainBundle] pathForResource:@"Page_Turn-Mark_DiAngelo-1304638748" ofType:@"mp3"];
-    AVAudioPlayer* theAudio=[[AVAudioPlayer alloc] initWithContentsOfURL:[NSURL fileURLWithPath:path] error:NULL];
-	[theAudio play];
-    theAudio.numberOfLoops = 1;
-
-
     [scroller setScrollEnabled:YES];
     [scroller setContentSize:CGSizeMake(320, 1120)];
 
@@ -389,11 +306,6 @@ moviePlayerController.fullscreen = YES;
         
     } ];
     
-    NSString *path = [[NSBundle mainBundle] pathForResource:@"Page_Turn-Mark_DiAngelo-1304638748" ofType:@"mp3"];
-    AVAudioPlayer* theAudio=[[AVAudioPlayer alloc] initWithContentsOfURL:[NSURL fileURLWithPath:path] error:NULL];
-	[theAudio play];
-    theAudio.numberOfLoops = 1;
-
 
     [scroller setScrollEnabled:YES];
     [scroller setContentSize:CGSizeMake(320, 1120)];
