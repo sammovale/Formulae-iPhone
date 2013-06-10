@@ -14,8 +14,8 @@
     IBOutlet UIWebView *webView;
     IBOutlet UIImageView *imageView;
 }
-@property (nonatomic,retain)IBOutlet UIWebView *webView;
-@property (nonatomic,retain)IBOutlet UIImageView *imageView;
+@property (nonatomic,strong)IBOutlet UIWebView *webView;
+@property (nonatomic,strong)IBOutlet UIImageView *imageView;
 -(IBAction)powerRule1;
 -(IBAction)sumRule;
 -(IBAction)quotientRule;
