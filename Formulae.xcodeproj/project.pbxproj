@@ -41,7 +41,6 @@
 		63284C1817228DEE0093C4B3 /* chain gang.png in Resources */ = {isa = PBXBuildFile; fileRef = 63284C1717228DEE0093C4B3 /* chain gang.png */; };
 		63284C1A17228E140093C4B3 /* chaingangers.png in Resources */ = {isa = PBXBuildFile; fileRef = 63284C1917228E140093C4B3 /* chaingangers.png */; };
 		63284C1C172293090093C4B3 /* button-9.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 63284C1B172293090093C4B3 /* button-9.mp3 */; };
-		63284C1E172294E60093C4B3 /* beep1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 63284C1D172294E60093C4B3 /* beep1.mp3 */; };
 		63284C20172295490093C4B3 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63284C1F172295490093C4B3 /* AVFoundation.framework */; };
 		63284C221722A77A0093C4B3 /* computer 62.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 63284C211722A77A0093C4B3 /* computer 62.mp3 */; };
 		63284C241722A9280093C4B3 /* slope.png in Resources */ = {isa = PBXBuildFile; fileRef = 63284C231722A9280093C4B3 /* slope.png */; };
@@ -168,8 +167,6 @@
 		63670490172BA0E30038ECBD /* sumrule.png in Resources */ = {isa = PBXBuildFile; fileRef = 6367048F172BA0E30038ECBD /* sumrule.png */; };
 		63670492172BA40D0038ECBD /* mymaths.png in Resources */ = {isa = PBXBuildFile; fileRef = 63670491172BA40D0038ECBD /* mymaths.png */; };
 		63670494172BA6880038ECBD /* productrule.png in Resources */ = {isa = PBXBuildFile; fileRef = 63670493172BA6880038ECBD /* productrule.png */; };
-		63670496172BA8050038ECBD /* Page_Turn-Mark_DiAngelo-1304638748.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 63670495172BA8050038ECBD /* Page_Turn-Mark_DiAngelo-1304638748.mp3 */; };
-		63670498172BA8800038ECBD /* Button Click On-SoundBible.com-459633989.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 63670497172BA8800038ECBD /* Button Click On-SoundBible.com-459633989.mp3 */; };
 		63ACA4E8172BE95F002606C7 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63ACA4E7172BE95F002606C7 /* MediaPlayer.framework */; };
 		63ACA4EA172BF5F1002606C7 /* Formulae.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 63ACA4E9172BF5F0002606C7 /* Formulae.mp4 */; };
 		63ACA4EC172BF7BC002606C7 /* formulaios.png in Resources */ = {isa = PBXBuildFile; fileRef = 63ACA4EB172BF7BC002606C7 /* formulaios.png */; };
@@ -220,7 +217,6 @@
 		63284C1717228DEE0093C4B3 /* chain gang.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chain gang.png"; sourceTree = "<group>"; };
 		63284C1917228E140093C4B3 /* chaingangers.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chaingangers.png; sourceTree = "<group>"; };
 		63284C1B172293090093C4B3 /* button-9.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "button-9.mp3"; sourceTree = "<group>"; };
-		63284C1D172294E60093C4B3 /* beep1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = beep1.mp3; sourceTree = "<group>"; };
 		63284C1F172295490093C4B3 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		63284C211722A77A0093C4B3 /* computer 62.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "computer 62.mp3"; sourceTree = "<group>"; };
 		63284C231722A9280093C4B3 /* slope.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slope.png; sourceTree = "<group>"; };
@@ -348,8 +344,6 @@
 		6367048F172BA0E30038ECBD /* sumrule.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sumrule.png; sourceTree = "<group>"; };
 		63670491172BA40D0038ECBD /* mymaths.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mymaths.png; sourceTree = "<group>"; };
 		63670493172BA6880038ECBD /* productrule.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = productrule.png; sourceTree = "<group>"; };
-		63670495172BA8050038ECBD /* Page_Turn-Mark_DiAngelo-1304638748.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Page_Turn-Mark_DiAngelo-1304638748.mp3"; sourceTree = "<group>"; };
-		63670497172BA8800038ECBD /* Button Click On-SoundBible.com-459633989.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Button Click On-SoundBible.com-459633989.mp3"; sourceTree = "<group>"; };
 		63ACA4E7172BE95F002606C7 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		63ACA4E9172BF5F0002606C7 /* Formulae.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Formulae.mp4; sourceTree = "<group>"; };
 		63ACA4EB172BF7BC002606C7 /* formulaios.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = formulaios.png; sourceTree = "<group>"; };
@@ -418,7 +412,6 @@
 				63284BE817226E190093C4B3 /* ViewController.m */,
 				63ACA4E9172BF5F0002606C7 /* Formulae.mp4 */,
 				63284CD91723A0410093C4B3 /* CustomAlertView.h */,
-				63670497172BA8800038ECBD /* Button Click On-SoundBible.com-459633989.mp3 */,
 				63284CDA1723A0410093C4B3 /* CustomAlertView.m */,
 				63670489172B4D690038ECBD /* slopederivative.png */,
 				63ACA4EB172BF7BC002606C7 /* formulaios.png */,
@@ -436,11 +429,9 @@
 				6367048B172B99400038ECBD /* powerule.png */,
 				6367048F172BA0E30038ECBD /* sumrule.png */,
 				63284C79172369C70093C4B3 /* foil.png */,
-				63670495172BA8050038ECBD /* Page_Turn-Mark_DiAngelo-1304638748.mp3 */,
 				63284C77172369940093C4B3 /* quadme.png */,
 				63284C231722A9280093C4B3 /* slope.png */,
 				63C52FC0172BB2230084CAAC /* euler.png */,
-				63284C1D172294E60093C4B3 /* beep1.mp3 */,
 				63670493172BA6880038ECBD /* productrule.png */,
 				63284CD317239A660093C4B3 /* coneclds.png */,
 				63284C8B17236DB20093C4B3 /* addfract.png */,
@@ -670,7 +661,6 @@
 				63284C1817228DEE0093C4B3 /* chain gang.png in Resources */,
 				63284C1A17228E140093C4B3 /* chaingangers.png in Resources */,
 				63284C1C172293090093C4B3 /* button-9.mp3 in Resources */,
-				63284C1E172294E60093C4B3 /* beep1.mp3 in Resources */,
 				63284C221722A77A0093C4B3 /* computer 62.mp3 in Resources */,
 				63284C241722A9280093C4B3 /* slope.png in Resources */,
 				63284C261722A9DE0093C4B3 /* dist.png in Resources */,
@@ -795,8 +785,6 @@
 				63670490172BA0E30038ECBD /* sumrule.png in Resources */,
 				63670492172BA40D0038ECBD /* mymaths.png in Resources */,
 				63670494172BA6880038ECBD /* productrule.png in Resources */,
-				63670496172BA8050038ECBD /* Page_Turn-Mark_DiAngelo-1304638748.mp3 in Resources */,
-				63670498172BA8800038ECBD /* Button Click On-SoundBible.com-459633989.mp3 in Resources */,
 				63C52FC1172BB2230084CAAC /* euler.png in Resources */,
 				63C52FC3172BBA4C0084CAAC /* lnxlog.png in Resources */,
 				63C52FC5172BC0690084CAAC /* trigfunctions.png in Resources */,
@@ -900,6 +888,7 @@
 		63284BED17226E190093C4B3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Achim Grozinger (NKH2X549NQ)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Achim Grozinger (NKH2X549NQ)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -915,6 +904,7 @@
 		63284BEE17226E190093C4B3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Achim Grozinger (NKH2X549NQ)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Achim Grozinger (NKH2X549NQ)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
