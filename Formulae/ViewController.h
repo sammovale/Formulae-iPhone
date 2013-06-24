@@ -11,15 +11,6 @@
 
 @interface ViewController : UIViewController {
     IBOutlet UIScrollView *scroller;
-    IBOutlet UIWebView *webView;
-    IBOutlet UIImageView *imageView;
 }
-@property (nonatomic,strong)IBOutlet UIWebView *webView;
-@property (nonatomic,strong)IBOutlet UIImageView *imageView;
--(IBAction)powerRule1;
--(IBAction)sumRule;
--(IBAction)quotientRule;
--(IBAction)chainRule;
--(IBAction)trigRule;
--(IBAction)videoPlay;
+@property (nonatomic, strong) UIScrollView *scroller;
 @end
