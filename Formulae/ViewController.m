@@ -20,12 +20,9 @@
 {
     
     [scroller setScrollEnabled:YES];
-    [scroller setContentSize:CGSizeMake(320, 540)];
+    [scroller setContentSize:CGSizeMake(320, 625)];
     
     [super viewDidLoad];
-    
-    
-    
     
     	}
 

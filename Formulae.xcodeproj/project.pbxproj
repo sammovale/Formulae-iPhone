@@ -183,6 +183,7 @@
 		BF82315917785B8A0082E6E5 /* settingsButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF82315517785B8A0082E6E5 /* settingsButton@2x.png */; };
 		BF82315C17785BA00082E6E5 /* formulaeLogo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF82315A17785BA00082E6E5 /* formulaeLogo@2x.png */; };
 		BF82315D17785BA00082E6E5 /* formulaeLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = BF82315B17785BA00082E6E5 /* formulaeLogo.png */; };
+		BF823160177AD6510082E6E5 /* EquationViewer.m in Sources */ = {isa = PBXBuildFile; fileRef = BF82315F177AD6510082E6E5 /* EquationViewer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -368,6 +369,8 @@
 		BF82315517785B8A0082E6E5 /* settingsButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "settingsButton@2x.png"; sourceTree = "<group>"; };
 		BF82315A17785BA00082E6E5 /* formulaeLogo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "formulaeLogo@2x.png"; sourceTree = "<group>"; };
 		BF82315B17785BA00082E6E5 /* formulaeLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = formulaeLogo.png; sourceTree = "<group>"; };
+		BF82315E177AD6510082E6E5 /* EquationViewer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EquationViewer.h; sourceTree = "<group>"; };
+		BF82315F177AD6510082E6E5 /* EquationViewer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EquationViewer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -595,7 +598,6 @@
 		BF82313617784DEF0082E6E5 /* Files */ = {
 			isa = PBXGroup;
 			children = (
-				BF82313717784E200082E6E5 /* Graphics */,
 				63284BE417226E190093C4B3 /* MainStoryboard.storyboard */,
 				63284CD91723A0410093C4B3 /* CustomAlertView.h */,
 				63284CDA1723A0410093C4B3 /* CustomAlertView.m */,
@@ -603,6 +605,9 @@
 				63284BDC17226E190093C4B3 /* AppDelegate.m */,
 				63284BE717226E190093C4B3 /* ViewController.h */,
 				63284BE817226E190093C4B3 /* ViewController.m */,
+				BF82315E177AD6510082E6E5 /* EquationViewer.h */,
+				BF82315F177AD6510082E6E5 /* EquationViewer.m */,
+				BF82313717784E200082E6E5 /* Graphics */,
 			);
 			name = Files;
 			sourceTree = "<group>";
@@ -854,6 +859,7 @@
 				63284BDD17226E190093C4B3 /* AppDelegate.m in Sources */,
 				63284BE917226E190093C4B3 /* ViewController.m in Sources */,
 				63284CDB1723A0410093C4B3 /* CustomAlertView.m in Sources */,
+				BF823160177AD6510082E6E5 /* EquationViewer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
