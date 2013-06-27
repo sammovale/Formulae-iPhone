@@ -14,8 +14,8 @@
 		<dict>
 			<key>CFBundleIconFiles</key>
 			<array>
-				<string>Resized-UT6SR-1.png</string>
-				<string>Resized-RFXPI.png</string>
+				<string>iPhone_Icon_icon.png</string>
+				<string>iPhoneRetina_Icon_icon.png</string>
 			</array>
 			<key>UIPrerenderedIcon</key>
 			<true/>

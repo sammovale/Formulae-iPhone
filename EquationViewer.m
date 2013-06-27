@@ -30,13 +30,11 @@
     
     
     if ([Title.text isEqual: @"Differential Calculus"]) {
-        NSLog(@"IT WORKS!");
         [scroll setContentSize:CGSizeMake(320, 1270)];
         
     }else if([Title.text isEqual:@"Linear Algebra"]){
         
-        NSLog(@"IT WORKS LINEAR");
-        
+        [scroll setContentSize:CGSizeMake(320, 850)];
     }
     
 	// Do any additional setup after loading the view.
