@@ -18,7 +18,6 @@
 		63284BE317226E190093C4B3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63284BE217226E190093C4B3 /* Default-568h@2x.png */; };
 		63284BE617226E190093C4B3 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63284BE417226E190093C4B3 /* MainStoryboard.storyboard */; };
 		63284BE917226E190093C4B3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63284BE817226E190093C4B3 /* ViewController.m */; };
-		63284BF01722730B0093C4B3 /* printable-pdf-graph-paper1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63284BEF1722730B0093C4B3 /* printable-pdf-graph-paper1.jpg */; };
 		63284BF2172274E50093C4B3 /* first principles.png in Resources */ = {isa = PBXBuildFile; fileRef = 63284BF1172274E50093C4B3 /* first principles.png */; };
 		63284BF4172275970093C4B3 /* fist.png in Resources */ = {isa = PBXBuildFile; fileRef = 63284BF3172275970093C4B3 /* fist.png */; };
 		63284BF6172275C20093C4B3 /* dove.png in Resources */ = {isa = PBXBuildFile; fileRef = 63284BF5172275C20093C4B3 /* dove.png */; };
@@ -36,9 +35,6 @@
 		63284C1617228D370093C4B3 /* tanablonde.png in Resources */ = {isa = PBXBuildFile; fileRef = 63284C1517228D370093C4B3 /* tanablonde.png */; };
 		63284C1817228DEE0093C4B3 /* chain gang.png in Resources */ = {isa = PBXBuildFile; fileRef = 63284C1717228DEE0093C4B3 /* chain gang.png */; };
 		63284C1A17228E140093C4B3 /* chaingangers.png in Resources */ = {isa = PBXBuildFile; fileRef = 63284C1917228E140093C4B3 /* chaingangers.png */; };
-		63284C1C172293090093C4B3 /* button-9.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 63284C1B172293090093C4B3 /* button-9.mp3 */; };
-		63284C20172295490093C4B3 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63284C1F172295490093C4B3 /* AVFoundation.framework */; };
-		63284C221722A77A0093C4B3 /* computer 62.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 63284C211722A77A0093C4B3 /* computer 62.mp3 */; };
 		63284C241722A9280093C4B3 /* slope.png in Resources */ = {isa = PBXBuildFile; fileRef = 63284C231722A9280093C4B3 /* slope.png */; };
 		63284C261722A9DE0093C4B3 /* dist.png in Resources */ = {isa = PBXBuildFile; fileRef = 63284C251722A9DE0093C4B3 /* dist.png */; };
 		63284C281722AA540093C4B3 /* midpoint.png in Resources */ = {isa = PBXBuildFile; fileRef = 63284C271722AA540093C4B3 /* midpoint.png */; };
@@ -130,7 +126,6 @@
 		63284CD417239A660093C4B3 /* coneclds.png in Resources */ = {isa = PBXBuildFile; fileRef = 63284CD317239A660093C4B3 /* coneclds.png */; };
 		63284CD617239AA90093C4B3 /* c9.png in Resources */ = {isa = PBXBuildFile; fileRef = 63284CD517239AA90093C4B3 /* c9.png */; };
 		63284CD817239ADD0093C4B3 /* concial.png in Resources */ = {isa = PBXBuildFile; fileRef = 63284CD717239ADD0093C4B3 /* concial.png */; };
-		63284CDB1723A0410093C4B3 /* CustomAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 63284CDA1723A0410093C4B3 /* CustomAlertView.m */; };
 		63284CDD1723A8870093C4B3 /* energy.png in Resources */ = {isa = PBXBuildFile; fileRef = 63284CDC1723A8870093C4B3 /* energy.png */; };
 		63284CDF1723A8C30093C4B3 /* energygrav.png in Resources */ = {isa = PBXBuildFile; fileRef = 63284CDE1723A8C30093C4B3 /* energygrav.png */; };
 		63284CE11723A8F60093C4B3 /* kin.png in Resources */ = {isa = PBXBuildFile; fileRef = 63284CE01723A8F60093C4B3 /* kin.png */; };
@@ -163,10 +158,6 @@
 		63670490172BA0E30038ECBD /* sumrule.png in Resources */ = {isa = PBXBuildFile; fileRef = 6367048F172BA0E30038ECBD /* sumrule.png */; };
 		63670492172BA40D0038ECBD /* mymaths.png in Resources */ = {isa = PBXBuildFile; fileRef = 63670491172BA40D0038ECBD /* mymaths.png */; };
 		63670494172BA6880038ECBD /* productrule.png in Resources */ = {isa = PBXBuildFile; fileRef = 63670493172BA6880038ECBD /* productrule.png */; };
-		63ACA4E8172BE95F002606C7 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63ACA4E7172BE95F002606C7 /* MediaPlayer.framework */; };
-		63ACA4EA172BF5F1002606C7 /* Formulae.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 63ACA4E9172BF5F0002606C7 /* Formulae.mp4 */; };
-		63ACA4EC172BF7BC002606C7 /* formulaios.png in Resources */ = {isa = PBXBuildFile; fileRef = 63ACA4EB172BF7BC002606C7 /* formulaios.png */; };
-		63ACA4EE172BF81B002606C7 /* play_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 63ACA4ED172BF81B002606C7 /* play_button.png */; };
 		63C52FC1172BB2230084CAAC /* euler.png in Resources */ = {isa = PBXBuildFile; fileRef = 63C52FC0172BB2230084CAAC /* euler.png */; };
 		63C52FC3172BBA4C0084CAAC /* lnxlog.png in Resources */ = {isa = PBXBuildFile; fileRef = 63C52FC2172BBA4C0084CAAC /* lnxlog.png */; };
 		63C52FC5172BC0690084CAAC /* trigfunctions.png in Resources */ = {isa = PBXBuildFile; fileRef = 63C52FC4172BC0690084CAAC /* trigfunctions.png */; };
@@ -201,7 +192,6 @@
 		63284BE517226E190093C4B3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		63284BE717226E190093C4B3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = Formulae/ViewController.h; sourceTree = "<group>"; };
 		63284BE817226E190093C4B3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = Formulae/ViewController.m; sourceTree = "<group>"; };
-		63284BEF1722730B0093C4B3 /* printable-pdf-graph-paper1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "printable-pdf-graph-paper1.jpg"; sourceTree = "<group>"; };
 		63284BF1172274E50093C4B3 /* first principles.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first principles.png"; sourceTree = "<group>"; };
 		63284BF3172275970093C4B3 /* fist.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fist.png; sourceTree = "<group>"; };
 		63284BF5172275C20093C4B3 /* dove.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dove.png; sourceTree = "<group>"; };
@@ -219,9 +209,6 @@
 		63284C1517228D370093C4B3 /* tanablonde.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tanablonde.png; sourceTree = "<group>"; };
 		63284C1717228DEE0093C4B3 /* chain gang.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chain gang.png"; sourceTree = "<group>"; };
 		63284C1917228E140093C4B3 /* chaingangers.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chaingangers.png; sourceTree = "<group>"; };
-		63284C1B172293090093C4B3 /* button-9.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "button-9.mp3"; sourceTree = "<group>"; };
-		63284C1F172295490093C4B3 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		63284C211722A77A0093C4B3 /* computer 62.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "computer 62.mp3"; sourceTree = "<group>"; };
 		63284C231722A9280093C4B3 /* slope.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slope.png; sourceTree = "<group>"; };
 		63284C251722A9DE0093C4B3 /* dist.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dist.png; sourceTree = "<group>"; };
 		63284C271722AA540093C4B3 /* midpoint.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = midpoint.png; sourceTree = "<group>"; };
@@ -313,8 +300,6 @@
 		63284CD317239A660093C4B3 /* coneclds.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = coneclds.png; sourceTree = "<group>"; };
 		63284CD517239AA90093C4B3 /* c9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = c9.png; sourceTree = "<group>"; };
 		63284CD717239ADD0093C4B3 /* concial.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = concial.png; sourceTree = "<group>"; };
-		63284CD91723A0410093C4B3 /* CustomAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomAlertView.h; path = Formulae/CustomAlertView.h; sourceTree = "<group>"; };
-		63284CDA1723A0410093C4B3 /* CustomAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomAlertView.m; path = Formulae/CustomAlertView.m; sourceTree = "<group>"; };
 		63284CDC1723A8870093C4B3 /* energy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = energy.png; sourceTree = "<group>"; };
 		63284CDE1723A8C30093C4B3 /* energygrav.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = energygrav.png; sourceTree = "<group>"; };
 		63284CE01723A8F60093C4B3 /* kin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kin.png; sourceTree = "<group>"; };
@@ -347,10 +332,6 @@
 		6367048F172BA0E30038ECBD /* sumrule.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sumrule.png; sourceTree = "<group>"; };
 		63670491172BA40D0038ECBD /* mymaths.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mymaths.png; sourceTree = "<group>"; };
 		63670493172BA6880038ECBD /* productrule.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = productrule.png; sourceTree = "<group>"; };
-		63ACA4E7172BE95F002606C7 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
-		63ACA4E9172BF5F0002606C7 /* Formulae.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Formulae.mp4; sourceTree = "<group>"; };
-		63ACA4EB172BF7BC002606C7 /* formulaios.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = formulaios.png; sourceTree = "<group>"; };
-		63ACA4ED172BF81B002606C7 /* play_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play_button.png; sourceTree = "<group>"; };
 		63C52FC0172BB2230084CAAC /* euler.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = euler.png; sourceTree = "<group>"; };
 		63C52FC2172BBA4C0084CAAC /* lnxlog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lnxlog.png; sourceTree = "<group>"; };
 		63C52FC4172BC0690084CAAC /* trigfunctions.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trigfunctions.png; sourceTree = "<group>"; };
@@ -374,8 +355,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63ACA4E8172BE95F002606C7 /* MediaPlayer.framework in Frameworks */,
-				63284C20172295490093C4B3 /* AVFoundation.framework in Frameworks */,
 				63284BCD17226E190093C4B3 /* UIKit.framework in Frameworks */,
 				63284BCF17226E190093C4B3 /* Foundation.framework in Frameworks */,
 				63284BD117226E190093C4B3 /* CoreGraphics.framework in Frameworks */,
@@ -388,8 +367,6 @@
 		63284BC017226E190093C4B3 = {
 			isa = PBXGroup;
 			children = (
-				63ACA4E7172BE95F002606C7 /* MediaPlayer.framework */,
-				63284C1F172295490093C4B3 /* AVFoundation.framework */,
 				BF82313617784DEF0082E6E5 /* Files */,
 				63284BD217226E190093C4B3 /* Formulae */,
 				63284BCB17226E190093C4B3 /* Frameworks */,
@@ -418,13 +395,9 @@
 		63284BD217226E190093C4B3 /* Formulae */ = {
 			isa = PBXGroup;
 			children = (
-				63ACA4E9172BF5F0002606C7 /* Formulae.mp4 */,
 				63670489172B4D690038ECBD /* slopederivative.png */,
-				63ACA4EB172BF7BC002606C7 /* formulaios.png */,
-				63ACA4ED172BF81B002606C7 /* play_button.png */,
 				63284CD717239ADD0093C4B3 /* concial.png */,
 				63C52FC2172BBA4C0084CAAC /* lnxlog.png */,
-				63284BEF1722730B0093C4B3 /* printable-pdf-graph-paper1.jpg */,
 				63C52FC4172BC0690084CAAC /* trigfunctions.png */,
 				63C52FC6172BCD320084CAAC /* chain.png */,
 				63284C8F17236E3C0093C4B3 /* divisor.png */,
@@ -464,7 +437,6 @@
 				63284C9117236EA00093C4B3 /* multiplier.png */,
 				63284C8717236BAA0093C4B3 /* deltadiscrim.png */,
 				63284C9517236F390093C4B3 /* otherway.png */,
-				63284C211722A77A0093C4B3 /* computer 62.mp3 */,
 				63284C4F1722BA320093C4B3 /* indexme.png */,
 				63284C8917236BEC0093C4B3 /* quadform.png */,
 				63284C611722C0560093C4B3 /* sinratio.png */,
@@ -526,7 +498,6 @@
 				63284C351722AE340093C4B3 /* slopechangerates.png */,
 				63284C4B1722B70F0093C4B3 /* binomial2line.png */,
 				63284C291722AB8E0093C4B3 /* radius.png */,
-				63284C1B172293090093C4B3 /* button-9.mp3 */,
 				63284C251722A9DE0093C4B3 /* dist.png */,
 				63284C431722B3F90093C4B3 /* t score.png */,
 				63284CB1172376AD0093C4B3 /* veli.png */,
@@ -591,8 +562,6 @@
 			isa = PBXGroup;
 			children = (
 				63284BE417226E190093C4B3 /* MainStoryboard.storyboard */,
-				63284CD91723A0410093C4B3 /* CustomAlertView.h */,
-				63284CDA1723A0410093C4B3 /* CustomAlertView.m */,
 				63284BDB17226E190093C4B3 /* AppDelegate.h */,
 				63284BDC17226E190093C4B3 /* AppDelegate.m */,
 				63284BE717226E190093C4B3 /* ViewController.h */,
@@ -677,7 +646,6 @@
 				63284BE117226E190093C4B3 /* Default@2x.png in Resources */,
 				63284BE317226E190093C4B3 /* Default-568h@2x.png in Resources */,
 				63284BE617226E190093C4B3 /* MainStoryboard.storyboard in Resources */,
-				63284BF01722730B0093C4B3 /* printable-pdf-graph-paper1.jpg in Resources */,
 				63284BF2172274E50093C4B3 /* first principles.png in Resources */,
 				63284BF4172275970093C4B3 /* fist.png in Resources */,
 				63284BF6172275C20093C4B3 /* dove.png in Resources */,
@@ -695,8 +663,6 @@
 				63284C1617228D370093C4B3 /* tanablonde.png in Resources */,
 				63284C1817228DEE0093C4B3 /* chain gang.png in Resources */,
 				63284C1A17228E140093C4B3 /* chaingangers.png in Resources */,
-				63284C1C172293090093C4B3 /* button-9.mp3 in Resources */,
-				63284C221722A77A0093C4B3 /* computer 62.mp3 in Resources */,
 				63284C241722A9280093C4B3 /* slope.png in Resources */,
 				63284C261722A9DE0093C4B3 /* dist.png in Resources */,
 				63284C281722AA540093C4B3 /* midpoint.png in Resources */,
@@ -824,9 +790,6 @@
 				63C52FC3172BBA4C0084CAAC /* lnxlog.png in Resources */,
 				63C52FC5172BC0690084CAAC /* trigfunctions.png in Resources */,
 				63C52FC7172BCD320084CAAC /* chain.png in Resources */,
-				63ACA4EA172BF5F1002606C7 /* Formulae.mp4 in Resources */,
-				63ACA4EC172BF7BC002606C7 /* formulaios.png in Resources */,
-				63ACA4EE172BF81B002606C7 /* play_button.png in Resources */,
 				BF823142177858490082E6E5 /* backArrow.png in Resources */,
 				BF823143177858490082E6E5 /* backArrow@2x.png in Resources */,
 				BF82315617785B8A0082E6E5 /* searchButton.png in Resources */,
@@ -850,7 +813,6 @@
 				63284BD917226E190093C4B3 /* main.m in Sources */,
 				63284BDD17226E190093C4B3 /* AppDelegate.m in Sources */,
 				63284BE917226E190093C4B3 /* ViewController.m in Sources */,
-				63284CDB1723A0410093C4B3 /* CustomAlertView.m in Sources */,
 				BF823160177AD6510082E6E5 /* EquationViewer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

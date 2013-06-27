@@ -7,9 +7,6 @@
 //
 
 #import "ViewController.h"
-#import <AVFoundation/AVFoundation.h>
-#import "CustomAlertView.h"
-
 @interface ViewController ()
 
 @end
@@ -30,17 +27,6 @@
 -(IBAction)exit:(UIStoryboardSegue *)test{
     
     
-}
-
--(IBAction)videoPlay {
-
-NSString *filepath   =   [[NSBundle mainBundle] pathForResource:@"Formulae" ofType:@"mp4"];
-NSURL    *fileURL    =   [NSURL fileURLWithPath:filepath];
-MPMoviePlayerController *moviePlayerController = [[MPMoviePlayerController alloc] initWithContentURL:fileURL];
-[self.view addSubview:moviePlayerController.view];
-moviePlayerController.fullscreen = YES;
-[moviePlayerController play];
-
 }
 
 - (void)didReceiveMemoryWarning
