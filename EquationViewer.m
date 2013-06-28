@@ -35,6 +35,12 @@
     }else if([Title.text isEqual:@"Linear Algebra"]){
         
         [scroll setContentSize:CGSizeMake(320, 850)];
+    }else if ([Title.text isEqual:@"Statistics"]){
+        
+        [scroll setContentSize:CGSizeMake(320, 850)];
+    }else if ([Title.text isEqual:@"Exponents"]){
+        
+        [scroll setContentSize:CGSizeMake(320, 850)];
     }
     
 	// Do any additional setup after loading the view.
