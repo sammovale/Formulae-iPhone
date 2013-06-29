@@ -41,6 +41,11 @@
     }else if ([Title.text isEqual:@"Exponents"]){
         
         [scroll setContentSize:CGSizeMake(320, 850)];
+    }else if ([Title.text isEqual:@"Trigonometry"]){
+        [scroll setContentSize:CGSizeMake(320, 850)];
+    }else if ([Title.text isEqual:@"Equations of Motion"]){
+        
+        [scroll setContentSize:CGSizeMake(320, 800)];
     }
     
 	// Do any additional setup after loading the view.
