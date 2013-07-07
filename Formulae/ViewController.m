@@ -33,14 +33,14 @@
     self.view.layer.shadowRadius = 10.0f;
     self.view.layer.shadowColor = [[UIColor blackColor] CGColor];
     
-    // Tell it which view should be created under left
+    
     if (![self.slidingViewController.underLeftViewController isKindOfClass:[MenuViewController class]]) {
         self.slidingViewController.underLeftViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"MenuView"];
         
         [(MenuViewController *)self.slidingViewController.underLeftViewController setDelegate:self];
     }
     
-    // Add the pan gesture to allow sliding
+    
     [self.view addGestureRecognizer:self.slidingViewController.panGesture];
 }
 
