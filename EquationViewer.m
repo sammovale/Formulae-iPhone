@@ -28,23 +28,18 @@
 {
     [super viewDidLoad];
     
-    
+            
     if ([Title.text isEqual: @"Differential Calculus"]) {
         [scroll setContentSize:CGSizeMake(320, 1270)];
-        
-    }else if([Title.text isEqual:@"Linear Algebra"]){
-        
+    } else if ([Title.text isEqual:@"Linear Algebra"]){
         [scroll setContentSize:CGSizeMake(320, 850)];
-    }else if ([Title.text isEqual:@"Statistics"]){
-        
+    } else if ([Title.text isEqual:@"Statistics"]){
         [scroll setContentSize:CGSizeMake(320, 850)];
-    }else if ([Title.text isEqual:@"Exponents"]){
-        
+    } else if ([Title.text isEqual:@"Exponents"]){
         [scroll setContentSize:CGSizeMake(320, 850)];
-    }else if ([Title.text isEqual:@"Trigonometry"]){
+    } else if ([Title.text isEqual:@"Trigonometry"]){
         [scroll setContentSize:CGSizeMake(320, 850)];
-    }else if ([Title.text isEqual:@"Equations of Motion"]){
-        
+    } else if ([Title.text isEqual:@"Equations of Motion"]){
         [scroll setContentSize:CGSizeMake(320, 800)];
     }
     

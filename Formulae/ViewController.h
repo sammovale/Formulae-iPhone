@@ -7,6 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <QuartzCore/QuartzCore.h>
+#import "ECSlidingViewController.h"
 
 @interface ViewController : UIViewController {
     IBOutlet UIScrollView *scroller;
