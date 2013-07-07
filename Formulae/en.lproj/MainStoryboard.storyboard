@@ -2519,7 +2519,7 @@
                                 <color key="backgroundColor" red="0.12941176469999999" green="0.12941176469999999" blue="0.12941176469999999" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" id="Cun-jF-xZ5">
-                                <rect key="frame" x="0.0" y="53" width="320" height="495"/>
+                                <rect key="frame" x="0.0" y="-561" width="320" height="1089"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" heightSizable="YES"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Dwt-8X-D95">
@@ -2548,7 +2548,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                     </button>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" id="w1d-cp-ntM">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="takeaway.png" id="w1d-cp-ntM">
                                         <rect key="frame" x="136" y="97" width="170" height="75"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
@@ -2596,7 +2596,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                     </button>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" id="Tfg-oU-RRf">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="multiplier.png" id="Tfg-oU-RRf">
                                         <rect key="frame" x="136" y="263" width="170" height="75"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
@@ -2640,7 +2640,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                     </button>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" id="R8F-hY-MZJ">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="otherway.png" id="R8F-hY-MZJ">
                                         <rect key="frame" x="136" y="429" width="170" height="75"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
@@ -2658,18 +2658,114 @@
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" id="yD2-k1-lcd">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="addfract.png" id="yD2-k1-lcd">
                                         <rect key="frame" x="136" y="14" width="170" height="75"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" id="NMB-Ra-1CS">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="divisor.png" id="NMB-Ra-1CS">
                                         <rect key="frame" x="136" y="180" width="170" height="75"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" id="N8g-YT-8P2">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="mixedtoimproper.png" id="N8g-YT-8P2">
                                         <rect key="frame" x="136" y="346" width="170" height="75"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="eQ9-LO-oJN">
+                                        <rect key="frame" x="15" y="512" width="291" height="75"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.90196078430000004" green="0.90196078430000004" blue="0.90196078430000004" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                        <state key="normal">
+                                            <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <state key="highlighted">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="mypercent.png" id="q27-5D-NTE">
+                                        <rect key="frame" x="136" y="512" width="170" height="75"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Product Rule" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="LF5-AO-Dmy">
+                                        <rect key="frame" x="30" y="524" width="109" height="51"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="CX6-fA-Ttd">
+                                        <rect key="frame" x="15" y="595" width="291" height="75"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.90196078430000004" green="0.90196078430000004" blue="0.90196078430000004" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                        <state key="normal">
+                                            <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <state key="highlighted">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="mypercent.png" id="PBS-B3-YY1">
+                                        <rect key="frame" x="136" y="595" width="170" height="75"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Product Rule" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Auy-hU-R96">
+                                        <rect key="frame" x="30" y="607" width="109" height="51"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="5he-zM-wum">
+                                        <rect key="frame" x="15" y="678" width="291" height="75"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.90196078430000004" green="0.90196078430000004" blue="0.90196078430000004" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                        <state key="normal">
+                                            <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <state key="highlighted">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="yayaya.png" id="R9P-Ia-iPL">
+                                        <rect key="frame" x="136" y="678" width="170" height="75"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Product Rule" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="BSt-Ym-wqn">
+                                        <rect key="frame" x="30" y="690" width="109" height="51"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="V2R-YD-6zj">
+                                        <rect key="frame" x="15" y="761" width="291" height="75"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.90196078430000004" green="0.90196078430000004" blue="0.90196078430000004" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                        <state key="normal">
+                                            <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <state key="highlighted">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="me.png" id="w02-cK-Glu">
+                                        <rect key="frame" x="181" y="761" width="95" height="75"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Fractions with same numerator and denominators" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="d70-q2-sN4">
+                                        <rect key="frame" x="20" y="761" width="153" height="70"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
                             </scrollView>
                         </subviews>
@@ -3581,6 +3677,7 @@
         <image name="PSL.png" width="478" height="76"/>
         <image name="acceleration.png" width="338" height="135"/>
         <image name="ace.png" width="376" height="63"/>
+        <image name="addfract.png" width="283" height="131"/>
         <image name="addlog.png" width="785" height="106"/>
         <image name="backArrow.png" width="16" height="16"/>
         <image name="binomial2line.png" width="1011" height="253"/>
@@ -3598,6 +3695,7 @@
         <image name="dext.png" width="705" height="80"/>
         <image name="displacement.png" width="283" height="131"/>
         <image name="dist.png" width="824" height="133"/>
+        <image name="divisor.png" width="292" height="131"/>
         <image name="dots.png" width="465" height="76"/>
         <image name="dove.png" width="452" height="120"/>
         <image name="engchauh.png" width="665" height="106"/>
@@ -3617,11 +3715,16 @@
         <image name="line.png" width="346" height="93"/>
         <image name="lnx.png" width="432" height="206"/>
         <image name="logger.png" width="685" height="206"/>
+        <image name="me.png" width="118" height="131"/>
         <image name="meanformula.png" width="293" height="233"/>
         <image name="midpoint.png" width="751" height="206"/>
+        <image name="mixedtoimproper.png" width="258" height="131"/>
         <image name="modulus.png" width="678" height="219"/>
+        <image name="multiplier.png" width="237" height="131"/>
         <image name="myavg.png" width="334" height="135"/>
         <image name="mynun.png" width="250" height="76"/>
+        <image name="mypercent.png" width="321" height="131"/>
+        <image name="otherway.png" width="258" height="131"/>
         <image name="prod.png" width="1223" height="106"/>
         <image name="pythag.png" width="386" height="100"/>
         <image name="quadform.png" width="410" height="148"/>
@@ -3641,6 +3744,7 @@
         <image name="stdevsample.png" width="545" height="246"/>
         <image name="sumr eul.png" width="957" height="106"/>
         <image name="t score.png" width="332" height="213"/>
+        <image name="takeaway.png" width="283" height="131"/>
         <image name="tanablonde.png" width="645" height="120"/>
         <image name="tanaranga.png" width="419" height="206"/>
         <image name="umt.png" width="332" height="219"/>
@@ -3650,6 +3754,7 @@
         <image name="weight.png" width="178" height="76"/>
         <image name="xinty.png" width="186" height="80"/>
         <image name="yaya89.png" width="485" height="226"/>
+        <image name="yayaya.png" width="406" height="131"/>
         <image name="yomumma.png" width="731" height="120"/>
         <image name="yxint.png" width="186" height="100"/>
         <image name="z score.png" width="306" height="206"/>
@@ -3662,13 +3767,9 @@
                 <relationship kind="outlet" name="scroll" candidateClass="UIScrollView"/>
             </relationships>
         </class>
-        <class className="UIStoryboardSegue" superclassName="NSObject">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/UIStoryboardSegue.h"/>
-        </class>
         <class className="ViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
             <relationships>
-                <relationship kind="action" name="exit:" candidateClass="UIStoryboardSegue"/>
                 <relationship kind="outlet" name="scroller" candidateClass="UIScrollView"/>
             </relationships>
         </class>
