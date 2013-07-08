@@ -16,7 +16,7 @@
 @end
 
 @implementation EquationViewer
-@synthesize Title, scroll;
+@synthesize Title,labelVertical,scroll;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -25,6 +25,23 @@
         // Custom initialization
     }
     return self;
+}
+
+-(IBAction) verticalLine:(id)sender {
+  
+    UIApplication *ourApplication = [UIApplication sharedApplication];
+    NSString *URLEncodedText = [self.labelVertical.text stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
+    NSString *ourPath = [@"readtext42://" stringByAppendingString:URLEncodedText];
+    NSURL *ourURL = [NSURL URLWithString:ourPath];
+    if ([ourApplication canOpenURL:ourURL]) {
+        [ourApplication openURL:ourURL];
+    }
+    else {
+        
+        UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"G1 Calculator Not Installed" message:@"You must have the G1 Calculator installed to open this." delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:@"Get G1", nil];
+        [alertView show];
+        
+    }
 }
 
 -(void)viewDidAppear:(BOOL)animated {

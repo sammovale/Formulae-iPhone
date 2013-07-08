@@ -35,9 +35,11 @@
     IBOutlet UILabel *Label20;
     IBOutlet UILabel *Label21;
     IBOutlet UILabel *Label22;
+    IBOutlet UILabel *labelVertical;
 }
-
+-(IBAction) verticalLine:(id)sender;
 @property (nonatomic, strong)  UILabel *Title;
 @property (nonatomic, strong)  UIScrollView *scroll;
+@property (nonatomic, retain) IBOutlet UILabel *labelVertical;
 -(IBAction)goBack;
 @end

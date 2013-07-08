@@ -1238,11 +1238,18 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.1137254902" green="0.054901960780000002" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
                                     </view>
+                                    <label hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="vertical" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="WAJ-9T-Hbs">
+                                        <rect key="frame" x="252" y="5" width="54" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
                                 <color key="backgroundColor" red="0.12941176469999999" green="0.12941176469999999" blue="0.12941176469999999" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" indicatorStyle="white" id="8yk-AU-7a8">
-                                <rect key="frame" x="0.0" y="54" width="320" height="504"/>
+                                <rect key="frame" x="0.0" y="54" width="320" height="494"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" heightSizable="YES"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="RNp-yy-4is">
@@ -1475,7 +1482,7 @@
                                         </state>
                                     </button>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="slopechangerates.png" id="QJg-co-jbZ">
-                                        <rect key="frame" x="136" y="761" width="170" height="75"/>
+                                        <rect key="frame" x="136" y="761" width="124" height="75"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Horizontal and Verticle Slope" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="bPf-Sp-lK7">
@@ -1485,6 +1492,21 @@
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="diX-hh-zCa">
+                                        <rect key="frame" x="265" y="783" width="38" height="31"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
+                                        <state key="normal" backgroundImage="g1calc.png">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <state key="highlighted">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="verticalLine:" destination="9YR-Qa-xZk" eventType="touchUpInside" id="X11-kW-cnB"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                             </scrollView>
                         </subviews>
@@ -1503,6 +1525,7 @@
                         <outlet property="Label8" destination="Vfg-Lc-Y09" id="Uou-Yy-RGH"/>
                         <outlet property="Label9" destination="RsM-xb-les" id="4db-Jq-byH"/>
                         <outlet property="Title" destination="ja4-kV-clB" id="Ghn-g7-bIy"/>
+                        <outlet property="labelVertical" destination="WAJ-9T-Hbs" id="Vvl-LD-nvk"/>
                         <outlet property="scroll" destination="8yk-AU-7a8" id="j2o-E1-tqj"/>
                     </connections>
                 </viewController>
@@ -4370,6 +4393,7 @@
         <image name="formulaeLogo.png" width="112" height="16"/>
         <image name="fract.png" width="279" height="160"/>
         <image name="fracter.png" width="339" height="219"/>
+        <image name="g1calc.png" width="180" height="142"/>
         <image name="indexme.png" width="459" height="100"/>
         <image name="int1.png" width="435" height="141"/>
         <image name="int10.png" width="681" height="85"/>
@@ -4436,6 +4460,7 @@
             <source key="sourceIdentifier" type="project" relativePath="./Classes/EquationViewer.h"/>
             <relationships>
                 <relationship kind="action" name="goBack"/>
+                <relationship kind="action" name="verticalLine:"/>
                 <relationship kind="outlet" name="Label" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="Label10" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="Label11" candidateClass="UILabel"/>
@@ -4459,6 +4484,7 @@
                 <relationship kind="outlet" name="Label8" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="Label9" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="Title" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="labelVertical" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="scroll" candidateClass="UIScrollView"/>
             </relationships>
         </class>
@@ -4488,10 +4514,14 @@
                 <relationship kind="outlet" name="scrollView" candidateClass="UIScrollView"/>
             </relationships>
         </class>
+        <class className="UIStoryboardSegue" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/UIStoryboardSegue.h"/>
+        </class>
         <class className="ViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
             <relationships>
                 <relationship kind="action" name="DifferentialCalculus"/>
+                <relationship kind="action" name="exit:" candidateClass="UIStoryboardSegue"/>
                 <relationship kind="outlet" name="Label" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="Label10" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="Label11" candidateClass="UILabel"/>
