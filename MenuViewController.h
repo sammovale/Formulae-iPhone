@@ -24,6 +24,9 @@
     IBOutlet UILabel *Label11;
     IBOutlet UILabel *Label12;
     IBOutlet UILabel *Label13;
+    IBOutlet UITextView *Label14;
+    IBOutlet UITextView *Label15;
+    IBOutlet UITextView *Label16;
     
     IBOutlet UIScrollView *scrollView;
     CGPoint startOffset;

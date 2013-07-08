@@ -25,7 +25,7 @@
     [self.slidingViewController setAnchorRightRevealAmount:280.0f];
     self.slidingViewController.underLeftWidthLayout = ECFullWidth;
     
-    [scrollView setContentSize:CGSizeMake(320, 730)];
+    [scrollView setContentSize:CGSizeMake(320, 700)];
     
     
 
@@ -45,15 +45,16 @@
     [Label11 setFont:[UIFont fontWithName:@"Kefa" size:14]];
     [Label12 setFont:[UIFont fontWithName:@"Kefa" size:14]];
     [Label13 setFont:[UIFont fontWithName:@"Kefa" size:14]];
-
-  
+    [Label14 setFont:[UIFont fontWithName:@"Kefa" size:15]];
+    [Label15 setFont:[UIFont fontWithName:@"Kefa" size:14]];
+  [Label16 setFont:[UIFont fontWithName:@"Kefa" size:14]];
     
 }
 
 -(void)viewDidAppear:(BOOL)animated {
     self.scrollView.scrollEnabled = NO;
     
-    CGFloat scrollHeight = 250;
+    CGFloat scrollHeight = 220;
     [UIView animateWithDuration:20
                           delay:0
                         options:UIViewAnimationOptionCurveLinear | UIViewAnimationOptionAllowUserInteraction
