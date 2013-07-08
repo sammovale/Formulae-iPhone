@@ -40,7 +40,7 @@
 - (void)viewDidLoad
 {
     [scroller setScrollEnabled:YES];
-    [scroller setContentSize:CGSizeMake(320, 625)];
+    [scroller setContentSize:CGSizeMake(320, 680)];
     [super viewDidLoad];
     
   
@@ -64,17 +64,7 @@
     [Label11 setFont:[UIFont fontWithName:@"Kefa" size:17]];
     [Label12 setFont:[UIFont fontWithName:@"Kefa" size:17]];
     [Label13 setFont:[UIFont fontWithName:@"Kefa" size:17]];
-    [Label14 setFont:[UIFont fontWithName:@"Kefa" size:17]];
-    [Label15 setFont:[UIFont fontWithName:@"Kefa" size:17]];
-    [Label16 setFont:[UIFont fontWithName:@"Kefa" size:17]];
-    [Label17 setFont:[UIFont fontWithName:@"Kefa" size:17]];
-    [Label18 setFont:[UIFont fontWithName:@"Kefa" size:17]];
-    [Label19 setFont:[UIFont fontWithName:@"Kefa" size:17]];
-    [Label20 setFont:[UIFont fontWithName:@"Kefa" size:17]];
-    [Label21 setFont:[UIFont fontWithName:@"Kefa" size:17]];
-    [Label22 setFont:[UIFont fontWithName:@"Kefa" size:17]];
-    [Label23 setFont:[UIFont fontWithName:@"Kefa" size:17]];
-    
+        
     self.view.layer.shadowOpacity = 0.75f;
     self.view.layer.shadowRadius = 10.0f;
     self.view.layer.shadowColor = [[UIColor blackColor] CGColor];

@@ -25,16 +25,7 @@
     IBOutlet UILabel *Label11;
     IBOutlet UILabel *Label12;
     IBOutlet UILabel *Label13;
-    IBOutlet UILabel *Label14;
-    IBOutlet UILabel *Label15;
-    IBOutlet UILabel *Label16;
-    IBOutlet UILabel *Label17;
-    IBOutlet UILabel *Label18;
-    IBOutlet UILabel *Label19;
-    IBOutlet UILabel *Label20;
-    IBOutlet UILabel *Label21;
-    IBOutlet UILabel *Label22;
-    IBOutlet UILabel *Label23;
+   
 }
 @property (nonatomic, strong) UIScrollView *scroller;
 -(IBAction)DifferentialCalculus;
