@@ -780,7 +780,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <segue destination="2" kind="modal" modalTransitionStyle="crossDissolve" id="eph-wh-ehP"/>
+                                            <segue destination="P01-N6-A0Q" kind="unwind" unwindAction="exit:" id="mfb-bV-dyF"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -1191,6 +1191,7 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mHA-Z7-U1D" sceneMemberID="firstResponder"/>
+                <exit id="P01-N6-A0Q" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="475" y="-219"/>
         </scene>
@@ -4060,7 +4061,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <segue destination="2" kind="modal" modalTransitionStyle="crossDissolve" id="laG-4a-gV0"/>
+                                            <segue destination="Ojg-fO-GZT" kind="unwind" unwindAction="exit:" id="JbJ-CF-9CK"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Integral Calculus" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="FX5-t5-6Ua">
@@ -4349,6 +4350,7 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yvV-yo-yHe" sceneMemberID="firstResponder"/>
+                <exit id="Ojg-fO-GZT" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="36" y="451"/>
         </scene>
@@ -4544,7 +4546,4 @@
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
-    <inferredMetricsTieBreakers>
-        <segue reference="eph-wh-ehP"/>
-    </inferredMetricsTieBreakers>
 </document>
