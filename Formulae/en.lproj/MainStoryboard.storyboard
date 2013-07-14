@@ -185,7 +185,7 @@
                                 <color key="backgroundColor" red="0.12941176470588234" green="0.12941176470588234" blue="0.12941176470588234" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" indicatorStyle="white" id="kwV-58-sjt">
-                                <rect key="frame" x="0.0" y="55" width="320" height="494"/>
+                                <rect key="frame" x="0.0" y="59" width="320" height="489"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" heightSizable="YES"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="9i8-0A-9rZ">
@@ -4516,14 +4516,10 @@
                 <relationship kind="outlet" name="scrollView" candidateClass="UIScrollView"/>
             </relationships>
         </class>
-        <class className="UIStoryboardSegue" superclassName="NSObject">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/UIStoryboardSegue.h"/>
-        </class>
         <class className="ViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
             <relationships>
                 <relationship kind="action" name="DifferentialCalculus"/>
-                <relationship kind="action" name="exit:" candidateClass="UIStoryboardSegue"/>
                 <relationship kind="outlet" name="Label" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="Label10" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="Label11" candidateClass="UILabel"/>
