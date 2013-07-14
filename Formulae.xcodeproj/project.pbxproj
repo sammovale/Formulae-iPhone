@@ -168,7 +168,9 @@
 		63FF038B17892CE4005865BB /* UIImage+ImageWithUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 63FF038917892CE4005865BB /* UIImage+ImageWithUIView.m */; };
 		63FF038D17892E09005865BB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63FF038C17892E09005865BB /* QuartzCore.framework */; };
 		63FF039017892E72005865BB /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63FF038F17892E72005865BB /* MenuViewController.m */; };
+		63FF039217893CE4005865BB /* Kefa.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 63FF039117893CE4005865BB /* Kefa.ttc */; };
 		63FF03C31789433F005865BB /* GRAPHITE-Education-Logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63FF03C21789433F005865BB /* GRAPHITE-Education-Logo@2x.png */; };
+		63FF03C5178946CD005865BB /* Kefa.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 63FF03C4178946CD005865BB /* Kefa.ttc */; };
 		63FF03CB17895C5A005865BB /* CustomSegueLeft.m in Sources */ = {isa = PBXBuildFile; fileRef = 63FF03CA17895C59005865BB /* CustomSegueLeft.m */; };
 		63FF03D0178974A7005865BB /* int10.png in Resources */ = {isa = PBXBuildFile; fileRef = 63FF03CC178974A7005865BB /* int10.png */; };
 		63FF03D1178974A7005865BB /* int9.png in Resources */ = {isa = PBXBuildFile; fileRef = 63FF03CD178974A7005865BB /* int9.png */; };
@@ -192,7 +194,6 @@
 		BF823160177AD6510082E6E5 /* EquationViewer.m in Sources */ = {isa = PBXBuildFile; fileRef = BF82315F177AD6510082E6E5 /* EquationViewer.m */; };
 		BFD085A9177C39E0002340A6 /* iPhone_Icon_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = BFD085A8177C39E0002340A6 /* iPhone_Icon_icon.png */; };
 		BFD085AB177C39EB002340A6 /* iPhoneRetina_Icon_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = BFD085AA177C39EB002340A6 /* iPhoneRetina_Icon_icon.png */; };
-		BFF38BAF178F989E007749EE /* Kefa.ttc in Resources */ = {isa = PBXBuildFile; fileRef = BFF38BAE178F989E007749EE /* Kefa.ttc */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -366,7 +367,9 @@
 		63FF038C17892E09005865BB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		63FF038E17892E72005865BB /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
 		63FF038F17892E72005865BB /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		63FF039117893CE4005865BB /* Kefa.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = Kefa.ttc; sourceTree = "<group>"; };
 		63FF03C21789433F005865BB /* GRAPHITE-Education-Logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GRAPHITE-Education-Logo@2x.png"; sourceTree = "<group>"; };
+		63FF03C4178946CD005865BB /* Kefa.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = Kefa.ttc; sourceTree = "<group>"; };
 		63FF03C917895C58005865BB /* CustomSegueLeft.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomSegueLeft.h; sourceTree = "<group>"; };
 		63FF03CA17895C59005865BB /* CustomSegueLeft.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomSegueLeft.m; sourceTree = "<group>"; };
 		63FF03CC178974A7005865BB /* int10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = int10.png; sourceTree = "<group>"; };
@@ -392,7 +395,6 @@
 		BF82315F177AD6510082E6E5 /* EquationViewer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EquationViewer.m; sourceTree = "<group>"; };
 		BFD085A8177C39E0002340A6 /* iPhone_Icon_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhone_Icon_icon.png; sourceTree = "<group>"; };
 		BFD085AA177C39EB002340A6 /* iPhoneRetina_Icon_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhoneRetina_Icon_icon.png; sourceTree = "<group>"; };
-		BFF38BAE178F989E007749EE /* Kefa.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = Kefa.ttc; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -413,6 +415,7 @@
 		63284BC017226E190093C4B3 = {
 			isa = PBXGroup;
 			children = (
+				63FF038C17892E09005865BB /* QuartzCore.framework */,
 				BF82313617784DEF0082E6E5 /* Files */,
 				63284BD217226E190093C4B3 /* Formulae */,
 				63284BCB17226E190093C4B3 /* Frameworks */,
@@ -431,7 +434,6 @@
 		63284BCB17226E190093C4B3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				63FF038C17892E09005865BB /* QuartzCore.framework */,
 				63284BCC17226E190093C4B3 /* UIKit.framework */,
 				63284BCE17226E190093C4B3 /* Foundation.framework */,
 				63284BD017226E190093C4B3 /* CoreGraphics.framework */,
@@ -595,6 +597,7 @@
 				63284BF71722761F0093C4B3 /* boet.png */,
 				63284BF3172275970093C4B3 /* fist.png */,
 				63284BF5172275C20093C4B3 /* dove.png */,
+				63FF03C4178946CD005865BB /* Kefa.ttc */,
 				63284BF1172274E50093C4B3 /* first principles.png */,
 				63284BD317226E190093C4B3 /* Supporting Files */,
 			);
@@ -665,7 +668,7 @@
 				BF82315517785B8A0082E6E5 /* settingsButton@2x.png */,
 				BF823140177858490082E6E5 /* backArrow.png */,
 				BF823141177858490082E6E5 /* backArrow@2x.png */,
-				BFF38BAE178F989E007749EE /* Kefa.ttc */,
+				63FF039117893CE4005865BB /* Kefa.ttc */,
 			);
 			name = Graphics;
 			sourceTree = "<group>";
@@ -881,7 +884,9 @@
 				BFD085A9177C39E0002340A6 /* iPhone_Icon_icon.png in Resources */,
 				BFD085AB177C39EB002340A6 /* iPhoneRetina_Icon_icon.png in Resources */,
 				63FF037E178921E4005865BB /* scroller.png in Resources */,
+				63FF039217893CE4005865BB /* Kefa.ttc in Resources */,
 				63FF03C31789433F005865BB /* GRAPHITE-Education-Logo@2x.png in Resources */,
+				63FF03C5178946CD005865BB /* Kefa.ttc in Resources */,
 				63FF03D0178974A7005865BB /* int10.png in Resources */,
 				63FF03D1178974A7005865BB /* int9.png in Resources */,
 				63FF03D2178974A7005865BB /* int8.png in Resources */,
@@ -893,7 +898,6 @@
 				63FF03DE178974E9005865BB /* int5.png in Resources */,
 				63FF03DF178974E9005865BB /* int4.png in Resources */,
 				63FF03E1178A645F005865BB /* g1calc.png in Resources */,
-				BFF38BAF178F989E007749EE /* Kefa.ttc in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

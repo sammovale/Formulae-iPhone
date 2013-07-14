@@ -18,7 +18,7 @@
 
 @implementation ViewController
 @synthesize scroller;
-@synthesize Label, Label1, Label2, Label3, Label4, Label5, Label6, Label7, Label8, Label9, Label10, Label11, Label12, Label13;
+
 
 
 

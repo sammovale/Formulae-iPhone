@@ -8,18 +8,14 @@
 
 #import "CustomSegueLeft.h"
 #import "QuartzCore/QuartzCore.h"
-#import "ViewController.h"
 
 @implementation CustomSegueLeft
 
 
 -(void)perform {
     
-    
     __block UIViewController *sourceViewController = (UIViewController*)[self sourceViewController];
     __block UIViewController *destinationController = (UIViewController*)[self destinationViewController];
-    
-    
     
     CATransition* transition = [CATransition animation];
     transition.duration = .25;

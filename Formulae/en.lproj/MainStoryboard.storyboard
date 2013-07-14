@@ -201,7 +201,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <segue destination="RNG-ua-b7i" kind="modal" customClass="CustomSegueLeft" modalTransitionStyle="crossDissolve" animates="NO" id="OWv-JC-ULb"/>
+                                            <segue destination="RNG-ua-b7i" kind="modal" modalTransitionStyle="crossDissolve" animates="NO" id="OWv-JC-ULb"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="V1e-5P-CTW">
@@ -605,7 +605,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <segue destination="4M9-uL-bUT" kind="modal" modalTransitionStyle="crossDissolve" animates="NO" id="Oz1-EV-Siu"/>
+                                            <segue destination="4M9-uL-bUT" kind="modal" animates="NO" id="Oz1-EV-Siu"/>
                                         </connections>
                                     </button>
                                     <view userInteractionEnabled="NO" contentMode="scaleToFill" id="Tcb-Ib-Igh">
@@ -1533,7 +1533,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SKQ-oZ-CAK" sceneMemberID="firstResponder"/>
                 <exit id="iMl-ho-VBu" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="1289" y="-219"/>
+            <point key="canvasLocation" x="829" y="-219"/>
         </scene>
         <!--Equation Viewer-->
         <scene sceneID="t7N-E3-eID">
@@ -1849,7 +1849,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eL0-aZ-3ma" sceneMemberID="firstResponder"/>
                 <exit id="7BA-Va-B20" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="1642" y="-219"/>
+            <point key="canvasLocation" x="1178" y="-219"/>
         </scene>
         <!--Equation Viewer-->
         <scene sceneID="sfg-io-bsq">
@@ -2165,7 +2165,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="huG-rV-Kc3" sceneMemberID="firstResponder"/>
                 <exit id="ZeJ-gm-hRa" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="1992" y="-219"/>
+            <point key="canvasLocation" x="1528" y="-219"/>
         </scene>
         <!--Equation Viewer-->
         <scene sceneID="l6p-l5-nwq">
@@ -2481,7 +2481,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wLV-OZ-ghz" sceneMemberID="firstResponder"/>
                 <exit id="tSY-Wq-01U" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="2325" y="-219"/>
+            <point key="canvasLocation" x="1861" y="-219"/>
         </scene>
         <!--Equation Viewer-->
         <scene sceneID="4jk-L3-Ahn">
@@ -2796,7 +2796,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zbd-je-I6h" sceneMemberID="firstResponder"/>
                 <exit id="qpa-i2-tHZ" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="2774" y="-219"/>
+            <point key="canvasLocation" x="2398" y="-118"/>
         </scene>
         <!--Equation Viewer-->
         <scene sceneID="yVq-ZO-LTJ">
@@ -3099,7 +3099,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dNz-oU-hxZ" sceneMemberID="firstResponder"/>
                 <exit id="0db-7d-6n0" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="3175" y="-219"/>
+            <point key="canvasLocation" x="2799" y="-118"/>
         </scene>
         <!--Equation Viewer-->
         <scene sceneID="iGE-Yg-EVY">
@@ -3390,7 +3390,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TKP-1s-vRr" sceneMemberID="firstResponder"/>
                 <exit id="SfR-4h-2l1" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="3575" y="-219"/>
+            <point key="canvasLocation" x="3199" y="-118"/>
         </scene>
         <!--Equation Viewer-->
         <scene sceneID="IM2-VC-VYQ">
@@ -3605,7 +3605,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VFR-zW-Z0B" sceneMemberID="firstResponder"/>
                 <exit id="3H1-hG-ZQh" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="3972" y="-219"/>
+            <point key="canvasLocation" x="3596" y="-118"/>
         </scene>
         <!--Equation Viewer-->
         <scene sceneID="8DL-oH-5U9">
@@ -3820,7 +3820,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9k3-nJ-0Sa" sceneMemberID="firstResponder"/>
                 <exit id="dm6-TZ-Tr6" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="4376" y="-219"/>
+            <point key="canvasLocation" x="4000" y="-118"/>
         </scene>
         <!--Equation Viewer-->
         <scene sceneID="9NQ-Hi-5Ny">
@@ -4035,7 +4035,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="u32-Hd-koR" sceneMemberID="firstResponder"/>
                 <exit id="UAF-gR-33t" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="4774" y="-219"/>
+            <point key="canvasLocation" x="4398" y="-118"/>
         </scene>
         <!--Equation Viewer-->
         <scene sceneID="X7S-ww-hyQ">
@@ -4352,7 +4352,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yvV-yo-yHe" sceneMemberID="firstResponder"/>
                 <exit id="Ojg-fO-GZT" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="868" y="-219"/>
+            <point key="canvasLocation" x="36" y="451"/>
         </scene>
     </scenes>
     <resources>
@@ -4461,6 +4461,7 @@
         <class className="EquationViewer" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/EquationViewer.h"/>
             <relationships>
+                <relationship kind="action" name="goBack"/>
                 <relationship kind="action" name="verticalLine:"/>
                 <relationship kind="outlet" name="Label" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="Label10" candidateClass="UILabel"/>
@@ -4518,11 +4519,7 @@
         <class className="ViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
             <relationships>
-<<<<<<< HEAD
                 <relationship kind="action" name="DifferentialCalculus"/>
-=======
-                <relationship kind="action" name="exit:" candidateClass="UIStoryboardSegue"/>
->>>>>>> c4d15ce138e07a856a862637d7972bbc3320a243
                 <relationship kind="outlet" name="Label" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="Label10" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="Label11" candidateClass="UILabel"/>

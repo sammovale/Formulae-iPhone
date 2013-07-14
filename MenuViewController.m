@@ -16,8 +16,6 @@
 
 @implementation MenuViewController
 @synthesize scrollView;
-@synthesize startTime, timer;
-
 
 
 - (void)viewDidLoad
