@@ -27,6 +27,12 @@
     return self;
 }
 
+
+
+-(IBAction)goBack:(UIStoryboardSegue *)segue{
+    
+    
+}
 -(IBAction) verticalLine:(id)sender {
   
     UIApplication *ourApplication = [UIApplication sharedApplication];
@@ -44,7 +50,10 @@
     }
 }
 
--(void)viewDidAppear:(BOOL)animated {
+
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
     
     [Label setFont:[UIFont fontWithName:@"Kefa" size:19]];
     [Label2 setFont:[UIFont fontWithName:@"Kefa" size:17]];
@@ -68,15 +77,8 @@
     [Label20 setFont:[UIFont fontWithName:@"Kefa" size:17]];
     [Label21 setFont:[UIFont fontWithName:@"Kefa" size:17]];
     [Label22 setFont:[UIFont fontWithName:@"Kefa" size:17]];
-
-}
-
-
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
     
-            
+    
     if ([Title.text isEqual: @"Differential Calculus"]) {
         [scroll setContentSize:CGSizeMake(320, 1270)];
     } else if ([Title.text isEqual:@"Linear Algebra"]){

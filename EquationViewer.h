@@ -41,5 +41,5 @@
 @property (nonatomic, strong)  UILabel *Title;
 @property (nonatomic, strong)  UIScrollView *scroll;
 @property (nonatomic, retain) IBOutlet UILabel *labelVertical;
--(IBAction)goBack;
+-(IBAction)goBack:(UIStoryboardSegue *)segue;
 @end

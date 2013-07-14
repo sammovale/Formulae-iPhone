@@ -27,7 +27,23 @@
     IBOutlet UILabel *Label13;
    
 }
+
+
+@property (nonatomic, strong) UILabel *Label;
+@property (nonatomic, strong) UILabel *Label2;
+@property (nonatomic, strong) UILabel *Label3;
+@property (nonatomic, strong) UILabel *Label4;
+@property (nonatomic, strong) UILabel *Label5;
+@property (nonatomic, strong) UILabel *Label6;
+@property (nonatomic, strong) UILabel *Label7;
+@property (nonatomic, strong) UILabel *Label8;
+@property (nonatomic, strong) UILabel *Label9;
+@property (nonatomic, strong) UILabel *Label10;
+@property (nonatomic, strong) UILabel *Label11;
+@property (nonatomic, strong) UILabel *Label12;
+@property (nonatomic, strong) UILabel *Label13;
+
+
 @property (nonatomic, strong) UIScrollView *scroller;
--(IBAction)DifferentialCalculus;
 
 @end

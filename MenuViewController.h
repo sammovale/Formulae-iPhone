@@ -37,6 +37,24 @@
 }
     @property (nonatomic, retain) NSDate *startTime;
     @property (nonatomic, retain) NSTimer *timer;
+@property (nonatomic, strong) UILabel *Label;
+@property (nonatomic, strong) UILabel *Label1;
+@property (nonatomic, strong) UILabel *Label2;
+@property (nonatomic, strong) UILabel *Label3;
+@property (nonatomic, strong) UILabel *Label4;
+@property (nonatomic, strong) UILabel *Label5;
+@property (nonatomic, strong) UILabel *Label6;
+@property (nonatomic, strong) UILabel *Label7;
+@property (nonatomic, strong) UILabel *Label8;
+@property (nonatomic, strong) UILabel *Label9;
+@property (nonatomic, strong) UILabel *Label10;
+@property (nonatomic, strong) UILabel *Label11;
+@property (nonatomic, strong) UILabel *Label12;
+@property (nonatomic, strong) UILabel *Label13;
+@property (nonatomic, strong) UITextView *Label14;
+@property (nonatomic, strong) UITextView *Label15;
+@property (nonatomic, strong) UITextView *Label16;
+
 
 
 
