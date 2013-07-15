@@ -21,20 +21,26 @@
     desView.bounds = srcView.bounds;
     
 
-            desView.center = CGPointMake(srcView.center.x - srcView.frame.size.width, srcView.center.y);
+            desView.center = CGPointMake(srcView.center.x + srcView.frame.size.width, srcView.center.y);
       
     
     UIWindow *mainWindow = [[UIApplication sharedApplication].windows objectAtIndex:0];
-    [mainWindow addSubview:desView];
     
+     [mainWindow addSubview:desView];
     
-    [UIView animateWithDuration:0.5
+    [UIView animateWithDuration:0.6
                      animations:^{
                          desView.center = CGPointMake(srcView.center.x, srcView.center.y);
                          
+                         
+                         
                                                         srcView.center = CGPointMake(srcView.center.x - srcView.frame.size.width, srcView.center.y);
+                         
+                         
                              }
-                        
+     
+    
+     
                      completion:^(BOOL finished){
                         
                          [self.sourceViewController presentModalViewController:desViewController animated:NO];
