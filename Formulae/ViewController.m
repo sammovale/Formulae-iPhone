@@ -8,7 +8,8 @@
 
 #import "ViewController.h"
 #import "MenuViewController.h"
-
+#import "SeguePush.h"
+#import "EquationViewer.h"
 #import "AppDelegate.h"
 #import <QuartzCore/QuartzCore.h>
 
@@ -46,6 +47,12 @@
   
     
     }
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+   
+    
+}
 
 - (void)viewWillAppear:(BOOL)animated
 {

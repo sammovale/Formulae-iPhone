@@ -7,6 +7,7 @@
 //
 
 #import "InitialView.h"
+#import "ViewController.h"
 
 @interface InitialView ()
 @end
@@ -18,5 +19,16 @@
 {
     [super viewDidLoad];
 	self.topViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"ViewController"];
+    
+   
+    
+    
 }
+
+
+
+
+
+
+
 @end

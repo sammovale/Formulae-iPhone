@@ -11,12 +11,12 @@
                     <view key="view" contentMode="scaleToFill" id="EO1-tv-qTz">
                         <rect key="frame" x="0.0" y="20" width="320" height="548"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eqH-Ua-f5z" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-379" y="-237"/>
+            <point key="canvasLocation" x="-607" y="-188"/>
         </scene>
         <!--Menu View Controller-->
         <scene sceneID="hBI-Kc-Yfe">
@@ -168,7 +168,7 @@
         <!--View Controller-->
         <scene sceneID="5">
             <objects>
-                <viewController storyboardIdentifier="ViewController" id="2" customClass="ViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="2" customClass="ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3">
                         <rect key="frame" x="0.0" y="20" width="320" height="548"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -605,7 +605,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <segue destination="4M9-uL-bUT" kind="modal" animates="NO" id="Oz1-EV-Siu"/>
+                                            <segue destination="4M9-uL-bUT" kind="custom" customClass="SeguePush" id="Oz1-EV-Siu"/>
                                         </connections>
                                     </button>
                                     <view userInteractionEnabled="NO" contentMode="scaleToFill" id="Tcb-Ib-Igh">
@@ -742,7 +742,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="102" y="-219"/>
+            <point key="canvasLocation" x="-171" y="-188"/>
         </scene>
         <!--Equation Viewer-->
         <scene sceneID="xag-O8-uTV">
@@ -4592,7 +4592,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <segue destination="Ojg-fO-GZT" kind="unwind" unwindAction="exit:" id="JbJ-CF-9CK"/>
+                                            <segue destination="Ojg-fO-GZT" kind="unwind" unwindAction="exit:" id="M1f-S2-jd1"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Integral Calculus" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="FX5-t5-6Ua">
@@ -4883,7 +4883,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yvV-yo-yHe" sceneMemberID="firstResponder"/>
                 <exit id="Ojg-fO-GZT" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="36" y="451"/>
+            <point key="canvasLocation" x="183" y="477"/>
         </scene>
     </scenes>
     <resources>
@@ -5033,6 +5033,7 @@
             <source key="sourceIdentifier" type="project" relativePath="./Classes/EquationViewer.h"/>
             <relationships>
                 <relationship kind="action" name="goBack:" candidateClass="UIStoryboardSegue"/>
+                <relationship kind="action" name="goBackward"/>
                 <relationship kind="action" name="verticalLine:"/>
                 <relationship kind="outlet" name="Label" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="Label10" candidateClass="UILabel"/>

@@ -8,6 +8,7 @@
 
 #import "CustomSegueLeft.h"
 #import "QuartzCore/QuartzCore.h"
+#import "AppDelegate.h"
 
 @implementation CustomSegueLeft
 
