@@ -55,7 +55,7 @@
 {
     [super viewDidLoad];
     
-    [Label setFont:[UIFont fontWithName:@"Kefa" size:19]];
+    [Label setFont:[UIFont fontWithName:@"Kefa" size:17]];
     [Label2 setFont:[UIFont fontWithName:@"Kefa" size:17]];
     [Label3 setFont:[UIFont fontWithName:@"Kefa" size:17]];
     [Label4 setFont:[UIFont fontWithName:@"Kefa" size:17]];
@@ -77,7 +77,7 @@
     [Label20 setFont:[UIFont fontWithName:@"Kefa" size:17]];
     [Label21 setFont:[UIFont fontWithName:@"Kefa" size:17]];
     [Label22 setFont:[UIFont fontWithName:@"Kefa" size:17]];
-    
+    [Title setFont:[UIFont fontWithName:@"Kefa" size:19]];
     
     if ([Title.text isEqual: @"Differential Calculus"]) {
         [scroll setContentSize:CGSizeMake(320, 1270)];
@@ -93,6 +93,14 @@
         [scroll setContentSize:CGSizeMake(320, 800)];
     }  else if ([Title.text isEqual:@"Integral Calculus"]){
         [scroll setContentSize:CGSizeMake(320, 850)];
+    } else if ([Title.text isEqual:@"Polynomials"]){
+        [scroll setContentSize:CGSizeMake(320, 850)];
+    } else if ([Title.text isEqual:@"Energy Equations"]){
+        [scroll setContentSize:CGSizeMake(320, 850)];
+    } else if ([Title.text isEqual: @"Area and Volume"]) {
+        [scroll setContentSize:CGSizeMake(320, 1270)];
+    } else if([Title.text isEqual: @"Common Chemical Equations"]) {
+        [scroll setContentSize:CGSizeMake(320, 1270)];
     }
     
 	// Do any additional setup after loading the view.

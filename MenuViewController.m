@@ -20,7 +20,7 @@
 @synthesize startTime, timer;
 
 
-- (void)viewDidLoadb
+- (void)viewDidLoad
 {
     [super viewDidLoad];
 	
@@ -28,9 +28,6 @@
     self.slidingViewController.underLeftWidthLayout = ECFullWidth;
     
     [scrollView setContentSize:CGSizeMake(320, 700)];
-    
-    
-
     
     
     
