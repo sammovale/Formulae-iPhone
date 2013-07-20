@@ -35,6 +35,31 @@
     IBOutlet UILabel *Label20;
     IBOutlet UILabel *Label21;
     IBOutlet UILabel *Label22;
+    
+    NSTimer *myTimer1;
+    NSTimer *myTimer2;
+    NSTimer *myTimer3;
+    NSTimer *myTimer4;
+    NSTimer *myTimer5;
+    NSTimer *myTimer6;
+    NSTimer *myTimer7;
+    NSTimer *myTimer8;
+    NSTimer *myTimer9;
+    NSTimer *myTimer10;
+    NSTimer *myTimer11;
+    
+    IBOutlet UIImageView *image2;
+    IBOutlet UIImageView *image3;
+    IBOutlet UIImageView *image4;
+    IBOutlet UIImageView *image5;
+    IBOutlet UIImageView *image6;
+    IBOutlet UIImageView *image7;
+    IBOutlet UIImageView *image8;
+    IBOutlet UIImageView *image9;
+    IBOutlet UIImageView *image10;
+    IBOutlet UIImageView *image11;
+    IBOutlet UIImageView *image12;
+    IBOutlet UIImageView *image13;
     IBOutlet UILabel *labelVertical;
 }
 -(IBAction) verticalLine:(id)sender;
