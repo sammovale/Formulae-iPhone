@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6305E1E117ABA9B500D9B8FD /* topShadow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6305E1E017ABA9B500D9B8FD /* topShadow@2x.png */; };
+		6305E1E317ABA9B900D9B8FD /* bottomShadow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6305E1E217ABA9B900D9B8FD /* bottomShadow@2x.png */; };
 		63284BCD17226E190093C4B3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63284BCC17226E190093C4B3 /* UIKit.framework */; };
 		63284BCF17226E190093C4B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63284BCE17226E190093C4B3 /* Foundation.framework */; };
 		63284BD117226E190093C4B3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63284BD017226E190093C4B3 /* CoreGraphics.framework */; };
@@ -197,6 +199,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6305E1E017ABA9B500D9B8FD /* topShadow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "topShadow@2x.png"; sourceTree = "<group>"; };
+		6305E1E217ABA9B900D9B8FD /* bottomShadow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bottomShadow@2x.png"; sourceTree = "<group>"; };
 		63284BC917226E190093C4B3 /* Formulae.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Formulae.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63284BCC17226E190093C4B3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		63284BCE17226E190093C4B3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -640,6 +644,8 @@
 				63FF03C917895C58005865BB /* CustomSegueLeft.h */,
 				63FF03CA17895C59005865BB /* CustomSegueLeft.m */,
 				63284BE717226E190093C4B3 /* ViewController.h */,
+				6305E1E217ABA9B900D9B8FD /* bottomShadow@2x.png */,
+				6305E1E017ABA9B500D9B8FD /* topShadow@2x.png */,
 				63284BE817226E190093C4B3 /* ViewController.m */,
 				63FF038E17892E72005865BB /* MenuViewController.h */,
 				63FF038F17892E72005865BB /* MenuViewController.m */,
@@ -899,6 +905,8 @@
 				63FF03DF178974E9005865BB /* int4.png in Resources */,
 				63FF03E1178A645F005865BB /* g1calc.png in Resources */,
 				BF3E120F1792A1C600555DBB /* Kefa.ttc in Resources */,
+				6305E1E117ABA9B500D9B8FD /* topShadow@2x.png in Resources */,
+				6305E1E317ABA9B900D9B8FD /* bottomShadow@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
