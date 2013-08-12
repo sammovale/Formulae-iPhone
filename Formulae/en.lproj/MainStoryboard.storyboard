@@ -4665,6 +4665,9 @@
                                         <state key="highlighted">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="returningMove" destination="4M9-uL-bUT" eventType="touchUpInside" id="I4F-pR-teG"/>
+                                        </connections>
                                     </button>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Integral Calculus" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="FX5-t5-6Ua">
                                         <rect key="frame" x="67" y="16" width="186" height="23"/>
@@ -4968,11 +4971,12 @@
                         <outlet property="image8" destination="FS7-3W-2Tc" id="5Rx-sQ-NmA"/>
                         <outlet property="image9" destination="RJH-CP-cNo" id="8Q3-sw-ZT9"/>
                         <outlet property="scroll" destination="AuF-nw-CM2" id="51r-yB-PGi"/>
+                        <segue destination="2" kind="custom" identifier="SegueBackToMain" customClass="SeguePush" id="oSH-cP-psH"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yvV-yo-yHe" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="410" y="468"/>
+            <point key="canvasLocation" x="428" y="459"/>
         </scene>
         <!--Red-->
         <scene sceneID="azS-DR-gP1">
@@ -5671,11 +5675,14 @@
         <class className="ECSlidingViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/ECSlidingViewController.h"/>
         </class>
-        <class className="EquationViewer" superclassName="UIViewController">
+        <class className="EquationViewer" superclassName="ECSlidingViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/EquationViewer.h"/>
             <relationships>
                 <relationship kind="action" name="goBack:" candidateClass="UIStoryboardSegue"/>
                 <relationship kind="action" name="goBackward"/>
+                <relationship kind="action" name="returnActionForSegue:" candidateClass="UIStoryboardSegue"/>
+                <relationship kind="action" name="returningMove"/>
+                <relationship kind="action" name="unwindToRed:" candidateClass="UIStoryboardSegue"/>
                 <relationship kind="action" name="verticalLine:"/>
                 <relationship kind="outlet" name="Label" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="Label10" candidateClass="UILabel"/>
@@ -5745,6 +5752,7 @@
         <class className="Red" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/Red.h"/>
             <relationships>
+                <relationship kind="action" name="exit:" candidateClass="UIStoryboardSegue"/>
                 <relationship kind="outlet" name="Label" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="Label10" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="Label11" candidateClass="UILabel"/>
@@ -5767,6 +5775,8 @@
         <class className="ViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
             <relationships>
+                <relationship kind="action" name="exit:" candidateClass="UIStoryboardSegue"/>
+                <relationship kind="action" name="someMethod"/>
                 <relationship kind="outlet" name="Label" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="Label10" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="Label11" candidateClass="UILabel"/>

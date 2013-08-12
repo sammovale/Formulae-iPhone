@@ -28,7 +28,7 @@
    
 }
 
-
+-(IBAction)someMethod;
 @property (nonatomic, strong) UILabel *Label;
 @property (nonatomic, strong) UILabel *Label2;
 @property (nonatomic, strong) UILabel *Label3;

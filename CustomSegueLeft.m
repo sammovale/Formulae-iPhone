@@ -29,4 +29,11 @@
     
     [sourceViewController.navigationController pushViewController:destinationController animated:NO];
 }
+
+- (void)animationDone:(id)vc{
+    UIViewController *destination = (UIViewController*)vc;
+    UINavigationController *navController = [[self sourceViewController] navigationController];
+    [navController pushViewController:destination animated:NO];
+    
+}
 @end

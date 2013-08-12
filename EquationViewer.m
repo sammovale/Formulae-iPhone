@@ -19,6 +19,9 @@
 @implementation EquationViewer
 @synthesize Title,labelVertical,scroll;
 
+
+
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -28,7 +31,14 @@
     return self;
 }
 
+-(IBAction)returningMove {
+    
 
+self.topViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"ViewController"];
+    
+    
+
+}
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
     
@@ -75,6 +85,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    [[UIApplication sharedApplication] setStatusBarHidden:YES];
     
      [image2 setAlpha:0];
      [image3 setAlpha:0];

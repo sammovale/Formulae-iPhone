@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ECSlidingViewController.h" 
 
-@interface EquationViewer : UIViewController{
+@interface EquationViewer : ECSlidingViewController{
     
     IBOutlet UILabel *Title;
     IBOutlet UIScrollView *scroll;
@@ -68,5 +69,6 @@
 @property (nonatomic, retain) IBOutlet UILabel *labelVertical;
 -(IBAction)goBack:(UIStoryboardSegue *)segue;
 -(IBAction)goBackward;
+-(IBAction)returningMove;
 
 @end
