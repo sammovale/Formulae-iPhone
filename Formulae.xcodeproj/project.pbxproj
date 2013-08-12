@@ -10,6 +10,8 @@
 		6305E1E117ABA9B500D9B8FD /* topShadow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6305E1E017ABA9B500D9B8FD /* topShadow@2x.png */; };
 		6305E1E317ABA9B900D9B8FD /* bottomShadow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6305E1E217ABA9B900D9B8FD /* bottomShadow@2x.png */; };
 		63158ED817B5CB910073EF64 /* Red.m in Sources */ = {isa = PBXBuildFile; fileRef = 63158ED717B5CB910073EF64 /* Red.m */; };
+		63158EDB17B8D8B40073EF64 /* CustomSegueRight.m in Sources */ = {isa = PBXBuildFile; fileRef = 63158EDA17B8D8B40073EF64 /* CustomSegueRight.m */; };
+		63158EDD17B8E4930073EF64 /* documentsLogoLarge@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63158EDC17B8E4920073EF64 /* documentsLogoLarge@2x.png */; };
 		63284BCD17226E190093C4B3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63284BCC17226E190093C4B3 /* UIKit.framework */; };
 		63284BCF17226E190093C4B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63284BCE17226E190093C4B3 /* Foundation.framework */; };
 		63284BD117226E190093C4B3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63284BD017226E190093C4B3 /* CoreGraphics.framework */; };
@@ -204,6 +206,9 @@
 		6305E1E217ABA9B900D9B8FD /* bottomShadow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bottomShadow@2x.png"; sourceTree = "<group>"; };
 		63158ED617B5CB910073EF64 /* Red.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Red.h; sourceTree = "<group>"; };
 		63158ED717B5CB910073EF64 /* Red.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Red.m; sourceTree = "<group>"; };
+		63158ED917B8D8B30073EF64 /* CustomSegueRight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomSegueRight.h; sourceTree = "<group>"; };
+		63158EDA17B8D8B40073EF64 /* CustomSegueRight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomSegueRight.m; sourceTree = "<group>"; };
+		63158EDC17B8E4920073EF64 /* documentsLogoLarge@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "documentsLogoLarge@2x.png"; sourceTree = "<group>"; };
 		63284BC917226E190093C4B3 /* Formulae.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Formulae.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63284BCC17226E190093C4B3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		63284BCE17226E190093C4B3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -646,6 +651,8 @@
 				63284BDC17226E190093C4B3 /* AppDelegate.m */,
 				63FF03C917895C58005865BB /* CustomSegueLeft.h */,
 				63FF03CA17895C59005865BB /* CustomSegueLeft.m */,
+				63158ED917B8D8B30073EF64 /* CustomSegueRight.h */,
+				63158EDA17B8D8B40073EF64 /* CustomSegueRight.m */,
 				63284BE717226E190093C4B3 /* ViewController.h */,
 				6305E1E217ABA9B900D9B8FD /* bottomShadow@2x.png */,
 				6305E1E017ABA9B500D9B8FD /* topShadow@2x.png */,
@@ -669,6 +676,7 @@
 		BF82313717784E200082E6E5 /* Graphics */ = {
 			isa = PBXGroup;
 			children = (
+				63158EDC17B8E4920073EF64 /* documentsLogoLarge@2x.png */,
 				63FF03E0178A645F005865BB /* g1calc.png */,
 				63FF03C21789433F005865BB /* GRAPHITE-Education-Logo@2x.png */,
 				63FF037D178921E4005865BB /* scroller.png */,
@@ -912,6 +920,7 @@
 				BF3E120F1792A1C600555DBB /* Kefa.ttc in Resources */,
 				6305E1E117ABA9B500D9B8FD /* topShadow@2x.png in Resources */,
 				6305E1E317ABA9B900D9B8FD /* bottomShadow@2x.png in Resources */,
+				63158EDD17B8E4930073EF64 /* documentsLogoLarge@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -933,6 +942,7 @@
 				63FF03CB17895C5A005865BB /* CustomSegueLeft.m in Sources */,
 				635F8B0817941CEA009D7DF5 /* SeguePush.m in Sources */,
 				63158ED817B5CB910073EF64 /* Red.m in Sources */,
+				63158EDB17B8D8B40073EF64 /* CustomSegueRight.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -86,7 +86,7 @@ self.topViewController = [self.storyboard instantiateViewControllerWithIdentifie
 {
     [super viewDidLoad];
     
-    [[UIApplication sharedApplication] setStatusBarHidden:YES];
+    
     
      [image2 setAlpha:0];
      [image3 setAlpha:0];
@@ -160,6 +160,7 @@ self.topViewController = [self.storyboard instantiateViewControllerWithIdentifie
     [Label21 setFont:[UIFont fontWithName:@"Kefa" size:17]];
     [Label22 setFont:[UIFont fontWithName:@"Kefa" size:17]];
     [Title setFont:[UIFont fontWithName:@"Kefa" size:19]];
+    
     
     if ([Title.text isEqual: @"Differential Calculus"]) {
         [scroll setContentSize:CGSizeMake(320, 1270)];

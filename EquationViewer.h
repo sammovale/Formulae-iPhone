@@ -9,11 +9,13 @@
 #import <UIKit/UIKit.h>
 #import "ECSlidingViewController.h" 
 
+@protocol EquationViewerDelegate;
+
 @interface EquationViewer : ECSlidingViewController{
     
     IBOutlet UILabel *Title;
     IBOutlet UIScrollView *scroll;
-    
+    IBOutlet UILabel *special;
     IBOutlet UILabel *Label;
     IBOutlet UILabel *Label2;
     IBOutlet UILabel *Label3;
@@ -62,13 +64,21 @@
     IBOutlet UIImageView *image12;
     IBOutlet UIImageView *image13;
     IBOutlet UILabel *labelVertical;
+    
+    CGPoint startOffset;
+    CGPoint destinationOffset;
 }
 -(IBAction) verticalLine:(id)sender;
 @property (nonatomic, strong)  UILabel *Title;
 @property (nonatomic, strong)  UIScrollView *scroll;
 @property (nonatomic, retain) IBOutlet UILabel *labelVertical;
 -(IBAction)goBack:(UIStoryboardSegue *)segue;
+@property (nonatomic, weak) id <EquationViewerDelegate> delegate;
 -(IBAction)goBackward;
 -(IBAction)returningMove;
+@property (nonatomic, strong) NSArray *categoryList;
+
+
+
 
 @end

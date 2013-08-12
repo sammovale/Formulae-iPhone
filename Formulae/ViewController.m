@@ -29,6 +29,8 @@
 
 - (void)viewDidAppear:(BOOL)animated
 {
+    
+    
     [super viewDidAppear:animated];
 }
 
@@ -44,8 +46,10 @@
 
 - (void)viewDidLoad
 {
+    
+   
     [scroller setScrollEnabled:YES];
-    [scroller setContentSize:CGSizeMake(320, 680)];
+    [scroller setContentSize:CGSizeMake(320, 740)];
     [super viewDidLoad];
     
   
@@ -75,6 +79,7 @@
     [Label11 setFont:[UIFont fontWithName:@"Kefa" size:17]];
     [Label12 setFont:[UIFont fontWithName:@"Kefa" size:17]];
     [Label13 setFont:[UIFont fontWithName:@"Kefa" size:17]];
+    [special setFont:[UIFont fontWithName:@"Kefa" size:19]];
         
     self.view.layer.shadowOpacity = 0.75f;
     self.view.layer.shadowRadius = 10.0f;
@@ -87,8 +92,16 @@
         [(MenuViewController *)self.slidingViewController.underLeftViewController setDelegate:self];
     }
     
+    if (![self.slidingViewController.underRightViewController isKindOfClass:[EquationViewer class]]) {
+        self.slidingViewController.underRightViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"INTCALC"];
+        
+       [(EquationViewer *)self.slidingViewController.underRightViewController setDelegate:self];
+    }
+    
+    
     
     [self.view addGestureRecognizer:self.slidingViewController.panGesture];
+    
 }
 
 

@@ -25,11 +25,13 @@
     IBOutlet UILabel *Label11;
     IBOutlet UILabel *Label12;
     IBOutlet UILabel *Label13;
+    IBOutlet UILabel *special;
    
 }
 
 -(IBAction)someMethod;
 @property (nonatomic, strong) UILabel *Label;
+@property (nonatomic, strong) UILabel *special;
 @property (nonatomic, strong) UILabel *Label2;
 @property (nonatomic, strong) UILabel *Label3;
 @property (nonatomic, strong) UILabel *Label4;
