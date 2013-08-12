@@ -31,6 +31,8 @@
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
+    
+    
    
 }
 
@@ -47,11 +49,10 @@
     [self presentViewController:vc animated:YES completion:nil];
 }
 
--(IBAction)goBack:(UIStoryboardSegue *)segue{
+
+
+- (IBAction)unwindToRed:(UIStoryboardSegue *)segue {
    
-    ViewController *vc=[self.storyboard instantiateViewControllerWithIdentifier:@"ViewController"];
-    [self presentViewController:vc animated:YES completion:nil];
-    
 }
 -(IBAction) verticalLine:(id)sender {
   

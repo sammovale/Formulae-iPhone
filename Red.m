@@ -1,23 +1,23 @@
 //
-//  ViewController.m
+//  Red.m
 //  Formulae
 //
-//  Created by David McAfee on 20/04/13.
+//  Created by David McAfee on 10/08/13.
 //  Copyright (c) 2013 David McAfee. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "Red.h"
 #import "MenuViewController.h"
 #import "SeguePush.h"
 #import "EquationViewer.h"
 #import "AppDelegate.h"
 #import <QuartzCore/QuartzCore.h>
 
-@interface ViewController () < MenuViewControllerDelegate>
+@interface Red ()
 
 @end
 
-@implementation ViewController
+@implementation Red
 @synthesize scroller;
 @synthesize Label, Label2, Label3, Label4, Label5, Label6, Label7, Label8, Label9, Label10, Label11, Label12, Label13;
 
@@ -48,13 +48,13 @@
     [scroller setContentSize:CGSizeMake(320, 680)];
     [super viewDidLoad];
     
-  
     
-    }
+    
+}
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
-   
+    
     
 }
 
@@ -62,7 +62,7 @@
 {
     [super viewWillAppear:animated];
     
-     [Label setFont:[UIFont fontWithName:@"Kefa" size:17]];
+    [Label setFont:[UIFont fontWithName:@"Kefa" size:17]];
     [Label2 setFont:[UIFont fontWithName:@"Kefa" size:17]];
     [Label3 setFont:[UIFont fontWithName:@"Kefa" size:17]];
     [Label4 setFont:[UIFont fontWithName:@"Kefa" size:17]];
@@ -75,7 +75,7 @@
     [Label11 setFont:[UIFont fontWithName:@"Kefa" size:17]];
     [Label12 setFont:[UIFont fontWithName:@"Kefa" size:17]];
     [Label13 setFont:[UIFont fontWithName:@"Kefa" size:17]];
-        
+    
     self.view.layer.shadowOpacity = 0.75f;
     self.view.layer.shadowRadius = 10.0f;
     self.view.layer.shadowColor = [[UIColor blackColor] CGColor];
@@ -95,20 +95,20 @@
 
 
 
-    
+
 
 
 - (void)menuViewControllerDidFinishWithCategoryId:(NSInteger)categoryId
 {
-
+    
     [self.slidingViewController resetTopView];
 }
+
 
 -(IBAction)exit:(UIStoryboardSegue *)test{
     
     
 }
-
 
 - (void)didReceiveMemoryWarning
 {
