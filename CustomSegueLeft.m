@@ -21,7 +21,7 @@
     CATransition* transition = [CATransition animation];
     transition.duration = .25;
     transition.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseInEaseOut];
-    transition.type = kCATransitionMoveIn; 
+    transition.type = kCATransitionPush; 
     transition.subtype = kCATransitionFromLeft; 
     
     [sourceViewController.navigationController.view.layer addAnimation:transition

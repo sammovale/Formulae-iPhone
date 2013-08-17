@@ -168,6 +168,7 @@
 		63C52FC3172BBA4C0084CAAC /* lnxlog.png in Resources */ = {isa = PBXBuildFile; fileRef = 63C52FC2172BBA4C0084CAAC /* lnxlog.png */; };
 		63C52FC5172BC0690084CAAC /* trigfunctions.png in Resources */ = {isa = PBXBuildFile; fileRef = 63C52FC4172BC0690084CAAC /* trigfunctions.png */; };
 		63C52FC7172BCD320084CAAC /* chain.png in Resources */ = {isa = PBXBuildFile; fileRef = 63C52FC6172BCD320084CAAC /* chain.png */; };
+		63D12E2D17BF1A5A00ABACEE /* year 10 exponents and logs quiz.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 63D12E2C17BF1A5A00ABACEE /* year 10 exponents and logs quiz.pdf */; };
 		63FF037E178921E4005865BB /* scroller.png in Resources */ = {isa = PBXBuildFile; fileRef = 63FF037D178921E4005865BB /* scroller.png */; };
 		63FF038417892B87005865BB /* InitialView.m in Sources */ = {isa = PBXBuildFile; fileRef = 63FF038317892B87005865BB /* InitialView.m */; };
 		63FF038A17892CE4005865BB /* ECSlidingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63FF038717892CE4005865BB /* ECSlidingViewController.m */; };
@@ -371,6 +372,7 @@
 		63C52FC2172BBA4C0084CAAC /* lnxlog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lnxlog.png; sourceTree = "<group>"; };
 		63C52FC4172BC0690084CAAC /* trigfunctions.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trigfunctions.png; sourceTree = "<group>"; };
 		63C52FC6172BCD320084CAAC /* chain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chain.png; sourceTree = "<group>"; };
+		63D12E2C17BF1A5A00ABACEE /* year 10 exponents and logs quiz.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "year 10 exponents and logs quiz.pdf"; sourceTree = "<group>"; };
 		63FF037D178921E4005865BB /* scroller.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scroller.png; sourceTree = "<group>"; };
 		63FF038217892B87005865BB /* InitialView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InitialView.h; sourceTree = "<group>"; };
 		63FF038317892B87005865BB /* InitialView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InitialView.m; sourceTree = "<group>"; };
@@ -660,6 +662,7 @@
 				63FF038E17892E72005865BB /* MenuViewController.h */,
 				63FF038F17892E72005865BB /* MenuViewController.m */,
 				635F8B0617941CEA009D7DF5 /* SeguePush.h */,
+				63D12E2C17BF1A5A00ABACEE /* year 10 exponents and logs quiz.pdf */,
 				635F8B0717941CEA009D7DF5 /* SeguePush.m */,
 				BF82315E177AD6510082E6E5 /* EquationViewer.h */,
 				BF82315F177AD6510082E6E5 /* EquationViewer.m */,
@@ -921,6 +924,7 @@
 				6305E1E117ABA9B500D9B8FD /* topShadow@2x.png in Resources */,
 				6305E1E317ABA9B900D9B8FD /* bottomShadow@2x.png in Resources */,
 				63158EDD17B8E4930073EF64 /* documentsLogoLarge@2x.png in Resources */,
+				63D12E2D17BF1A5A00ABACEE /* year 10 exponents and logs quiz.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
