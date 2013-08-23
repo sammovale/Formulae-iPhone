@@ -189,26 +189,11 @@
                                         <rect key="frame" x="107" y="19" width="107" height="16"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="H9P-oF-mI6">
-                                        <rect key="frame" x="239" y="5" width="73" height="44"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                        <state key="normal">
-                                            <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                        </state>
-                                        <state key="highlighted">
-                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        </state>
-                                        <connections>
-                                            <segue destination="tiK-Xp-WPS" kind="modal" id="VgB-yW-TE6"/>
-                                        </connections>
-                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.12941176470588234" green="0.12941176470588234" blue="0.12941176470588234" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" indicatorStyle="white" id="kwV-58-sjt">
-                                <rect key="frame" x="0.0" y="55" width="320" height="493"/>
+                                <rect key="frame" x="0.0" y="54" width="320" height="496"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" heightSizable="YES"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="9i8-0A-9rZ">
@@ -224,7 +209,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <segue destination="RNG-ua-b7i" kind="modal" modalTransitionStyle="crossDissolve" animates="NO" id="OWv-JC-ULb"/>
+                                            <segue destination="RNG-ua-b7i" kind="custom" customClass="SeguePush" id="OWv-JC-ULb"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="V1e-5P-CTW">
@@ -240,7 +225,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <segue destination="9YR-Qa-xZk" kind="modal" modalTransitionStyle="crossDissolve" id="PpD-tB-MHE"/>
+                                            <segue destination="9YR-Qa-xZk" kind="custom" customClass="SeguePush" id="PpD-tB-MHE"/>
                                         </connections>
                                     </button>
                                     <view userInteractionEnabled="NO" contentMode="scaleToFill" id="xqb-2d-75b">
@@ -294,7 +279,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <segue destination="eFE-ZQ-MJF" kind="modal" modalTransitionStyle="crossDissolve" id="1WE-OS-fSB"/>
+                                            <segue destination="eFE-ZQ-MJF" kind="custom" customClass="SeguePush" id="1WE-OS-fSB"/>
                                         </connections>
                                     </button>
                                     <view userInteractionEnabled="NO" contentMode="scaleToFill" id="zKZ-Hq-hPp">
@@ -345,7 +330,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <segue destination="EZK-9j-M0W" kind="modal" modalTransitionStyle="crossDissolve" id="d0n-q8-eSX"/>
+                                            <segue destination="EZK-9j-M0W" kind="custom" customClass="SeguePush" id="d0n-q8-eSX"/>
                                         </connections>
                                     </button>
                                     <view userInteractionEnabled="NO" contentMode="scaleToFill" id="e1g-JD-hco">
@@ -382,7 +367,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <segue destination="xFH-oC-vhD" kind="modal" modalTransitionStyle="crossDissolve" id="bGU-rA-7pO"/>
+                                            <segue destination="xFH-oC-vhD" kind="custom" customClass="SeguePush" id="bGU-rA-7pO"/>
                                         </connections>
                                     </button>
                                     <view userInteractionEnabled="NO" contentMode="scaleToFill" id="HUR-qU-8Tl">
@@ -419,7 +404,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <segue destination="Iv5-DV-Udq" kind="modal" modalTransitionStyle="crossDissolve" id="kQH-Yk-Kng"/>
+                                            <segue destination="Iv5-DV-Udq" kind="custom" customClass="SeguePush" id="kQH-Yk-Kng"/>
                                         </connections>
                                     </button>
                                     <view userInteractionEnabled="NO" contentMode="scaleToFill" id="cVP-6i-sEe">
@@ -456,7 +441,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <segue destination="GOX-4o-1dF" kind="modal" modalTransitionStyle="crossDissolve" id="gpH-a3-FN8"/>
+                                            <segue destination="GOX-4o-1dF" kind="custom" customClass="SeguePush" id="gpH-a3-FN8"/>
                                         </connections>
                                     </button>
                                     <view userInteractionEnabled="NO" contentMode="scaleToFill" id="TP5-vx-ATn">
@@ -493,7 +478,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <segue destination="Bkh-Zn-ITA" kind="modal" modalTransitionStyle="crossDissolve" id="M1W-EQ-ph4"/>
+                                            <segue destination="Bkh-Zn-ITA" kind="custom" customClass="SeguePush" id="M1W-EQ-ph4"/>
                                         </connections>
                                     </button>
                                     <view userInteractionEnabled="NO" contentMode="scaleToFill" id="vOU-ZH-R49">
@@ -530,7 +515,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <segue destination="tL4-0u-Zva" kind="modal" modalTransitionStyle="crossDissolve" id="b3s-fv-UwX"/>
+                                            <segue destination="tL4-0u-Zva" kind="custom" customClass="SeguePush" id="b3s-fv-UwX"/>
                                         </connections>
                                     </button>
                                     <view userInteractionEnabled="NO" contentMode="scaleToFill" id="23V-0J-3dh">
@@ -670,7 +655,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <segue destination="UVi-NT-ucm" kind="modal" modalTransitionStyle="crossDissolve" id="gxK-6L-H1h"/>
+                                            <segue destination="UVi-NT-ucm" kind="custom" customClass="SeguePush" id="gxK-6L-H1h"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="h9F-5W-bjH">
@@ -685,6 +670,9 @@
                                         <state key="highlighted">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <segue destination="tiK-Xp-WPS" kind="custom" customClass="SeguePush" id="DtD-Gp-tQ4"/>
+                                        </connections>
                                     </button>
                                     <view userInteractionEnabled="NO" contentMode="scaleToFill" id="qij-2b-rI6">
                                         <rect key="frame" x="256" y="619" width="50" height="50"/>
@@ -746,7 +734,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <segue destination="2go-xy-qfD" kind="modal" modalTransitionStyle="crossDissolve" id="uBS-0j-2Ha"/>
+                                            <segue destination="2go-xy-qfD" kind="custom" customClass="SeguePush" id="uBS-0j-2Ha"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Energy Equations" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Tdj-63-Phb">
@@ -812,7 +800,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-249" y="-227"/>
+            <point key="canvasLocation" x="-234" y="-219"/>
         </scene>
         <!--Equation Viewer-->
         <scene sceneID="xag-O8-uTV">
@@ -850,7 +838,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <segue destination="P01-N6-A0Q" kind="unwind" unwindAction="exit:" id="mfb-bV-dyF"/>
+                                            <action selector="returningMove" destination="RNG-ua-b7i" eventType="touchUpInside" id="AHN-bA-vMB"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -1276,12 +1264,12 @@
                         <outlet property="image6" destination="gsA-MO-xt7" id="OOB-GZ-nkf"/>
                         <outlet property="image7" destination="vlA-kg-B67" id="pll-Iv-9jG"/>
                         <outlet property="scroll" destination="YnB-9C-mGD" id="5ib-VO-Hyo"/>
+                        <segue destination="2" kind="custom" identifier="SegueBackToMain" customClass="SeguePush" id="gMz-LZ-876"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mHA-Z7-U1D" sceneMemberID="firstResponder"/>
-                <exit id="P01-N6-A0Q" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="472" y="-219"/>
+            <point key="canvasLocation" x="485" y="-248"/>
         </scene>
         <!--Equation Viewer-->
         <scene sceneID="b8c-JS-vF0">
@@ -1307,7 +1295,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <segue destination="iMl-ho-VBu" kind="unwind" unwindAction="exit:" id="nIT-Lk-Kek"/>
+                                            <action selector="returningMove" destination="9YR-Qa-xZk" eventType="touchUpInside" id="ecw-Dk-YLE"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Linear Algebra" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ja4-kV-clB">
@@ -1338,7 +1326,7 @@
                                 <color key="backgroundColor" red="0.12941176469999999" green="0.12941176469999999" blue="0.12941176469999999" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" indicatorStyle="white" id="8yk-AU-7a8">
-                                <rect key="frame" x="0.0" y="53" width="320" height="495"/>
+                                <rect key="frame" x="0.0" y="54" width="320" height="493"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" heightSizable="YES"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="RNp-yy-4is">
@@ -1581,7 +1569,7 @@
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="diX-hh-zCa">
+                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="diX-hh-zCa">
                                         <rect key="frame" x="265" y="784" width="38" height="31"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
@@ -1600,6 +1588,10 @@
                             </scrollView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="topShadow@2x.png" id="H9Q-D4-zhC">
                                 <rect key="frame" x="0.0" y="53" width="320" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="bottomShadow@2x.png" id="eSy-ZR-iwI">
+                                <rect key="frame" x="0.0" y="509" width="320" height="39"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -1623,9 +1615,8 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SKQ-oZ-CAK" sceneMemberID="firstResponder"/>
-                <exit id="iMl-ho-VBu" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="829" y="-219"/>
+            <point key="canvasLocation" x="829" y="-350"/>
         </scene>
         <!--Equation Viewer-->
         <scene sceneID="t7N-E3-eID">
@@ -1651,7 +1642,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <segue destination="7BA-Va-B20" kind="unwind" unwindAction="exit:" id="xNT-gw-vww"/>
+                                            <action selector="returningMove" destination="eFE-ZQ-MJF" eventType="touchUpInside" id="Rbo-gs-xI5"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Statistics" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="4Ef-1i-iaA">
@@ -1923,6 +1914,10 @@
                                 <rect key="frame" x="0.0" y="53" width="320" height="39"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="bottomShadow@2x.png" id="dUQ-l5-GcJ">
+                                <rect key="frame" x="0.0" y="509" width="320" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -1943,7 +1938,6 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eL0-aZ-3ma" sceneMemberID="firstResponder"/>
-                <exit id="7BA-Va-B20" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="1178" y="-219"/>
         </scene>
@@ -1971,7 +1965,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <segue destination="ZeJ-gm-hRa" kind="unwind" unwindAction="exit:" id="3C4-ZT-nOp"/>
+                                            <action selector="returningMove" destination="EZK-9j-M0W" eventType="touchUpInside" id="WOV-en-wl1"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Exponents" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="kUP-Wk-tMT">
@@ -2243,6 +2237,10 @@
                                 <rect key="frame" x="0.0" y="52" width="320" height="39"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="bottomShadow@2x.png" id="ZIB-o8-Uj2">
+                                <rect key="frame" x="1" y="509" width="320" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -2263,7 +2261,6 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="huG-rV-Kc3" sceneMemberID="firstResponder"/>
-                <exit id="ZeJ-gm-hRa" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="1528" y="-219"/>
         </scene>
@@ -2291,7 +2288,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <segue destination="tSY-Wq-01U" kind="unwind" unwindAction="exit:" id="Utt-5i-rDH"/>
+                                            <action selector="returningMove" destination="xFH-oC-vhD" eventType="touchUpInside" id="v1Z-hr-79t"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Trigonometry" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="eIT-eH-vkI">
@@ -2310,7 +2307,7 @@
                                 <color key="backgroundColor" red="0.12941176469999999" green="0.12941176469999999" blue="0.12941176469999999" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" indicatorStyle="white" id="Jbq-LR-IL5">
-                                <rect key="frame" x="0.0" y="54" width="320" height="498"/>
+                                <rect key="frame" x="0.0" y="54" width="320" height="494"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" heightSizable="YES"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="H3y-NX-IrE">
@@ -2563,6 +2560,10 @@
                                 <rect key="frame" x="0.0" y="53" width="320" height="39"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="bottomShadow@2x.png" id="n7o-uI-LW6">
+                                <rect key="frame" x="0.0" y="507" width="320" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -2583,7 +2584,6 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wLV-OZ-ghz" sceneMemberID="firstResponder"/>
-                <exit id="tSY-Wq-01U" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="1861" y="-219"/>
         </scene>
@@ -2611,7 +2611,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <segue destination="qpa-i2-tHZ" kind="unwind" unwindAction="exit:" id="WpD-ZJ-G2A"/>
+                                            <action selector="returningMove" destination="Iv5-DV-Udq" eventType="touchUpInside" id="4gN-Cd-4MF"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Polynomials" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="wHb-dI-trW">
@@ -2883,13 +2883,16 @@
                                     </imageView>
                                 </subviews>
                             </scrollView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="bottomShadow@2x.png" id="NV0-OA-4aD">
+                                <rect key="frame" x="0.0" y="509" width="320" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                     <connections>
                         <outlet property="Label10" destination="1aW-dT-wes" id="9gf-ek-Y6A"/>
-                        <outlet property="Label11" destination="bLE-AR-ugc" id="uyi-Ai-mkD"/>
                         <outlet property="Label2" destination="qHt-9C-3aS" id="DpE-tL-grG"/>
                         <outlet property="Label3" destination="cXR-un-fph" id="JbK-OQ-9pw"/>
                         <outlet property="Label4" destination="m8T-yF-V7J" id="Pue-u4-AaS"/>
@@ -2898,12 +2901,12 @@
                         <outlet property="Label7" destination="NCS-n4-kDr" id="153-Oc-n5k"/>
                         <outlet property="Label8" destination="gs7-LX-2mD" id="lar-Hv-dYf"/>
                         <outlet property="Label9" destination="jJ5-XQ-Nor" id="oDu-GM-gap"/>
+                        <outlet property="LabelTop" destination="bLE-AR-ugc" id="qbn-O8-iVf"/>
                         <outlet property="Title" destination="wHb-dI-trW" id="skc-Wl-e2e"/>
                         <outlet property="scroll" destination="N4i-7Y-ukg" id="Dhd-bD-bbd"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zbd-je-I6h" sceneMemberID="firstResponder"/>
-                <exit id="qpa-i2-tHZ" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="2398" y="-118"/>
         </scene>
@@ -2931,7 +2934,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <segue destination="0db-7d-6n0" kind="unwind" unwindAction="exit:" id="WSV-nF-QP9"/>
+                                            <action selector="returningMove" destination="GOX-4o-1dF" eventType="touchUpInside" id="Ci8-v1-WDE"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Fractions" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="8Y5-7g-hbV">
@@ -2950,11 +2953,11 @@
                                 <color key="backgroundColor" red="0.12941176469999999" green="0.12941176469999999" blue="0.12941176469999999" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" id="Cun-jF-xZ5">
-                                <rect key="frame" x="0.0" y="52" width="320" height="504"/>
+                                <rect key="frame" x="0.0" y="54" width="320" height="494"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" heightSizable="YES"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Dwt-8X-D95">
-                                        <rect key="frame" x="15" y="14" width="291" height="75"/>
+                                        <rect key="frame" x="15" y="8" width="291" height="75"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.90196078430000004" green="0.90196078430000004" blue="0.90196078430000004" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
@@ -2967,7 +2970,7 @@
                                         </state>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="QXx-6E-DNf">
-                                        <rect key="frame" x="15" y="97" width="291" height="75"/>
+                                        <rect key="frame" x="15" y="91" width="291" height="75"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.90196078430000004" green="0.90196078430000004" blue="0.90196078430000004" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
@@ -2980,22 +2983,22 @@
                                         </state>
                                     </button>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="takeaway.png" id="w1d-cp-ntM">
-                                        <rect key="frame" x="136" y="97" width="170" height="75"/>
+                                        <rect key="frame" x="136" y="91" width="170" height="75"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" id="6ES-jN-aYs">
-                                        <rect key="frame" x="136" y="180" width="170" height="75"/>
+                                        <rect key="frame" x="136" y="174" width="170" height="75"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Subtraction of fractions" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="mpR-hK-3Ll">
-                                        <rect key="frame" x="30" y="109" width="109" height="51"/>
+                                        <rect key="frame" x="30" y="103" width="109" height="51"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="OfE-VJ-ddl">
-                                        <rect key="frame" x="15" y="180" width="291" height="75"/>
+                                        <rect key="frame" x="15" y="174" width="291" height="75"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.90196078430000004" green="0.90196078430000004" blue="0.90196078430000004" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
@@ -3008,14 +3011,14 @@
                                         </state>
                                     </button>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Division of fractions" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Cwi-Tq-gzO">
-                                        <rect key="frame" x="30" y="192" width="109" height="51"/>
+                                        <rect key="frame" x="30" y="186" width="109" height="51"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="jEC-j8-OhC">
-                                        <rect key="frame" x="15" y="263" width="291" height="75"/>
+                                        <rect key="frame" x="15" y="257" width="291" height="75"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.90196078430000004" green="0.90196078430000004" blue="0.90196078430000004" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
@@ -3028,18 +3031,18 @@
                                         </state>
                                     </button>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="multiplier.png" id="Tfg-oU-RRf">
-                                        <rect key="frame" x="136" y="263" width="170" height="75"/>
+                                        <rect key="frame" x="136" y="257" width="170" height="75"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Multiplication of fractions" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="hXe-xh-XSf">
-                                        <rect key="frame" x="30" y="275" width="109" height="51"/>
+                                        <rect key="frame" x="30" y="269" width="109" height="51"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="dYc-es-n5a">
-                                        <rect key="frame" x="15" y="346" width="291" height="75"/>
+                                        <rect key="frame" x="15" y="340" width="291" height="75"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.90196078430000004" green="0.90196078430000004" blue="0.90196078430000004" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
@@ -3052,14 +3055,14 @@
                                         </state>
                                     </button>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Mixed to Improper" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="5Gz-dk-roX">
-                                        <rect key="frame" x="30" y="358" width="109" height="51"/>
+                                        <rect key="frame" x="30" y="352" width="109" height="51"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="aaC-Mb-dhS">
-                                        <rect key="frame" x="15" y="429" width="291" height="75"/>
+                                        <rect key="frame" x="15" y="423" width="291" height="75"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.90196078430000004" green="0.90196078430000004" blue="0.90196078430000004" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
@@ -3072,37 +3075,37 @@
                                         </state>
                                     </button>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="otherway.png" id="R8F-hY-MZJ">
-                                        <rect key="frame" x="136" y="429" width="170" height="75"/>
+                                        <rect key="frame" x="136" y="423" width="170" height="75"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Improper to Mixed" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="H93-Mf-sPC">
-                                        <rect key="frame" x="30" y="441" width="109" height="51"/>
+                                        <rect key="frame" x="30" y="435" width="109" height="51"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Sum of Fractions" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="jba-9h-B3L">
-                                        <rect key="frame" x="30" y="26" width="109" height="51"/>
+                                        <rect key="frame" x="30" y="20" width="109" height="51"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="addfract.png" id="yD2-k1-lcd">
-                                        <rect key="frame" x="136" y="14" width="170" height="75"/>
+                                        <rect key="frame" x="136" y="8" width="170" height="75"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="divisor.png" id="NMB-Ra-1CS">
-                                        <rect key="frame" x="136" y="180" width="170" height="75"/>
+                                        <rect key="frame" x="136" y="174" width="170" height="75"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="mixedtoimproper.png" id="N8g-YT-8P2">
-                                        <rect key="frame" x="136" y="346" width="170" height="75"/>
+                                        <rect key="frame" x="136" y="340" width="170" height="75"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="eQ9-LO-oJN">
-                                        <rect key="frame" x="15" y="512" width="291" height="75"/>
+                                        <rect key="frame" x="15" y="506" width="291" height="75"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.90196078430000004" green="0.90196078430000004" blue="0.90196078430000004" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
@@ -3115,18 +3118,18 @@
                                         </state>
                                     </button>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="mypercent.png" id="q27-5D-NTE">
-                                        <rect key="frame" x="136" y="512" width="170" height="75"/>
+                                        <rect key="frame" x="136" y="506" width="170" height="75"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Fraction to percentage" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="LF5-AO-Dmy">
-                                        <rect key="frame" x="30" y="524" width="109" height="51"/>
+                                        <rect key="frame" x="30" y="518" width="109" height="51"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="CX6-fA-Ttd">
-                                        <rect key="frame" x="15" y="595" width="291" height="75"/>
+                                        <rect key="frame" x="15" y="589" width="291" height="75"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.90196078430000004" green="0.90196078430000004" blue="0.90196078430000004" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
@@ -3139,7 +3142,7 @@
                                         </state>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="5he-zM-wum">
-                                        <rect key="frame" x="15" y="678" width="291" height="75"/>
+                                        <rect key="frame" x="15" y="672" width="291" height="75"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.90196078430000004" green="0.90196078430000004" blue="0.90196078430000004" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
@@ -3152,18 +3155,18 @@
                                         </state>
                                     </button>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="yayaya.png" id="R9P-Ia-iPL">
-                                        <rect key="frame" x="136" y="678" width="170" height="75"/>
+                                        <rect key="frame" x="136" y="672" width="170" height="75"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Cross multiplication" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="BSt-Ym-wqn">
-                                        <rect key="frame" x="30" y="690" width="129" height="51"/>
+                                        <rect key="frame" x="30" y="684" width="129" height="51"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="V2R-YD-6zj">
-                                        <rect key="frame" x="15" y="761" width="291" height="75"/>
+                                        <rect key="frame" x="15" y="755" width="291" height="75"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.90196078430000004" green="0.90196078430000004" blue="0.90196078430000004" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
@@ -3176,22 +3179,26 @@
                                         </state>
                                     </button>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="me.png" id="w02-cK-Glu">
-                                        <rect key="frame" x="181" y="761" width="95" height="75"/>
+                                        <rect key="frame" x="181" y="755" width="95" height="75"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Fractions with same numerator and denominator" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="d70-q2-sN4">
-                                        <rect key="frame" x="20" y="761" width="164" height="70"/>
+                                        <rect key="frame" x="20" y="755" width="164" height="70"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="topShadow@2x.png" id="R6m-Bn-ERu">
-                                        <rect key="frame" x="0.0" y="5" width="320" height="39"/>
+                                        <rect key="frame" x="0.0" y="-1" width="320" height="39"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                 </subviews>
                             </scrollView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="bottomShadow@2x.png" id="xzO-sF-61X">
+                                <rect key="frame" x="0.0" y="509" width="320" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -3204,14 +3211,13 @@
                         <outlet property="Label5" destination="5Gz-dk-roX" id="vUj-GM-QzT"/>
                         <outlet property="Label6" destination="H93-Mf-sPC" id="fOa-Uy-yrY"/>
                         <outlet property="Label7" destination="LF5-AO-Dmy" id="0EU-Gb-jfv"/>
-                        <outlet property="Label8" destination="jba-9h-B3L" id="XqQ-vO-I4g"/>
                         <outlet property="Label9" destination="BSt-Ym-wqn" id="HMo-8g-ta5"/>
+                        <outlet property="LabelTop" destination="jba-9h-B3L" id="ez7-pa-jAF"/>
                         <outlet property="Title" destination="8Y5-7g-hbV" id="PSC-aJ-5bU"/>
                         <outlet property="scroll" destination="Cun-jF-xZ5" id="ZTw-Nj-DwZ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dNz-oU-hxZ" sceneMemberID="firstResponder"/>
-                <exit id="0db-7d-6n0" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="2799" y="-118"/>
         </scene>
@@ -3239,7 +3245,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <segue destination="SfR-4h-2l1" kind="unwind" unwindAction="exit:" id="msk-6U-KKh"/>
+                                            <action selector="returningMove" destination="Bkh-Zn-ITA" eventType="touchUpInside" id="W7P-CU-6Sc"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Equations of Motion" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ItW-r3-4Wi">
@@ -3487,6 +3493,10 @@
                                     </imageView>
                                 </subviews>
                             </scrollView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="bottomShadow@2x.png" id="HPY-Nf-CUy">
+                                <rect key="frame" x="0.0" y="509" width="320" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -3501,12 +3511,12 @@
                         <outlet property="Label7" destination="pFz-nU-ipc" id="xDn-3B-zW0"/>
                         <outlet property="Label8" destination="1xy-Q3-2MI" id="xcB-pC-1YY"/>
                         <outlet property="Label9" destination="Ks3-9b-6xK" id="ioV-Y1-B3B"/>
+                        <outlet property="LabelTop" destination="N36-dL-OPz" id="dqy-Ec-gtV"/>
                         <outlet property="Title" destination="ItW-r3-4Wi" id="MEr-e0-Hh9"/>
                         <outlet property="scroll" destination="iXt-3F-WSR" id="iav-dU-l2j"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TKP-1s-vRr" sceneMemberID="firstResponder"/>
-                <exit id="SfR-4h-2l1" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="3199" y="-118"/>
         </scene>
@@ -3534,7 +3544,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <segue destination="3H1-hG-ZQh" kind="unwind" unwindAction="exit:" id="Krn-sa-u3X"/>
+                                            <action selector="returningMove" destination="tL4-0u-Zva" eventType="touchUpInside" id="QaA-XN-yhd"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Area and Volume" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="0Z8-e8-6Rf">
@@ -3553,7 +3563,7 @@
                                 <color key="backgroundColor" red="0.12941176469999999" green="0.12941176469999999" blue="0.12941176469999999" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" id="bnh-qC-sSG">
-                                <rect key="frame" x="0.0" y="50" width="320" height="498"/>
+                                <rect key="frame" x="0.0" y="50" width="320" height="497"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" heightSizable="YES"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="0cV-3A-4RO">
@@ -3926,6 +3936,10 @@
                                     </imageView>
                                 </subviews>
                             </scrollView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="bottomShadow@2x.png" id="SBi-Vu-0wk">
+                                <rect key="frame" x="0.0" y="509" width="320" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -3937,21 +3951,20 @@
                         <outlet property="Label13" destination="6qa-ay-Hkp" id="mxG-lX-85F"/>
                         <outlet property="Label14" destination="vW8-Em-WXH" id="Uxv-wN-yiC"/>
                         <outlet property="Label15" destination="PsC-gW-8PV" id="ZeP-Vl-8Kc"/>
-                        <outlet property="Label16" destination="XFe-je-jsn" id="Cw9-hL-7Ld"/>
                         <outlet property="Label2" destination="mo6-VT-tpx" id="qhX-2N-o5d"/>
                         <outlet property="Label3" destination="ikB-Kk-s1h" id="bqe-Ri-TFQ"/>
                         <outlet property="Label4" destination="Xai-jB-kxa" id="rQC-5T-1oD"/>
                         <outlet property="Label5" destination="V9Q-01-Cj5" id="qXx-mV-kBD"/>
-                        <outlet property="Label6" destination="6Bt-wq-vKh" id="9fp-Mq-vag"/>
+                        <outlet property="Label6" destination="XFe-je-jsn" id="jcC-U5-1hG"/>
                         <outlet property="Label7" destination="uw6-jb-8wJ" id="OIl-gE-lMF"/>
                         <outlet property="Label8" destination="ZDc-ZK-Ad3" id="63x-fc-kBg"/>
                         <outlet property="Label9" destination="Flz-l1-Xqg" id="j2l-RJ-hEj"/>
+                        <outlet property="LabelTop" destination="6Bt-wq-vKh" id="i6v-Mc-4W5"/>
                         <outlet property="Title" destination="0Z8-e8-6Rf" id="IFd-oJ-GBB"/>
                         <outlet property="scroll" destination="bnh-qC-sSG" id="61d-pr-dZa"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VFR-zW-Z0B" sceneMemberID="firstResponder"/>
-                <exit id="3H1-hG-ZQh" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="3596" y="-118"/>
         </scene>
@@ -3979,7 +3992,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <segue destination="dm6-TZ-Tr6" kind="unwind" unwindAction="exit:" id="Qjf-gJ-0K1"/>
+                                            <action selector="returningMove" destination="2go-xy-qfD" eventType="touchUpInside" id="vlU-zw-T5n"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Energy Equations" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="5pJ-wa-6gV">
@@ -4251,6 +4264,10 @@
                                     </imageView>
                                 </subviews>
                             </scrollView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="bottomShadow@2x.png" id="woC-I1-bnd">
+                                <rect key="frame" x="-1" y="509" width="320" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -4263,15 +4280,14 @@
                         <outlet property="Label4" destination="MHv-GD-qRm" id="ebu-E3-MFE"/>
                         <outlet property="Label5" destination="VdC-SB-YWs" id="cM1-n0-Ns4"/>
                         <outlet property="Label6" destination="8Rn-cb-UWS" id="FA7-25-C7C"/>
-                        <outlet property="Label7" destination="1K4-XI-JDr" id="mKm-3J-gvs"/>
                         <outlet property="Label8" destination="iS6-Rf-3lv" id="U1v-Al-4gv"/>
                         <outlet property="Label9" destination="x6d-Ig-0nY" id="HG3-gY-1mt"/>
+                        <outlet property="LabelTop" destination="1K4-XI-JDr" id="BXI-vQ-8c9"/>
                         <outlet property="Title" destination="5pJ-wa-6gV" id="pCp-ZF-Hm7"/>
                         <outlet property="scroll" destination="yRK-Wi-SNe" id="0VI-tz-nhF"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9k3-nJ-0Sa" sceneMemberID="firstResponder"/>
-                <exit id="dm6-TZ-Tr6" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="4000" y="-118"/>
         </scene>
@@ -4299,7 +4315,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <segue destination="UAF-gR-33t" kind="unwind" unwindAction="exit:" id="QjB-c9-6eG"/>
+                                            <action selector="returningMove" destination="UVi-NT-ucm" eventType="touchUpInside" id="jQQ-Z2-UQk"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Common Chemical Equations" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="eXB-LB-jAn">
@@ -4670,6 +4686,10 @@
                                     </imageView>
                                 </subviews>
                             </scrollView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="bottomShadow@2x.png" id="drN-H8-Z7o">
+                                <rect key="frame" x="0.0" y="509" width="320" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -4684,15 +4704,14 @@
                         <outlet property="Label4" destination="0Lz-oi-F5g" id="Atw-Cw-4qW"/>
                         <outlet property="Label5" destination="fXD-In-oa5" id="bz8-tV-Lyj"/>
                         <outlet property="Label6" destination="BKn-zE-Pzm" id="8Cv-Uz-gUx"/>
-                        <outlet property="Label7" destination="g45-Yr-hYf" id="JFD-Js-LBR"/>
                         <outlet property="Label8" destination="irv-kF-rvv" id="ZY6-QG-BMx"/>
                         <outlet property="Label9" destination="aTV-K3-doL" id="TzL-Hl-lgD"/>
+                        <outlet property="LabelTop" destination="g45-Yr-hYf" id="9vu-aM-wgL"/>
                         <outlet property="Title" destination="eXB-LB-jAn" id="MIU-yG-dQX"/>
                         <outlet property="scroll" destination="Vno-2l-rPa" id="WuE-6l-WE8"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="u32-Hd-koR" sceneMemberID="firstResponder"/>
-                <exit id="UAF-gR-33t" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="4398" y="-118"/>
         </scene>
@@ -5025,7 +5044,7 @@
                         <outlet property="image8" destination="FS7-3W-2Tc" id="5Rx-sQ-NmA"/>
                         <outlet property="image9" destination="RJH-CP-cNo" id="8Q3-sw-ZT9"/>
                         <outlet property="scroll" destination="AuF-nw-CM2" id="51r-yB-PGi"/>
-                        <segue destination="2" kind="custom" identifier="SegueBackToMain" customClass="SeguePushRight" id="oSH-cP-psH"/>
+                        <segue destination="2" kind="custom" identifier="SegueBackToMain" customClass="CustomSegueRight" id="oSH-cP-psH"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yvV-yo-yHe" sceneMemberID="firstResponder"/>
@@ -5583,10 +5602,10 @@
             </objects>
             <point key="canvasLocation" x="-95" y="504"/>
         </scene>
-        <!--View Controller-->
+        <!--Equation Viewer-->
         <scene sceneID="MQS-8Q-u9o">
             <objects>
-                <viewController id="vjy-9d-JPN" sceneMemberID="viewController">
+                <viewController restorationIdentifier="Viewer" storyboardIdentifier="Viewer" id="vjy-9d-JPN" customClass="EquationViewer" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hcU-JJ-hPK">
                         <rect key="frame" x="0.0" y="20" width="320" height="548"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -5607,7 +5626,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <segue destination="GUm-ve-54h" kind="unwind" unwindAction="exit:" id="nSW-cI-E9n"/>
+                                            <action selector="documentMenu" destination="vjy-9d-JPN" eventType="touchUpInside" id="vpp-vK-l4S"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Viewer" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Hc7-MK-OOp">
@@ -5628,16 +5647,19 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="Label32" destination="Hc7-MK-OOp" id="doZ-35-bEj"/>
+                        <outlet property="Webview" destination="rrm-qB-ESc" id="4p6-EU-sdg"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1Nh-7l-89N" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <exit id="GUm-ve-54h" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="-554" y="-883"/>
+            <point key="canvasLocation" x="-614" y="-905"/>
         </scene>
         <!--Equation Viewer-->
         <scene sceneID="xiZ-I2-NhV">
             <objects>
-                <viewController storyboardIdentifier="Documents" useStoryboardIdentifierAsRestorationIdentifier="YES" id="tiK-Xp-WPS" customClass="EquationViewer" sceneMemberID="viewController">
+                <viewController restorationIdentifier="Documents" storyboardIdentifier="Documents" id="tiK-Xp-WPS" customClass="EquationViewer" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="h4V-nT-xFp">
                         <rect key="frame" x="0.0" y="20" width="320" height="548"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -5658,7 +5680,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <segue destination="abk-MG-Kjq" kind="unwind" unwindAction="goBack:" id="7ZQ-3D-BNd"/>
+                                            <action selector="returningMove" destination="tiK-Xp-WPS" eventType="touchUpInside" id="L1v-UR-MJ0"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Documents" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="5tr-76-msJ">
@@ -5701,6 +5723,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
+                                            <action selector="exponent" destination="tiK-Xp-WPS" eventType="touchUpInside" id="v6J-qJ-2g4"/>
                                             <segue destination="vjy-9d-JPN" kind="custom" customClass="SeguePush" id="RFt-FS-PDT"/>
                                         </connections>
                                     </button>
@@ -5837,19 +5860,6 @@
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="vyB-aj-AhL">
-                                        <rect key="frame" x="15" y="454" width="291" height="50"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" red="0.90196078430000004" green="0.90196078430000004" blue="0.90196078430000004" alpha="1" colorSpace="calibratedRGB"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                        <state key="normal">
-                                            <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                        </state>
-                                        <state key="highlighted">
-                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        </state>
-                                    </button>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Integral Calculus Workbook" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="P7u-ya-ghd">
                                         <rect key="frame" x="75" y="468" width="208" height="21"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -5915,8 +5925,11 @@
                                         <state key="highlighted">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="usub" destination="tiK-Xp-WPS" eventType="touchUpInside" id="fVL-0s-tFT"/>
+                                        </connections>
                                     </button>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Calculus Island Activity" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="qFx-YS-WBn">
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="U Substitution Questions" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="qFx-YS-WBn">
                                         <rect key="frame" x="75" y="83" width="191" height="21"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -6071,14 +6084,14 @@
                                         <rect key="frame" x="13" y="399" width="53" height="50"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="bottomShadow@2x.png" id="Qxt-9j-Uad">
+                                        <rect key="frame" x="0.0" y="462" width="320" height="27"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
                                 </subviews>
                             </scrollView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="topShadow@2x.png" id="dyy-U1-IFN">
                                 <rect key="frame" x="0.0" y="54" width="320" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="bottomShadow@2x.png" id="Qxt-9j-Uad">
-                                <rect key="frame" x="0.0" y="521" width="320" height="27"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -6106,7 +6119,6 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7r0-38-qkf" sceneMemberID="firstResponder"/>
-                <exit id="abk-MG-Kjq" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="-224" y="-883"/>
         </scene>
@@ -6260,9 +6272,12 @@
         <class className="EquationViewer" superclassName="ECSlidingViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/EquationViewer.h"/>
             <relationships>
+                <relationship kind="action" name="documentMenu"/>
+                <relationship kind="action" name="exponent"/>
                 <relationship kind="action" name="goBack:" candidateClass="UIStoryboardSegue"/>
                 <relationship kind="action" name="goBackward"/>
                 <relationship kind="action" name="returningMove"/>
+                <relationship kind="action" name="usub"/>
                 <relationship kind="action" name="verticalLine:"/>
                 <relationship kind="outlet" name="Label" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="Label10" candidateClass="UILabel"/>
@@ -6280,13 +6295,16 @@
                 <relationship kind="outlet" name="Label21" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="Label22" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="Label3" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="Label32" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="Label4" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="Label5" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="Label6" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="Label7" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="Label8" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="Label9" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="LabelTop" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="Title" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="Webview" candidateClass="UIWebView"/>
                 <relationship kind="outlet" name="image10" candidateClass="UIImageView"/>
                 <relationship kind="outlet" name="image11" candidateClass="UIImageView"/>
                 <relationship kind="outlet" name="image12" candidateClass="UIImageView"/>
@@ -6355,8 +6373,8 @@
         <class className="ViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
             <relationships>
-                <relationship kind="action" name="exit:" candidateClass="UIStoryboardSegue"/>
                 <relationship kind="action" name="someMethod"/>
+                <relationship kind="action" name="usub"/>
                 <relationship kind="outlet" name="Label" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="Label10" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="Label11" candidateClass="UILabel"/>
@@ -6380,4 +6398,7 @@
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
+    <inferredMetricsTieBreakers>
+        <segue reference="oSH-cP-psH"/>
+    </inferredMetricsTieBreakers>
 </document>

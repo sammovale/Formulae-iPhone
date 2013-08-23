@@ -12,7 +12,7 @@
 @protocol EquationViewerDelegate;
 
 @interface EquationViewer : ECSlidingViewController{
-    
+    IBOutlet UIWebView *Webview;
     IBOutlet UILabel *Title;
     IBOutlet UIScrollView *scroll;
     IBOutlet UILabel *special;
@@ -38,6 +38,9 @@
     IBOutlet UILabel *Label20;
     IBOutlet UILabel *Label21;
     IBOutlet UILabel *Label22;
+    IBOutlet UILabel *Label32;
+    IBOutlet UILabel *LabelTop;
+    
     
     NSTimer *myTimer1;
     NSTimer *myTimer2;
@@ -77,8 +80,9 @@
 -(IBAction)goBackward;
 -(IBAction)returningMove;
 @property (nonatomic, strong) NSArray *categoryList;
-
-
+-(IBAction)exponent;
+-(IBAction)usub;
+-(IBAction)documentMenu;
 
 
 @end

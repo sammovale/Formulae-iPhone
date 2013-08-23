@@ -39,12 +39,47 @@ self.topViewController = [self.storyboard instantiateViewControllerWithIdentifie
     
 
 }
+
+-(IBAction)documentMenu {
+    
+    
+    self.topViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"Documents"];
+    
+    
+    
+}
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
     
     
-   
+    
+        
+        
+    
 }
+
+-(IBAction)usub {
+    NSString *name = @"Integration By Substitution";
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    
+    [defaults setObject:name forKey:@"name"];
+    
+    [defaults synchronize];
+    
+    self.topViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"Viewer"];
+}
+
+-(IBAction)exponent {
+    NSString *name = @"Year 10 Exponents Quiz";
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    
+    [defaults setObject:name forKey:@"name"];
+    
+    [defaults synchronize];
+    
+    self.topViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"Viewer"];
+}
+
 
 
 - (IBAction)returnActionForSegue:(UIStoryboardSegue *)returnSegue {
@@ -87,18 +122,35 @@ self.topViewController = [self.storyboard instantiateViewControllerWithIdentifie
     [super viewDidLoad];
     
     
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     
-     [image2 setAlpha:0];
-     [image3 setAlpha:0];
-    [image4 setAlpha:0];
-    [image5 setAlpha:0];
-    [image6 setAlpha:0];
-    [image7 setAlpha:0];
-    [image8 setAlpha:0];
-    [image9 setAlpha:0];
-    [image10 setAlpha:0];
-    [image11 setAlpha:0];
+    NSString *name = [defaults objectForKey:@"name"];
     
+    if([name isEqualToString:@"Integration By Substitution"]) {
+        
+        NSString *path = [[NSBundle mainBundle] pathForResource:@"u subsitution worksheet-1" ofType:@"pdf"];
+        NSURL *url = [NSURL fileURLWithPath:path];
+        NSURLRequest *request = [NSURLRequest requestWithURL:url];
+        [Webview loadRequest:request];
+        [Webview setScalesPageToFit:YES];
+        [Webview setHidden:NO];
+        
+    }
+    
+    if([name isEqualToString:@"Year 10 Exponents Quiz"]) {
+        
+        NSString *path = [[NSBundle mainBundle] pathForResource:@"year 10 exponents and logs quiz" ofType:@"pdf"];
+        NSURL *url = [NSURL fileURLWithPath:path];
+        NSURLRequest *request = [NSURLRequest requestWithURL:url];
+        [Webview loadRequest:request];
+        [Webview setScalesPageToFit:YES];
+        [Webview setHidden:NO];
+        
+    }
+    
+    Label32.text = name;
+    
+    [LabelTop setAlpha:0];
     [Label setAlpha:0];
     [Label2 setAlpha:0];
     [Label3 setAlpha:0];
@@ -114,6 +166,8 @@ self.topViewController = [self.storyboard instantiateViewControllerWithIdentifie
     myTimer1 = [NSTimer scheduledTimerWithTimeInterval:0.9 target:self selector:@selector (showData)userInfo: nil
                                               repeats: YES];
     myTimer2 = [NSTimer scheduledTimerWithTimeInterval:1.0 target:self selector:@selector (showData2)userInfo: nil
+                                               repeats: YES];
+    myTimer2 = [NSTimer scheduledTimerWithTimeInterval:1.0 target:self selector:@selector (showDataTop)userInfo: nil
                                                repeats: YES];
     myTimer3 = [NSTimer scheduledTimerWithTimeInterval:1.05 target:self selector:@selector (showData3)userInfo: nil
                                                repeats: YES];
@@ -138,6 +192,7 @@ self.topViewController = [self.storyboard instantiateViewControllerWithIdentifie
    
     
     [Label setFont:[UIFont fontWithName:@"Kefa" size:17]];
+    [LabelTop setFont:[UIFont fontWithName:@"Kefa" size:17]];
     [Label2 setFont:[UIFont fontWithName:@"Kefa" size:17]];
     [Label3 setFont:[UIFont fontWithName:@"Kefa" size:17]];
     [Label4 setFont:[UIFont fontWithName:@"Kefa" size:17]];
@@ -159,6 +214,7 @@ self.topViewController = [self.storyboard instantiateViewControllerWithIdentifie
     [Label20 setFont:[UIFont fontWithName:@"Kefa" size:17]];
     [Label21 setFont:[UIFont fontWithName:@"Kefa" size:17]];
     [Label22 setFont:[UIFont fontWithName:@"Kefa" size:17]];
+    [Label32 setFont:[UIFont fontWithName:@"Kefa" size:17]];
     [Title setFont:[UIFont fontWithName:@"Kefa" size:19]];
     
     
@@ -170,7 +226,10 @@ self.topViewController = [self.storyboard instantiateViewControllerWithIdentifie
         [scroll setContentSize:CGSizeMake(320, 850)];
     } else if ([Title.text isEqual:@"Exponents"]){
         [scroll setContentSize:CGSizeMake(320, 850)];
-    } else if ([Title.text isEqual:@"Trigonometry"]){
+    } else if ([Title.text isEqual:@"Fractions"]){
+        [scroll setContentSize:CGSizeMake(320, 850)];
+    }
+    else if ([Title.text isEqual:@"Trigonometry"]){
         [scroll setContentSize:CGSizeMake(320, 850)];
     } else if ([Title.text isEqual:@"Equations of Motion"]){
         [scroll setContentSize:CGSizeMake(320, 800)];
@@ -200,10 +259,7 @@ self.topViewController = [self.storyboard instantiateViewControllerWithIdentifie
 }
 
 -(void)showData2{
-    [UIImageView beginAnimations:NULL context:nil];
-    [UIImageView setAnimationDuration: 0.1];
-    [UIImageView commitAnimations];
-    [image2 setAlpha:1];
+  
     
     [UILabel beginAnimations:NULL context:nil];
     [UILabel setAnimationDuration: 0.1];
@@ -213,10 +269,7 @@ self.topViewController = [self.storyboard instantiateViewControllerWithIdentifie
 }
 
 -(void)showData3{
-    [UIImageView beginAnimations:NULL context:nil];
-    [UIImageView setAnimationDuration: 0.1];
-    [UIImageView commitAnimations];
-    [image3 setAlpha:1];
+   
     
     [UILabel beginAnimations:NULL context:nil];
     [UILabel setAnimationDuration: 0.1];
@@ -226,10 +279,7 @@ self.topViewController = [self.storyboard instantiateViewControllerWithIdentifie
 }
 
 -(void)showData4{
-    [UIImageView beginAnimations:NULL context:nil];
-    [UIImageView setAnimationDuration: 0.1];
-    [UIImageView commitAnimations];
-    [image4 setAlpha:1];
+   
     
     [UILabel beginAnimations:NULL context:nil];
     [UILabel setAnimationDuration: 0.1];
@@ -239,10 +289,7 @@ self.topViewController = [self.storyboard instantiateViewControllerWithIdentifie
 }
 
 -(void)showData5{
-    [UIImageView beginAnimations:NULL context:nil];
-    [UIImageView setAnimationDuration: 0.1];
-    [UIImageView commitAnimations];
-    [image5 setAlpha:1];
+    
     
     [UILabel beginAnimations:NULL context:nil];
     [UILabel setAnimationDuration: 0.1];
@@ -250,12 +297,18 @@ self.topViewController = [self.storyboard instantiateViewControllerWithIdentifie
     [Label5 setAlpha:1];
     
 }
+-(void)showDataTop{
+    
+    
+    [UILabel beginAnimations:NULL context:nil];
+    [UILabel setAnimationDuration: 0.1];
+    [UILabel commitAnimations];
+    [LabelTop setAlpha:1];
+    
+}
 
 -(void)showData6{
-    [UIImageView beginAnimations:NULL context:nil];
-    [UIImageView setAnimationDuration: 0.1];
-    [UIImageView commitAnimations];
-    [image6 setAlpha:1];
+    
     
     [UILabel beginAnimations:NULL context:nil];
     [UILabel setAnimationDuration: 0.1];
@@ -264,10 +317,7 @@ self.topViewController = [self.storyboard instantiateViewControllerWithIdentifie
     
 }
 -(void)showData7{
-    [UIImageView beginAnimations:NULL context:nil];
-    [UIImageView setAnimationDuration: 0.1];
-    [UIImageView commitAnimations];
-    [image7 setAlpha:1];
+   
     
     [UILabel beginAnimations:NULL context:nil];
     [UILabel setAnimationDuration: 0.1];
@@ -277,10 +327,7 @@ self.topViewController = [self.storyboard instantiateViewControllerWithIdentifie
 }
 
 -(void)showData8{
-    [UIImageView beginAnimations:NULL context:nil];
-    [UIImageView setAnimationDuration: 0.1];
-    [UIImageView commitAnimations];
-    [image8 setAlpha:1];
+ 
     
     [UILabel beginAnimations:NULL context:nil];
     [UILabel setAnimationDuration: 0.1];
@@ -289,10 +336,6 @@ self.topViewController = [self.storyboard instantiateViewControllerWithIdentifie
    
 }
 -(void)showData9{
-    [UIImageView beginAnimations:NULL context:nil];
-    [UIImageView setAnimationDuration: 0.1];
-    [UIImageView commitAnimations];
-    [image9 setAlpha:1];
     
     [UILabel beginAnimations:NULL context:nil];
     [UILabel setAnimationDuration: 0.1];
@@ -302,10 +345,7 @@ self.topViewController = [self.storyboard instantiateViewControllerWithIdentifie
 }
 
 -(void)showData10{
-    [UIImageView beginAnimations:NULL context:nil];
-    [UIImageView setAnimationDuration: 0.1];
-    [UIImageView commitAnimations];
-    [image10 setAlpha:1];
+   
     
     [UILabel beginAnimations:NULL context:nil];
     [UILabel setAnimationDuration: 0.1];
@@ -315,10 +355,7 @@ self.topViewController = [self.storyboard instantiateViewControllerWithIdentifie
 }
 
 -(void)showData11{
-    [UIImageView beginAnimations:NULL context:nil];
-    [UIImageView setAnimationDuration: 0.1];
-    [UIImageView commitAnimations];
-    [image11 setAlpha:1];
+   
     
     [UILabel beginAnimations:NULL context:nil];
     [UILabel setAnimationDuration: 0.1];

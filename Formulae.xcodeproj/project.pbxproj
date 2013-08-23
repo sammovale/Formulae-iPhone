@@ -157,6 +157,7 @@
 		63284D0B1723B4DE0093C4B3 /* common.png in Resources */ = {isa = PBXBuildFile; fileRef = 63284D0A1723B4DE0093C4B3 /* common.png */; };
 		63284D0D1723B5590093C4B3 /* yahg.png in Resources */ = {isa = PBXBuildFile; fileRef = 63284D0C1723B5590093C4B3 /* yahg.png */; };
 		63284D0F1723B5CA0093C4B3 /* com.png in Resources */ = {isa = PBXBuildFile; fileRef = 63284D0E1723B5CA0093C4B3 /* com.png */; };
+		633EFBAD17C78B4A0030436A /* u subsitution worksheet-1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 633EFBAC17C78B4A0030436A /* u subsitution worksheet-1.pdf */; };
 		635F8B0817941CEA009D7DF5 /* SeguePush.m in Sources */ = {isa = PBXBuildFile; fileRef = 635F8B0717941CEA009D7DF5 /* SeguePush.m */; };
 		6367048A172B4D690038ECBD /* slopederivative.png in Resources */ = {isa = PBXBuildFile; fileRef = 63670489172B4D690038ECBD /* slopederivative.png */; };
 		6367048C172B99400038ECBD /* powerule.png in Resources */ = {isa = PBXBuildFile; fileRef = 6367048B172B99400038ECBD /* powerule.png */; };
@@ -360,6 +361,7 @@
 		63284D0A1723B4DE0093C4B3 /* common.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = common.png; sourceTree = "<group>"; };
 		63284D0C1723B5590093C4B3 /* yahg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yahg.png; sourceTree = "<group>"; };
 		63284D0E1723B5CA0093C4B3 /* com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = com.png; sourceTree = "<group>"; };
+		633EFBAC17C78B4A0030436A /* u subsitution worksheet-1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "u subsitution worksheet-1.pdf"; sourceTree = "<group>"; };
 		635F8B0617941CEA009D7DF5 /* SeguePush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SeguePush.h; sourceTree = "<group>"; };
 		635F8B0717941CEA009D7DF5 /* SeguePush.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SeguePush.m; sourceTree = "<group>"; };
 		63670489172B4D690038ECBD /* slopederivative.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slopederivative.png; sourceTree = "<group>"; };
@@ -657,6 +659,7 @@
 				63158EDA17B8D8B40073EF64 /* CustomSegueRight.m */,
 				63284BE717226E190093C4B3 /* ViewController.h */,
 				6305E1E217ABA9B900D9B8FD /* bottomShadow@2x.png */,
+				633EFBAC17C78B4A0030436A /* u subsitution worksheet-1.pdf */,
 				6305E1E017ABA9B500D9B8FD /* topShadow@2x.png */,
 				63284BE817226E190093C4B3 /* ViewController.m */,
 				63FF038E17892E72005865BB /* MenuViewController.h */,
@@ -925,6 +928,7 @@
 				6305E1E317ABA9B900D9B8FD /* bottomShadow@2x.png in Resources */,
 				63158EDD17B8E4930073EF64 /* documentsLogoLarge@2x.png in Resources */,
 				63D12E2D17BF1A5A00ABACEE /* year 10 exponents and logs quiz.pdf in Resources */,
+				633EFBAD17C78B4A0030436A /* u subsitution worksheet-1.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
