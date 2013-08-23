@@ -5724,7 +5724,6 @@
                                         </state>
                                         <connections>
                                             <action selector="exponent" destination="tiK-Xp-WPS" eventType="touchUpInside" id="v6J-qJ-2g4"/>
-                                            <segue destination="vjy-9d-JPN" kind="custom" customClass="SeguePush" id="RFt-FS-PDT"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Exponents and Logarithms" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="DSZ-Lg-lBH">
@@ -6373,6 +6372,7 @@
         <class className="ViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
             <relationships>
+                <relationship kind="action" name="exit:" candidateClass="UIStoryboardSegue"/>
                 <relationship kind="action" name="someMethod"/>
                 <relationship kind="action" name="usub"/>
                 <relationship kind="outlet" name="Label" candidateClass="UILabel"/>
