@@ -860,6 +860,9 @@
                                         <state key="highlighted">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="workedexample1" destination="RNG-ua-b7i" eventType="touchUpInside" id="RGS-zt-Rda"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="3cb-AO-hcW">
                                         <rect key="frame" x="15" y="99" width="291" height="75"/>
@@ -873,6 +876,9 @@
                                         <state key="highlighted">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="workedexample2" destination="RNG-ua-b7i" eventType="touchUpInside" id="Nqv-kT-ws3"/>
+                                        </connections>
                                     </button>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="dove.png" id="mYS-Mu-qd8">
                                         <rect key="frame" x="136" y="99" width="170" height="75"/>
@@ -897,6 +903,9 @@
                                         <state key="highlighted">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="workedexample3" destination="RNG-ua-b7i" eventType="touchUpInside" id="DIc-BU-iqg"/>
+                                        </connections>
                                     </button>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Power Rule Polynomials" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="rld-zP-Jbb">
                                         <rect key="frame" x="23" y="194" width="109" height="51"/>
@@ -917,6 +926,9 @@
                                         <state key="highlighted">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="workedexample4" destination="RNG-ua-b7i" eventType="touchUpInside" id="wOr-3i-3JF"/>
+                                        </connections>
                                     </button>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="sumr eul.png" id="XgN-02-ovk">
                                         <rect key="frame" x="112" y="265" width="194" height="75"/>
@@ -941,6 +953,9 @@
                                         <state key="highlighted">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="workedexample5" destination="RNG-ua-b7i" eventType="touchUpInside" id="DMm-zT-063"/>
+                                        </connections>
                                     </button>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Quotient Rule" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Fxm-5C-pdh">
                                         <rect key="frame" x="23" y="360" width="93" height="51"/>
@@ -961,6 +976,9 @@
                                         <state key="highlighted">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="workedexample6" destination="RNG-ua-b7i" eventType="touchUpInside" id="kJ9-T6-CQ2"/>
+                                        </connections>
                                     </button>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="prod.png" id="vlA-kg-B67">
                                         <rect key="frame" x="93" y="431" width="213" height="75"/>
@@ -1004,6 +1022,9 @@
                                         <state key="highlighted">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="workedexample7" destination="RNG-ua-b7i" eventType="touchUpInside" id="okU-7h-4VQ"/>
+                                        </connections>
                                     </button>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="etodax.png" id="ENJ-7d-WhO">
                                         <rect key="frame" x="158" y="523" width="148" height="57"/>
@@ -1028,6 +1049,9 @@
                                         <state key="highlighted">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="workedexample7" destination="RNG-ua-b7i" eventType="touchUpInside" id="TcF-Wt-RbD"/>
+                                        </connections>
                                     </button>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="eulers rule.png" id="1bu-fb-RLh">
                                         <rect key="frame" x="136" y="597" width="170" height="75"/>
@@ -1052,6 +1076,9 @@
                                         <state key="highlighted">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="workedexample7" destination="RNG-ua-b7i" eventType="touchUpInside" id="gy8-pd-fQz"/>
+                                        </connections>
                                     </button>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="yomumma.png" id="2F4-LW-TcE">
                                         <rect key="frame" x="136" y="680" width="170" height="75"/>
@@ -1076,6 +1103,9 @@
                                         <state key="highlighted">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="workedexample8" destination="RNG-ua-b7i" eventType="touchUpInside" id="t0X-9H-Jql"/>
+                                        </connections>
                                     </button>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="lnx.png" id="eMY-Kz-Jcl">
                                         <rect key="frame" x="136" y="763" width="170" height="75"/>
@@ -1100,6 +1130,9 @@
                                         <state key="highlighted">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="workedexample8" destination="RNG-ua-b7i" eventType="touchUpInside" id="4pB-ie-aMd"/>
+                                        </connections>
                                     </button>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Differentiating Inx" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="KVm-2a-zks">
                                         <rect key="frame" x="23" y="862" width="127" height="51"/>
@@ -1196,6 +1229,9 @@
                                         <state key="highlighted">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="workedexample10" destination="RNG-ua-b7i" eventType="touchUpInside" id="jKq-Qf-0Ms"/>
+                                        </connections>
                                     </button>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="chaingangers.png" id="dG2-nC-daC">
                                         <rect key="frame" x="112" y="1182" width="194" height="75"/>
@@ -5709,6 +5745,9 @@
                                         <state key="highlighted">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="diffCalc" destination="tiK-Xp-WPS" eventType="touchUpInside" id="A05-QV-aQM"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="QoC-kl-OYa">
                                         <rect key="frame" x="15" y="124" width="291" height="50"/>
@@ -5757,6 +5796,9 @@
                                         <state key="highlighted">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="stats" destination="tiK-Xp-WPS" eventType="touchUpInside" id="Dey-rB-J7i"/>
+                                        </connections>
                                     </button>
                                     <view userInteractionEnabled="NO" contentMode="scaleToFill" id="BBk-eA-yJU">
                                         <rect key="frame" x="256" y="234" width="50" height="50"/>
@@ -5791,8 +5833,11 @@
                                         <state key="highlighted">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="binomialRevision" destination="tiK-Xp-WPS" eventType="touchUpInside" id="ifs-KL-oxF"/>
+                                        </connections>
                                     </button>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Normal Distributions" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="sRk-59-pfn">
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Binomial Distributions" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="sRk-59-pfn">
                                         <rect key="frame" x="75" y="248" width="191" height="21"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -5811,8 +5856,11 @@
                                         <state key="highlighted">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="moles" destination="tiK-Xp-WPS" eventType="touchUpInside" id="5Xp-rd-89D"/>
+                                        </connections>
                                     </button>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Trigonometry" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="7BQ-eg-Ftl">
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="An introduction to moles" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="7BQ-eg-Ftl">
                                         <rect key="frame" x="75" y="303" width="191" height="21"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -5831,6 +5879,9 @@
                                         <state key="highlighted">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="quads" destination="tiK-Xp-WPS" eventType="touchUpInside" id="INH-k2-zm6"/>
+                                        </connections>
                                     </button>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Polynomials" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="qTn-ea-C8i">
                                         <rect key="frame" x="75" y="358" width="191" height="21"/>
@@ -5851,8 +5902,11 @@
                                         <state key="highlighted">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="physics" destination="tiK-Xp-WPS" eventType="touchUpInside" id="eqM-lB-0u9"/>
+                                        </connections>
                                     </button>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Fractions" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="mOf-9T-owJ">
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Physics Textbook" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="mOf-9T-owJ">
                                         <rect key="frame" x="75" y="413" width="191" height="21"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -6099,19 +6153,17 @@
                     <navigationItem key="navigationItem" id="65J-Ly-egF"/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                     <connections>
-                        <outlet property="Label" destination="MfB-rc-dGw" id="26X-hG-BwF"/>
+                        <outlet property="Label" destination="MfB-rc-dGw" id="inp-SS-7a4"/>
                         <outlet property="Label10" destination="DN6-tf-kSr" id="jCP-sT-FlV"/>
                         <outlet property="Label11" destination="xN8-DZ-PMi" id="Wlo-fk-HLQ"/>
-                        <outlet property="Label12" destination="qFx-YS-WBn" id="ix6-xI-Hj5"/>
                         <outlet property="Label13" destination="oTN-nE-69I" id="vx7-20-PSC"/>
-                        <outlet property="Label2" destination="DSZ-Lg-lBH" id="I8C-YX-6Pf"/>
-                        <outlet property="Label3" destination="dia-eO-C0N" id="KCg-XE-iyk"/>
-                        <outlet property="Label4" destination="sRk-59-pfn" id="qn6-HP-V3O"/>
-                        <outlet property="Label5" destination="7BQ-eg-Ftl" id="bYI-20-2xo"/>
-                        <outlet property="Label6" destination="qTn-ea-C8i" id="1lv-xG-isE"/>
-                        <outlet property="Label7" destination="mOf-9T-owJ" id="XoJ-BA-QFh"/>
-                        <outlet property="Label8" destination="P7u-ya-ghd" id="bTo-fM-DD5"/>
-                        <outlet property="Label9" destination="m4a-0C-2uP" id="r2Y-8K-ypE"/>
+                        <outlet property="Label2" destination="qFx-YS-WBn" id="Csc-RR-feX"/>
+                        <outlet property="Label3" destination="DSZ-Lg-lBH" id="OCO-V1-AOl"/>
+                        <outlet property="Label4" destination="dia-eO-C0N" id="lJi-4b-tuz"/>
+                        <outlet property="Label5" destination="sRk-59-pfn" id="lGF-Xl-ala"/>
+                        <outlet property="Label6" destination="7BQ-eg-Ftl" id="Rt4-nC-9hi"/>
+                        <outlet property="Label7" destination="qTn-ea-C8i" id="b2z-6Q-6kg"/>
+                        <outlet property="Label8" destination="mOf-9T-owJ" id="5L3-8B-7uW"/>
                         <outlet property="Title" destination="5tr-76-msJ" id="GGZ-3n-wOx"/>
                         <outlet property="scroll" destination="1CO-LL-OzN" id="bCJ-PK-czi"/>
                         <outlet property="special" destination="5tr-76-msJ" id="dq9-JR-yvf"/>
@@ -6271,11 +6323,16 @@
         <class className="EquationViewer" superclassName="ECSlidingViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/EquationViewer.h"/>
             <relationships>
+                <relationship kind="action" name="diffCalc"/>
                 <relationship kind="action" name="documentMenu"/>
                 <relationship kind="action" name="exponent"/>
                 <relationship kind="action" name="goBack:" candidateClass="UIStoryboardSegue"/>
                 <relationship kind="action" name="goBackward"/>
+                <relationship kind="action" name="quads"/>
+                <relationship kind="action" name="returnActionForSegue:" candidateClass="UIStoryboardSegue"/>
                 <relationship kind="action" name="returningMove"/>
+                <relationship kind="action" name="stats"/>
+                <relationship kind="action" name="unwindToRed:" candidateClass="UIStoryboardSegue"/>
                 <relationship kind="action" name="usub"/>
                 <relationship kind="action" name="verticalLine:"/>
                 <relationship kind="outlet" name="Label" candidateClass="UILabel"/>
@@ -6350,6 +6407,7 @@
         <class className="Red" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/Red.h"/>
             <relationships>
+                <relationship kind="action" name="exit:" candidateClass="UIStoryboardSegue"/>
                 <relationship kind="outlet" name="Label" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="Label10" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="Label11" candidateClass="UILabel"/>
@@ -6399,6 +6457,6 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="oSH-cP-psH"/>
+        <segue reference="gMz-LZ-876"/>
     </inferredMetricsTieBreakers>
 </document>

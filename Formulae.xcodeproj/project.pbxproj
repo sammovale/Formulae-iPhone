@@ -159,6 +159,23 @@
 		63284D0F1723B5CA0093C4B3 /* com.png in Resources */ = {isa = PBXBuildFile; fileRef = 63284D0E1723B5CA0093C4B3 /* com.png */; };
 		633EFBAD17C78B4A0030436A /* u subsitution worksheet-1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 633EFBAC17C78B4A0030436A /* u subsitution worksheet-1.pdf */; };
 		635F8B0817941CEA009D7DF5 /* SeguePush.m in Sources */ = {isa = PBXBuildFile; fileRef = 635F8B0717941CEA009D7DF5 /* SeguePush.m */; };
+		636622CF17D07DEA00CDD510 /* Diff Quiz.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 636622CE17D07DEA00CDD510 /* Diff Quiz.pdf */; };
+		636622D117D07F1500CDD510 /* Year 11 Quadratics What do I remember.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 636622D017D07F1500CDD510 /* Year 11 Quadratics What do I remember.pdf */; };
+		636622D317D07FF300CDD510 /* Mathematics Statistics Test .pdf in Resources */ = {isa = PBXBuildFile; fileRef = 636622D217D07FF300CDD510 /* Mathematics Statistics Test .pdf */; };
+		636622D517D0807B00CDD510 /* Maths Studies Binomial Distribution Revision.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 636622D417D0807B00CDD510 /* Maths Studies Binomial Distribution Revision.pdf */; };
+		636622D717D080E300CDD510 /* Physics Textbook 5.0.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 636622D617D080E300CDD510 /* Physics Textbook 5.0.pdf */; };
+		636622D917D081E700CDD510 /* Fractions Exam Grade 7.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 636622D817D081E700CDD510 /* Fractions Exam Grade 7.pdf */; };
+		636622DB17D082AE00CDD510 /* How many moles in a ham and cheese sandwich.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 636622DA17D082AE00CDD510 /* How many moles in a ham and cheese sandwich.pdf */; };
+		636622DF17D090B600CDD510 /* First Principles.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 636622DE17D090B600CDD510 /* First Principles.pdf */; };
+		636622E117D0924E00CDD510 /* POWER RULE 101.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 636622E017D0924E00CDD510 /* POWER RULE 101.pdf */; };
+		636622E317D092F500CDD510 /* POWER RULE.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 636622E217D092F500CDD510 /* POWER RULE.pdf */; };
+		636622E517D0935A00CDD510 /* SUM RULE.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 636622E417D0935A00CDD510 /* SUM RULE.pdf */; };
+		636622E717D093EC00CDD510 /* QUOTIENT RULE.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 636622E617D093EC00CDD510 /* QUOTIENT RULE.pdf */; };
+		636622E917D094AE00CDD510 /* PRODUCT RULE.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 636622E817D094AE00CDD510 /* PRODUCT RULE.pdf */; };
+		636622EB17D094F700CDD510 /* EULER RULE.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 636622EA17D094F700CDD510 /* EULER RULE.pdf */; };
+		636622ED17D0954500CDD510 /* LNX.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 636622EC17D0954500CDD510 /* LNX.pdf */; };
+		636622EF17D095BE00CDD510 /* TRIGONOMETRIC FUNCTION DERIVATIVES.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 636622EE17D095BE00CDD510 /* TRIGONOMETRIC FUNCTION DERIVATIVES.pdf */; };
+		636622F117D0963100CDD510 /* CHAIN RULE.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 636622F017D0963100CDD510 /* CHAIN RULE.pdf */; };
 		6367048A172B4D690038ECBD /* slopederivative.png in Resources */ = {isa = PBXBuildFile; fileRef = 63670489172B4D690038ECBD /* slopederivative.png */; };
 		6367048C172B99400038ECBD /* powerule.png in Resources */ = {isa = PBXBuildFile; fileRef = 6367048B172B99400038ECBD /* powerule.png */; };
 		6367048E172B9C520038ECBD /* poweri.png in Resources */ = {isa = PBXBuildFile; fileRef = 6367048D172B9C520038ECBD /* poweri.png */; };
@@ -364,6 +381,23 @@
 		633EFBAC17C78B4A0030436A /* u subsitution worksheet-1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "u subsitution worksheet-1.pdf"; sourceTree = "<group>"; };
 		635F8B0617941CEA009D7DF5 /* SeguePush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SeguePush.h; sourceTree = "<group>"; };
 		635F8B0717941CEA009D7DF5 /* SeguePush.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SeguePush.m; sourceTree = "<group>"; };
+		636622CE17D07DEA00CDD510 /* Diff Quiz.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Diff Quiz.pdf"; sourceTree = "<group>"; };
+		636622D017D07F1500CDD510 /* Year 11 Quadratics What do I remember.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Year 11 Quadratics What do I remember.pdf"; sourceTree = "<group>"; };
+		636622D217D07FF300CDD510 /* Mathematics Statistics Test .pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Mathematics Statistics Test .pdf"; sourceTree = "<group>"; };
+		636622D417D0807B00CDD510 /* Maths Studies Binomial Distribution Revision.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Maths Studies Binomial Distribution Revision.pdf"; sourceTree = "<group>"; };
+		636622D617D080E300CDD510 /* Physics Textbook 5.0.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Physics Textbook 5.0.pdf"; sourceTree = "<group>"; };
+		636622D817D081E700CDD510 /* Fractions Exam Grade 7.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Fractions Exam Grade 7.pdf"; sourceTree = "<group>"; };
+		636622DA17D082AE00CDD510 /* How many moles in a ham and cheese sandwich.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "How many moles in a ham and cheese sandwich.pdf"; sourceTree = "<group>"; };
+		636622DE17D090B600CDD510 /* First Principles.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "First Principles.pdf"; sourceTree = "<group>"; };
+		636622E017D0924E00CDD510 /* POWER RULE 101.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "POWER RULE 101.pdf"; sourceTree = "<group>"; };
+		636622E217D092F500CDD510 /* POWER RULE.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "POWER RULE.pdf"; sourceTree = "<group>"; };
+		636622E417D0935A00CDD510 /* SUM RULE.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "SUM RULE.pdf"; sourceTree = "<group>"; };
+		636622E617D093EC00CDD510 /* QUOTIENT RULE.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "QUOTIENT RULE.pdf"; sourceTree = "<group>"; };
+		636622E817D094AE00CDD510 /* PRODUCT RULE.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "PRODUCT RULE.pdf"; sourceTree = "<group>"; };
+		636622EA17D094F700CDD510 /* EULER RULE.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "EULER RULE.pdf"; sourceTree = "<group>"; };
+		636622EC17D0954500CDD510 /* LNX.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = LNX.pdf; sourceTree = "<group>"; };
+		636622EE17D095BE00CDD510 /* TRIGONOMETRIC FUNCTION DERIVATIVES.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "TRIGONOMETRIC FUNCTION DERIVATIVES.pdf"; sourceTree = "<group>"; };
+		636622F017D0963100CDD510 /* CHAIN RULE.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "CHAIN RULE.pdf"; sourceTree = "<group>"; };
 		63670489172B4D690038ECBD /* slopederivative.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slopederivative.png; sourceTree = "<group>"; };
 		6367048B172B99400038ECBD /* powerule.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = powerule.png; sourceTree = "<group>"; };
 		6367048D172B9C520038ECBD /* poweri.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = poweri.png; sourceTree = "<group>"; };
@@ -505,6 +539,7 @@
 				63284C9D1723719D0093C4B3 /* me.png */,
 				63284CC9172398E50093C4B3 /* tsacircle.png */,
 				63284C97172370300093C4B3 /* mypercent.png */,
+				636622D017D07F1500CDD510 /* Year 11 Quadratics What do I remember.pdf */,
 				63284CB91723957B0093C4B3 /* areame.png */,
 				63284C8117236AFB0093C4B3 /* firstderiviszero.png */,
 				63284C731722C3A20093C4B3 /* pythag.png */,
@@ -660,15 +695,31 @@
 				63284BE717226E190093C4B3 /* ViewController.h */,
 				6305E1E217ABA9B900D9B8FD /* bottomShadow@2x.png */,
 				633EFBAC17C78B4A0030436A /* u subsitution worksheet-1.pdf */,
+				636622CE17D07DEA00CDD510 /* Diff Quiz.pdf */,
 				6305E1E017ABA9B500D9B8FD /* topShadow@2x.png */,
 				63284BE817226E190093C4B3 /* ViewController.m */,
 				63FF038E17892E72005865BB /* MenuViewController.h */,
+				636622D817D081E700CDD510 /* Fractions Exam Grade 7.pdf */,
+				636622DE17D090B600CDD510 /* First Principles.pdf */,
 				63FF038F17892E72005865BB /* MenuViewController.m */,
 				635F8B0617941CEA009D7DF5 /* SeguePush.h */,
 				63D12E2C17BF1A5A00ABACEE /* year 10 exponents and logs quiz.pdf */,
+				636622E017D0924E00CDD510 /* POWER RULE 101.pdf */,
 				635F8B0717941CEA009D7DF5 /* SeguePush.m */,
 				BF82315E177AD6510082E6E5 /* EquationViewer.h */,
+				636622D217D07FF300CDD510 /* Mathematics Statistics Test .pdf */,
+				636622D417D0807B00CDD510 /* Maths Studies Binomial Distribution Revision.pdf */,
+				636622E417D0935A00CDD510 /* SUM RULE.pdf */,
+				636622EE17D095BE00CDD510 /* TRIGONOMETRIC FUNCTION DERIVATIVES.pdf */,
+				636622F017D0963100CDD510 /* CHAIN RULE.pdf */,
 				BF82315F177AD6510082E6E5 /* EquationViewer.m */,
+				636622EC17D0954500CDD510 /* LNX.pdf */,
+				636622EA17D094F700CDD510 /* EULER RULE.pdf */,
+				636622E817D094AE00CDD510 /* PRODUCT RULE.pdf */,
+				636622E617D093EC00CDD510 /* QUOTIENT RULE.pdf */,
+				636622E217D092F500CDD510 /* POWER RULE.pdf */,
+				636622D617D080E300CDD510 /* Physics Textbook 5.0.pdf */,
+				636622DA17D082AE00CDD510 /* How many moles in a ham and cheese sandwich.pdf */,
 				63FF038217892B87005865BB /* InitialView.h */,
 				63FF038317892B87005865BB /* InitialView.m */,
 				63158ED617B5CB910073EF64 /* Red.h */,
@@ -929,6 +980,23 @@
 				63158EDD17B8E4930073EF64 /* documentsLogoLarge@2x.png in Resources */,
 				63D12E2D17BF1A5A00ABACEE /* year 10 exponents and logs quiz.pdf in Resources */,
 				633EFBAD17C78B4A0030436A /* u subsitution worksheet-1.pdf in Resources */,
+				636622CF17D07DEA00CDD510 /* Diff Quiz.pdf in Resources */,
+				636622D117D07F1500CDD510 /* Year 11 Quadratics What do I remember.pdf in Resources */,
+				636622D317D07FF300CDD510 /* Mathematics Statistics Test .pdf in Resources */,
+				636622D517D0807B00CDD510 /* Maths Studies Binomial Distribution Revision.pdf in Resources */,
+				636622D717D080E300CDD510 /* Physics Textbook 5.0.pdf in Resources */,
+				636622D917D081E700CDD510 /* Fractions Exam Grade 7.pdf in Resources */,
+				636622DB17D082AE00CDD510 /* How many moles in a ham and cheese sandwich.pdf in Resources */,
+				636622DF17D090B600CDD510 /* First Principles.pdf in Resources */,
+				636622E117D0924E00CDD510 /* POWER RULE 101.pdf in Resources */,
+				636622E317D092F500CDD510 /* POWER RULE.pdf in Resources */,
+				636622E517D0935A00CDD510 /* SUM RULE.pdf in Resources */,
+				636622E717D093EC00CDD510 /* QUOTIENT RULE.pdf in Resources */,
+				636622E917D094AE00CDD510 /* PRODUCT RULE.pdf in Resources */,
+				636622EB17D094F700CDD510 /* EULER RULE.pdf in Resources */,
+				636622ED17D0954500CDD510 /* LNX.pdf in Resources */,
+				636622EF17D095BE00CDD510 /* TRIGONOMETRIC FUNCTION DERIVATIVES.pdf in Resources */,
+				636622F117D0963100CDD510 /* CHAIN RULE.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

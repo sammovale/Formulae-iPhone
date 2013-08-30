@@ -83,6 +83,8 @@
 -(IBAction)exponent;
 -(IBAction)usub;
 -(IBAction)documentMenu;
-
+-(IBAction)diffCalc;
+-(IBAction)stats;
+-(IBAction)quads;
 
 @end
