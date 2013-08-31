@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 #import <QuartzCore/QuartzCore.h>
 #import "ECSlidingViewController.h"
+#import "DocumentViewer.h"
 
 @interface ViewController : UIViewController {
     IBOutlet UIScrollView *scroller;
@@ -45,7 +46,7 @@
 @property (nonatomic, strong) UILabel *Label12;
 @property (nonatomic, strong) UILabel *Label13;
 -(IBAction)usub;
-
+-(IBAction)exit:(UIStoryboardSegue *)test;
 @property (nonatomic, strong) UIScrollView *scroller;
 
 @end

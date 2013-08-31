@@ -220,6 +220,7 @@
 		BF82315C17785BA00082E6E5 /* formulaeLogo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF82315A17785BA00082E6E5 /* formulaeLogo@2x.png */; };
 		BF82315D17785BA00082E6E5 /* formulaeLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = BF82315B17785BA00082E6E5 /* formulaeLogo.png */; };
 		BF823160177AD6510082E6E5 /* EquationViewer.m in Sources */ = {isa = PBXBuildFile; fileRef = BF82315F177AD6510082E6E5 /* EquationViewer.m */; };
+		BFCBB72B17D1CDFF0032F173 /* DocumentViewer.m in Sources */ = {isa = PBXBuildFile; fileRef = BFCBB72A17D1CDFF0032F173 /* DocumentViewer.m */; };
 		BFD085A9177C39E0002340A6 /* iPhone_Icon_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = BFD085A8177C39E0002340A6 /* iPhone_Icon_icon.png */; };
 		BFD085AB177C39EB002340A6 /* iPhoneRetina_Icon_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = BFD085AA177C39EB002340A6 /* iPhoneRetina_Icon_icon.png */; };
 /* End PBXBuildFile section */
@@ -452,6 +453,8 @@
 		BF82315B17785BA00082E6E5 /* formulaeLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = formulaeLogo.png; sourceTree = "<group>"; };
 		BF82315E177AD6510082E6E5 /* EquationViewer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EquationViewer.h; sourceTree = "<group>"; };
 		BF82315F177AD6510082E6E5 /* EquationViewer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EquationViewer.m; sourceTree = "<group>"; };
+		BFCBB72917D1CDFF0032F173 /* DocumentViewer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DocumentViewer.h; sourceTree = "<group>"; };
+		BFCBB72A17D1CDFF0032F173 /* DocumentViewer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DocumentViewer.m; sourceTree = "<group>"; };
 		BFD085A8177C39E0002340A6 /* iPhone_Icon_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhone_Icon_icon.png; sourceTree = "<group>"; };
 		BFD085AA177C39EB002340A6 /* iPhoneRetina_Icon_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhoneRetina_Icon_icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -694,6 +697,8 @@
 			children = (
 				BF3E120E1792A1C600555DBB /* Kefa.ttc */,
 				63284BE417226E190093C4B3 /* MainStoryboard.storyboard */,
+				BFCBB72917D1CDFF0032F173 /* DocumentViewer.h */,
+				BFCBB72A17D1CDFF0032F173 /* DocumentViewer.m */,
 				63284BDB17226E190093C4B3 /* AppDelegate.h */,
 				63284BDC17226E190093C4B3 /* AppDelegate.m */,
 				63FF03C917895C58005865BB /* CustomSegueLeft.h */,
@@ -1035,6 +1040,7 @@
 				635F8B0817941CEA009D7DF5 /* SeguePush.m in Sources */,
 				63158ED817B5CB910073EF64 /* Red.m in Sources */,
 				63158EDB17B8D8B40073EF64 /* CustomSegueRight.m in Sources */,
+				BFCBB72B17D1CDFF0032F173 /* DocumentViewer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

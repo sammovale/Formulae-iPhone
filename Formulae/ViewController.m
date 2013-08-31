@@ -23,27 +23,6 @@
 
 
 
-
-
-
-
-- (void)viewDidAppear:(BOOL)animated
-{
-    
-    
-    [super viewDidAppear:animated];
-}
-
-- (void)viewWillDisappear:(BOOL)animated
-{
-	[super viewWillDisappear:animated];
-}
-
-- (void)viewDidDisappear:(BOOL)animated
-{
-	[super viewDidDisappear:animated];
-}
-
 - (void)viewDidLoad
 {
     
@@ -57,15 +36,6 @@
     }
 
 
-
-
-
-
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
-{
-   
-    
-}
 
 - (void)viewWillAppear:(BOOL)animated
 {
@@ -110,12 +80,6 @@
 }
 
 
-
-
-
-    
-
-
 - (void)menuViewControllerDidFinishWithCategoryId:(NSInteger)categoryId
 {
 
@@ -126,7 +90,6 @@
     
     
 }
-
 
 
 - (void)didReceiveMemoryWarning
