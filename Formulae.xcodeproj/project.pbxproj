@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6305E1E117ABA9B500D9B8FD /* topShadow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6305E1E017ABA9B500D9B8FD /* topShadow@2x.png */; };
+		6305E1E317ABA9B900D9B8FD /* bottomShadow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6305E1E217ABA9B900D9B8FD /* bottomShadow@2x.png */; };
+		63158ED817B5CB910073EF64 /* Red.m in Sources */ = {isa = PBXBuildFile; fileRef = 63158ED717B5CB910073EF64 /* Red.m */; };
+		63158EDB17B8D8B40073EF64 /* CustomSegueRight.m in Sources */ = {isa = PBXBuildFile; fileRef = 63158EDA17B8D8B40073EF64 /* CustomSegueRight.m */; };
+		63158EDD17B8E4930073EF64 /* documentsLogoLarge@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63158EDC17B8E4920073EF64 /* documentsLogoLarge@2x.png */; };
 		63284BCD17226E190093C4B3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63284BCC17226E190093C4B3 /* UIKit.framework */; };
 		63284BCF17226E190093C4B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63284BCE17226E190093C4B3 /* Foundation.framework */; };
 		63284BD117226E190093C4B3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63284BD017226E190093C4B3 /* CoreGraphics.framework */; };
@@ -18,7 +23,6 @@
 		63284BE317226E190093C4B3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63284BE217226E190093C4B3 /* Default-568h@2x.png */; };
 		63284BE617226E190093C4B3 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63284BE417226E190093C4B3 /* MainStoryboard.storyboard */; };
 		63284BE917226E190093C4B3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63284BE817226E190093C4B3 /* ViewController.m */; };
-		63284BF01722730B0093C4B3 /* printable-pdf-graph-paper1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63284BEF1722730B0093C4B3 /* printable-pdf-graph-paper1.jpg */; };
 		63284BF2172274E50093C4B3 /* first principles.png in Resources */ = {isa = PBXBuildFile; fileRef = 63284BF1172274E50093C4B3 /* first principles.png */; };
 		63284BF4172275970093C4B3 /* fist.png in Resources */ = {isa = PBXBuildFile; fileRef = 63284BF3172275970093C4B3 /* fist.png */; };
 		63284BF6172275C20093C4B3 /* dove.png in Resources */ = {isa = PBXBuildFile; fileRef = 63284BF5172275C20093C4B3 /* dove.png */; };
@@ -27,10 +31,6 @@
 		63284BFC172278630093C4B3 /* prod.png in Resources */ = {isa = PBXBuildFile; fileRef = 63284BFB172278630093C4B3 /* prod.png */; };
 		63284BFE1722790D0093C4B3 /* fdaprime.png in Resources */ = {isa = PBXBuildFile; fileRef = 63284BFD1722790D0093C4B3 /* fdaprime.png */; };
 		63284C0017227A040093C4B3 /* etodax.png in Resources */ = {isa = PBXBuildFile; fileRef = 63284BFF17227A040093C4B3 /* etodax.png */; };
-		63284C02172281700093C4B3 /* Resized-MJSJQ.png in Resources */ = {isa = PBXBuildFile; fileRef = 63284C01172281700093C4B3 /* Resized-MJSJQ.png */; };
-		63284C04172281850093C4B3 /* Resized-UUKXV.png in Resources */ = {isa = PBXBuildFile; fileRef = 63284C03172281850093C4B3 /* Resized-UUKXV.png */; };
-		63284C06172288380093C4B3 /* Resized-UT6SR-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 63284C05172288380093C4B3 /* Resized-UT6SR-1.png */; };
-		63284C081722883B0093C4B3 /* Resized-RFXPI.png in Resources */ = {isa = PBXBuildFile; fileRef = 63284C071722883B0093C4B3 /* Resized-RFXPI.png */; };
 		63284C0A172288E60093C4B3 /* eulers rule.png in Resources */ = {isa = PBXBuildFile; fileRef = 63284C09172288E60093C4B3 /* eulers rule.png */; };
 		63284C0C172289330093C4B3 /* yomumma.png in Resources */ = {isa = PBXBuildFile; fileRef = 63284C0B172289330093C4B3 /* yomumma.png */; };
 		63284C0E17228B7E0093C4B3 /* lnx.png in Resources */ = {isa = PBXBuildFile; fileRef = 63284C0D17228B7E0093C4B3 /* lnx.png */; };
@@ -40,9 +40,6 @@
 		63284C1617228D370093C4B3 /* tanablonde.png in Resources */ = {isa = PBXBuildFile; fileRef = 63284C1517228D370093C4B3 /* tanablonde.png */; };
 		63284C1817228DEE0093C4B3 /* chain gang.png in Resources */ = {isa = PBXBuildFile; fileRef = 63284C1717228DEE0093C4B3 /* chain gang.png */; };
 		63284C1A17228E140093C4B3 /* chaingangers.png in Resources */ = {isa = PBXBuildFile; fileRef = 63284C1917228E140093C4B3 /* chaingangers.png */; };
-		63284C1C172293090093C4B3 /* button-9.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 63284C1B172293090093C4B3 /* button-9.mp3 */; };
-		63284C20172295490093C4B3 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63284C1F172295490093C4B3 /* AVFoundation.framework */; };
-		63284C221722A77A0093C4B3 /* computer 62.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 63284C211722A77A0093C4B3 /* computer 62.mp3 */; };
 		63284C241722A9280093C4B3 /* slope.png in Resources */ = {isa = PBXBuildFile; fileRef = 63284C231722A9280093C4B3 /* slope.png */; };
 		63284C261722A9DE0093C4B3 /* dist.png in Resources */ = {isa = PBXBuildFile; fileRef = 63284C251722A9DE0093C4B3 /* dist.png */; };
 		63284C281722AA540093C4B3 /* midpoint.png in Resources */ = {isa = PBXBuildFile; fileRef = 63284C271722AA540093C4B3 /* midpoint.png */; };
@@ -134,7 +131,6 @@
 		63284CD417239A660093C4B3 /* coneclds.png in Resources */ = {isa = PBXBuildFile; fileRef = 63284CD317239A660093C4B3 /* coneclds.png */; };
 		63284CD617239AA90093C4B3 /* c9.png in Resources */ = {isa = PBXBuildFile; fileRef = 63284CD517239AA90093C4B3 /* c9.png */; };
 		63284CD817239ADD0093C4B3 /* concial.png in Resources */ = {isa = PBXBuildFile; fileRef = 63284CD717239ADD0093C4B3 /* concial.png */; };
-		63284CDB1723A0410093C4B3 /* CustomAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 63284CDA1723A0410093C4B3 /* CustomAlertView.m */; };
 		63284CDD1723A8870093C4B3 /* energy.png in Resources */ = {isa = PBXBuildFile; fileRef = 63284CDC1723A8870093C4B3 /* energy.png */; };
 		63284CDF1723A8C30093C4B3 /* energygrav.png in Resources */ = {isa = PBXBuildFile; fileRef = 63284CDE1723A8C30093C4B3 /* energygrav.png */; };
 		63284CE11723A8F60093C4B3 /* kin.png in Resources */ = {isa = PBXBuildFile; fileRef = 63284CE01723A8F60093C4B3 /* kin.png */; };
@@ -161,23 +157,81 @@
 		63284D0B1723B4DE0093C4B3 /* common.png in Resources */ = {isa = PBXBuildFile; fileRef = 63284D0A1723B4DE0093C4B3 /* common.png */; };
 		63284D0D1723B5590093C4B3 /* yahg.png in Resources */ = {isa = PBXBuildFile; fileRef = 63284D0C1723B5590093C4B3 /* yahg.png */; };
 		63284D0F1723B5CA0093C4B3 /* com.png in Resources */ = {isa = PBXBuildFile; fileRef = 63284D0E1723B5CA0093C4B3 /* com.png */; };
+		633EFBAD17C78B4A0030436A /* u subsitution worksheet-1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 633EFBAC17C78B4A0030436A /* u subsitution worksheet-1.pdf */; };
+		635F8B0817941CEA009D7DF5 /* SeguePush.m in Sources */ = {isa = PBXBuildFile; fileRef = 635F8B0717941CEA009D7DF5 /* SeguePush.m */; };
+		636622CF17D07DEA00CDD510 /* Diff Quiz.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 636622CE17D07DEA00CDD510 /* Diff Quiz.pdf */; };
+		636622D117D07F1500CDD510 /* Year 11 Quadratics What do I remember.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 636622D017D07F1500CDD510 /* Year 11 Quadratics What do I remember.pdf */; };
+		636622D317D07FF300CDD510 /* Mathematics Statistics Test .pdf in Resources */ = {isa = PBXBuildFile; fileRef = 636622D217D07FF300CDD510 /* Mathematics Statistics Test .pdf */; };
+		636622D517D0807B00CDD510 /* Maths Studies Binomial Distribution Revision.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 636622D417D0807B00CDD510 /* Maths Studies Binomial Distribution Revision.pdf */; };
+		636622D717D080E300CDD510 /* Physics Textbook 5.0.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 636622D617D080E300CDD510 /* Physics Textbook 5.0.pdf */; };
+		636622D917D081E700CDD510 /* Fractions Exam Grade 7.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 636622D817D081E700CDD510 /* Fractions Exam Grade 7.pdf */; };
+		636622DB17D082AE00CDD510 /* How many moles in a ham and cheese sandwich.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 636622DA17D082AE00CDD510 /* How many moles in a ham and cheese sandwich.pdf */; };
+		636622DF17D090B600CDD510 /* First Principles.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 636622DE17D090B600CDD510 /* First Principles.pdf */; };
+		636622E117D0924E00CDD510 /* POWER RULE 101.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 636622E017D0924E00CDD510 /* POWER RULE 101.pdf */; };
+		636622E317D092F500CDD510 /* POWER RULE.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 636622E217D092F500CDD510 /* POWER RULE.pdf */; };
+		636622E517D0935A00CDD510 /* SUM RULE.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 636622E417D0935A00CDD510 /* SUM RULE.pdf */; };
+		636622E717D093EC00CDD510 /* QUOTIENT RULE.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 636622E617D093EC00CDD510 /* QUOTIENT RULE.pdf */; };
+		636622E917D094AE00CDD510 /* PRODUCT RULE.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 636622E817D094AE00CDD510 /* PRODUCT RULE.pdf */; };
+		636622EB17D094F700CDD510 /* EULER RULE.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 636622EA17D094F700CDD510 /* EULER RULE.pdf */; };
+		636622ED17D0954500CDD510 /* LNX.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 636622EC17D0954500CDD510 /* LNX.pdf */; };
+		636622EF17D095BE00CDD510 /* TRIGONOMETRIC FUNCTION DERIVATIVES.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 636622EE17D095BE00CDD510 /* TRIGONOMETRIC FUNCTION DERIVATIVES.pdf */; };
+		636622F117D0963100CDD510 /* CHAIN RULE.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 636622F017D0963100CDD510 /* CHAIN RULE.pdf */; };
+		636622F317D0A0D900CDD510 /* SLOPE.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 636622F217D0A0D900CDD510 /* SLOPE.pdf */; };
+		636622F517D0A24C00CDD510 /* DISTANCE.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 636622F417D0A24C00CDD510 /* DISTANCE.pdf */; };
+		636622F717D0A2D100CDD510 /* MIDPOINT.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 636622F617D0A2D000CDD510 /* MIDPOINT.pdf */; };
+		636622F917D0A34A00CDD510 /* INTERCEPTS.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 636622F817D0A34A00CDD510 /* INTERCEPTS.pdf */; };
 		6367048A172B4D690038ECBD /* slopederivative.png in Resources */ = {isa = PBXBuildFile; fileRef = 63670489172B4D690038ECBD /* slopederivative.png */; };
 		6367048C172B99400038ECBD /* powerule.png in Resources */ = {isa = PBXBuildFile; fileRef = 6367048B172B99400038ECBD /* powerule.png */; };
 		6367048E172B9C520038ECBD /* poweri.png in Resources */ = {isa = PBXBuildFile; fileRef = 6367048D172B9C520038ECBD /* poweri.png */; };
 		63670490172BA0E30038ECBD /* sumrule.png in Resources */ = {isa = PBXBuildFile; fileRef = 6367048F172BA0E30038ECBD /* sumrule.png */; };
 		63670492172BA40D0038ECBD /* mymaths.png in Resources */ = {isa = PBXBuildFile; fileRef = 63670491172BA40D0038ECBD /* mymaths.png */; };
 		63670494172BA6880038ECBD /* productrule.png in Resources */ = {isa = PBXBuildFile; fileRef = 63670493172BA6880038ECBD /* productrule.png */; };
-		63ACA4E8172BE95F002606C7 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63ACA4E7172BE95F002606C7 /* MediaPlayer.framework */; };
-		63ACA4EA172BF5F1002606C7 /* Formulae.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 63ACA4E9172BF5F0002606C7 /* Formulae.mp4 */; };
-		63ACA4EC172BF7BC002606C7 /* formulaios.png in Resources */ = {isa = PBXBuildFile; fileRef = 63ACA4EB172BF7BC002606C7 /* formulaios.png */; };
-		63ACA4EE172BF81B002606C7 /* play_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 63ACA4ED172BF81B002606C7 /* play_button.png */; };
 		63C52FC1172BB2230084CAAC /* euler.png in Resources */ = {isa = PBXBuildFile; fileRef = 63C52FC0172BB2230084CAAC /* euler.png */; };
 		63C52FC3172BBA4C0084CAAC /* lnxlog.png in Resources */ = {isa = PBXBuildFile; fileRef = 63C52FC2172BBA4C0084CAAC /* lnxlog.png */; };
 		63C52FC5172BC0690084CAAC /* trigfunctions.png in Resources */ = {isa = PBXBuildFile; fileRef = 63C52FC4172BC0690084CAAC /* trigfunctions.png */; };
 		63C52FC7172BCD320084CAAC /* chain.png in Resources */ = {isa = PBXBuildFile; fileRef = 63C52FC6172BCD320084CAAC /* chain.png */; };
+		63D12E2D17BF1A5A00ABACEE /* year 10 exponents and logs quiz.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 63D12E2C17BF1A5A00ABACEE /* year 10 exponents and logs quiz.pdf */; };
+		63FF037E178921E4005865BB /* scroller.png in Resources */ = {isa = PBXBuildFile; fileRef = 63FF037D178921E4005865BB /* scroller.png */; };
+		63FF038417892B87005865BB /* InitialView.m in Sources */ = {isa = PBXBuildFile; fileRef = 63FF038317892B87005865BB /* InitialView.m */; };
+		63FF038A17892CE4005865BB /* ECSlidingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63FF038717892CE4005865BB /* ECSlidingViewController.m */; };
+		63FF038B17892CE4005865BB /* UIImage+ImageWithUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 63FF038917892CE4005865BB /* UIImage+ImageWithUIView.m */; };
+		63FF038D17892E09005865BB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63FF038C17892E09005865BB /* QuartzCore.framework */; };
+		63FF039017892E72005865BB /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63FF038F17892E72005865BB /* MenuViewController.m */; };
+		63FF03C31789433F005865BB /* GRAPHITE-Education-Logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63FF03C21789433F005865BB /* GRAPHITE-Education-Logo@2x.png */; };
+		63FF03CB17895C5A005865BB /* CustomSegueLeft.m in Sources */ = {isa = PBXBuildFile; fileRef = 63FF03CA17895C59005865BB /* CustomSegueLeft.m */; };
+		63FF03D0178974A7005865BB /* int10.png in Resources */ = {isa = PBXBuildFile; fileRef = 63FF03CC178974A7005865BB /* int10.png */; };
+		63FF03D1178974A7005865BB /* int9.png in Resources */ = {isa = PBXBuildFile; fileRef = 63FF03CD178974A7005865BB /* int9.png */; };
+		63FF03D2178974A7005865BB /* int8.png in Resources */ = {isa = PBXBuildFile; fileRef = 63FF03CE178974A7005865BB /* int8.png */; };
+		63FF03D3178974A7005865BB /* int7.png in Resources */ = {isa = PBXBuildFile; fileRef = 63FF03CF178974A7005865BB /* int7.png */; };
+		63FF03D7178974D0005865BB /* int3.png in Resources */ = {isa = PBXBuildFile; fileRef = 63FF03D4178974D0005865BB /* int3.png */; };
+		63FF03D8178974D0005865BB /* int2.png in Resources */ = {isa = PBXBuildFile; fileRef = 63FF03D5178974D0005865BB /* int2.png */; };
+		63FF03D9178974D0005865BB /* int1.png in Resources */ = {isa = PBXBuildFile; fileRef = 63FF03D6178974D0005865BB /* int1.png */; };
+		63FF03DD178974E9005865BB /* int6.png in Resources */ = {isa = PBXBuildFile; fileRef = 63FF03DA178974E9005865BB /* int6.png */; };
+		63FF03DE178974E9005865BB /* int5.png in Resources */ = {isa = PBXBuildFile; fileRef = 63FF03DB178974E9005865BB /* int5.png */; };
+		63FF03DF178974E9005865BB /* int4.png in Resources */ = {isa = PBXBuildFile; fileRef = 63FF03DC178974E9005865BB /* int4.png */; };
+		63FF03E1178A645F005865BB /* g1calc.png in Resources */ = {isa = PBXBuildFile; fileRef = 63FF03E0178A645F005865BB /* g1calc.png */; };
+		BF3E120F1792A1C600555DBB /* Kefa.ttc in Resources */ = {isa = PBXBuildFile; fileRef = BF3E120E1792A1C600555DBB /* Kefa.ttc */; };
+		BF823142177858490082E6E5 /* backArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = BF823140177858490082E6E5 /* backArrow.png */; };
+		BF823143177858490082E6E5 /* backArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF823141177858490082E6E5 /* backArrow@2x.png */; };
+		BF82315617785B8A0082E6E5 /* searchButton.png in Resources */ = {isa = PBXBuildFile; fileRef = BF82315217785B8A0082E6E5 /* searchButton.png */; };
+		BF82315717785B8A0082E6E5 /* searchButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF82315317785B8A0082E6E5 /* searchButton@2x.png */; };
+		BF82315817785B8A0082E6E5 /* settingsButton.png in Resources */ = {isa = PBXBuildFile; fileRef = BF82315417785B8A0082E6E5 /* settingsButton.png */; };
+		BF82315917785B8A0082E6E5 /* settingsButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF82315517785B8A0082E6E5 /* settingsButton@2x.png */; };
+		BF82315C17785BA00082E6E5 /* formulaeLogo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF82315A17785BA00082E6E5 /* formulaeLogo@2x.png */; };
+		BF82315D17785BA00082E6E5 /* formulaeLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = BF82315B17785BA00082E6E5 /* formulaeLogo.png */; };
+		BF823160177AD6510082E6E5 /* EquationViewer.m in Sources */ = {isa = PBXBuildFile; fileRef = BF82315F177AD6510082E6E5 /* EquationViewer.m */; };
+		BFD085A9177C39E0002340A6 /* iPhone_Icon_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = BFD085A8177C39E0002340A6 /* iPhone_Icon_icon.png */; };
+		BFD085AB177C39EB002340A6 /* iPhoneRetina_Icon_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = BFD085AA177C39EB002340A6 /* iPhoneRetina_Icon_icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6305E1E017ABA9B500D9B8FD /* topShadow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "topShadow@2x.png"; sourceTree = "<group>"; };
+		6305E1E217ABA9B900D9B8FD /* bottomShadow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bottomShadow@2x.png"; sourceTree = "<group>"; };
+		63158ED617B5CB910073EF64 /* Red.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Red.h; sourceTree = "<group>"; };
+		63158ED717B5CB910073EF64 /* Red.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Red.m; sourceTree = "<group>"; };
+		63158ED917B8D8B30073EF64 /* CustomSegueRight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomSegueRight.h; sourceTree = "<group>"; };
+		63158EDA17B8D8B40073EF64 /* CustomSegueRight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomSegueRight.m; sourceTree = "<group>"; };
+		63158EDC17B8E4920073EF64 /* documentsLogoLarge@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "documentsLogoLarge@2x.png"; sourceTree = "<group>"; };
 		63284BC917226E190093C4B3 /* Formulae.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Formulae.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63284BCC17226E190093C4B3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		63284BCE17226E190093C4B3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -186,15 +240,14 @@
 		63284BD617226E190093C4B3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		63284BD817226E190093C4B3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		63284BDA17226E190093C4B3 /* Formulae-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Formulae-Prefix.pch"; sourceTree = "<group>"; };
-		63284BDB17226E190093C4B3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		63284BDC17226E190093C4B3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		63284BDB17226E190093C4B3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Formulae/AppDelegate.h; sourceTree = "<group>"; };
+		63284BDC17226E190093C4B3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Formulae/AppDelegate.m; sourceTree = "<group>"; };
 		63284BDE17226E190093C4B3 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		63284BE017226E190093C4B3 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		63284BE217226E190093C4B3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		63284BE517226E190093C4B3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		63284BE717226E190093C4B3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		63284BE817226E190093C4B3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		63284BEF1722730B0093C4B3 /* printable-pdf-graph-paper1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "printable-pdf-graph-paper1.jpg"; sourceTree = "<group>"; };
+		63284BE717226E190093C4B3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = Formulae/ViewController.h; sourceTree = "<group>"; };
+		63284BE817226E190093C4B3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = Formulae/ViewController.m; sourceTree = "<group>"; };
 		63284BF1172274E50093C4B3 /* first principles.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first principles.png"; sourceTree = "<group>"; };
 		63284BF3172275970093C4B3 /* fist.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fist.png; sourceTree = "<group>"; };
 		63284BF5172275C20093C4B3 /* dove.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dove.png; sourceTree = "<group>"; };
@@ -203,10 +256,6 @@
 		63284BFB172278630093C4B3 /* prod.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prod.png; sourceTree = "<group>"; };
 		63284BFD1722790D0093C4B3 /* fdaprime.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fdaprime.png; sourceTree = "<group>"; };
 		63284BFF17227A040093C4B3 /* etodax.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = etodax.png; sourceTree = "<group>"; };
-		63284C01172281700093C4B3 /* Resized-MJSJQ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resized-MJSJQ.png"; sourceTree = "<group>"; };
-		63284C03172281850093C4B3 /* Resized-UUKXV.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resized-UUKXV.png"; sourceTree = "<group>"; };
-		63284C05172288380093C4B3 /* Resized-UT6SR-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resized-UT6SR-1.png"; sourceTree = "<group>"; };
-		63284C071722883B0093C4B3 /* Resized-RFXPI.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resized-RFXPI.png"; sourceTree = "<group>"; };
 		63284C09172288E60093C4B3 /* eulers rule.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "eulers rule.png"; sourceTree = "<group>"; };
 		63284C0B172289330093C4B3 /* yomumma.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yomumma.png; sourceTree = "<group>"; };
 		63284C0D17228B7E0093C4B3 /* lnx.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lnx.png; sourceTree = "<group>"; };
@@ -216,9 +265,6 @@
 		63284C1517228D370093C4B3 /* tanablonde.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tanablonde.png; sourceTree = "<group>"; };
 		63284C1717228DEE0093C4B3 /* chain gang.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chain gang.png"; sourceTree = "<group>"; };
 		63284C1917228E140093C4B3 /* chaingangers.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chaingangers.png; sourceTree = "<group>"; };
-		63284C1B172293090093C4B3 /* button-9.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "button-9.mp3"; sourceTree = "<group>"; };
-		63284C1F172295490093C4B3 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		63284C211722A77A0093C4B3 /* computer 62.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "computer 62.mp3"; sourceTree = "<group>"; };
 		63284C231722A9280093C4B3 /* slope.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slope.png; sourceTree = "<group>"; };
 		63284C251722A9DE0093C4B3 /* dist.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dist.png; sourceTree = "<group>"; };
 		63284C271722AA540093C4B3 /* midpoint.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = midpoint.png; sourceTree = "<group>"; };
@@ -310,8 +356,6 @@
 		63284CD317239A660093C4B3 /* coneclds.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = coneclds.png; sourceTree = "<group>"; };
 		63284CD517239AA90093C4B3 /* c9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = c9.png; sourceTree = "<group>"; };
 		63284CD717239ADD0093C4B3 /* concial.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = concial.png; sourceTree = "<group>"; };
-		63284CD91723A0410093C4B3 /* CustomAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomAlertView.h; sourceTree = "<group>"; };
-		63284CDA1723A0410093C4B3 /* CustomAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomAlertView.m; sourceTree = "<group>"; };
 		63284CDC1723A8870093C4B3 /* energy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = energy.png; sourceTree = "<group>"; };
 		63284CDE1723A8C30093C4B3 /* energygrav.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = energygrav.png; sourceTree = "<group>"; };
 		63284CE01723A8F60093C4B3 /* kin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kin.png; sourceTree = "<group>"; };
@@ -338,20 +382,78 @@
 		63284D0A1723B4DE0093C4B3 /* common.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = common.png; sourceTree = "<group>"; };
 		63284D0C1723B5590093C4B3 /* yahg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yahg.png; sourceTree = "<group>"; };
 		63284D0E1723B5CA0093C4B3 /* com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = com.png; sourceTree = "<group>"; };
+		633EFBAC17C78B4A0030436A /* u subsitution worksheet-1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "u subsitution worksheet-1.pdf"; sourceTree = "<group>"; };
+		635F8B0617941CEA009D7DF5 /* SeguePush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SeguePush.h; sourceTree = "<group>"; };
+		635F8B0717941CEA009D7DF5 /* SeguePush.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SeguePush.m; sourceTree = "<group>"; };
+		636622CE17D07DEA00CDD510 /* Diff Quiz.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Diff Quiz.pdf"; sourceTree = "<group>"; };
+		636622D017D07F1500CDD510 /* Year 11 Quadratics What do I remember.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Year 11 Quadratics What do I remember.pdf"; sourceTree = "<group>"; };
+		636622D217D07FF300CDD510 /* Mathematics Statistics Test .pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Mathematics Statistics Test .pdf"; sourceTree = "<group>"; };
+		636622D417D0807B00CDD510 /* Maths Studies Binomial Distribution Revision.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Maths Studies Binomial Distribution Revision.pdf"; sourceTree = "<group>"; };
+		636622D617D080E300CDD510 /* Physics Textbook 5.0.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Physics Textbook 5.0.pdf"; sourceTree = "<group>"; };
+		636622D817D081E700CDD510 /* Fractions Exam Grade 7.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Fractions Exam Grade 7.pdf"; sourceTree = "<group>"; };
+		636622DA17D082AE00CDD510 /* How many moles in a ham and cheese sandwich.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "How many moles in a ham and cheese sandwich.pdf"; sourceTree = "<group>"; };
+		636622DE17D090B600CDD510 /* First Principles.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "First Principles.pdf"; sourceTree = "<group>"; };
+		636622E017D0924E00CDD510 /* POWER RULE 101.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "POWER RULE 101.pdf"; sourceTree = "<group>"; };
+		636622E217D092F500CDD510 /* POWER RULE.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "POWER RULE.pdf"; sourceTree = "<group>"; };
+		636622E417D0935A00CDD510 /* SUM RULE.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "SUM RULE.pdf"; sourceTree = "<group>"; };
+		636622E617D093EC00CDD510 /* QUOTIENT RULE.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "QUOTIENT RULE.pdf"; sourceTree = "<group>"; };
+		636622E817D094AE00CDD510 /* PRODUCT RULE.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "PRODUCT RULE.pdf"; sourceTree = "<group>"; };
+		636622EA17D094F700CDD510 /* EULER RULE.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "EULER RULE.pdf"; sourceTree = "<group>"; };
+		636622EC17D0954500CDD510 /* LNX.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = LNX.pdf; sourceTree = "<group>"; };
+		636622EE17D095BE00CDD510 /* TRIGONOMETRIC FUNCTION DERIVATIVES.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "TRIGONOMETRIC FUNCTION DERIVATIVES.pdf"; sourceTree = "<group>"; };
+		636622F017D0963100CDD510 /* CHAIN RULE.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "CHAIN RULE.pdf"; sourceTree = "<group>"; };
+		636622F217D0A0D900CDD510 /* SLOPE.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = SLOPE.pdf; sourceTree = "<group>"; };
+		636622F417D0A24C00CDD510 /* DISTANCE.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = DISTANCE.pdf; sourceTree = "<group>"; };
+		636622F617D0A2D000CDD510 /* MIDPOINT.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = MIDPOINT.pdf; sourceTree = "<group>"; };
+		636622F817D0A34A00CDD510 /* INTERCEPTS.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = INTERCEPTS.pdf; sourceTree = "<group>"; };
 		63670489172B4D690038ECBD /* slopederivative.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slopederivative.png; sourceTree = "<group>"; };
 		6367048B172B99400038ECBD /* powerule.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = powerule.png; sourceTree = "<group>"; };
 		6367048D172B9C520038ECBD /* poweri.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = poweri.png; sourceTree = "<group>"; };
 		6367048F172BA0E30038ECBD /* sumrule.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sumrule.png; sourceTree = "<group>"; };
 		63670491172BA40D0038ECBD /* mymaths.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mymaths.png; sourceTree = "<group>"; };
 		63670493172BA6880038ECBD /* productrule.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = productrule.png; sourceTree = "<group>"; };
-		63ACA4E7172BE95F002606C7 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
-		63ACA4E9172BF5F0002606C7 /* Formulae.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Formulae.mp4; sourceTree = "<group>"; };
-		63ACA4EB172BF7BC002606C7 /* formulaios.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = formulaios.png; sourceTree = "<group>"; };
-		63ACA4ED172BF81B002606C7 /* play_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play_button.png; sourceTree = "<group>"; };
 		63C52FC0172BB2230084CAAC /* euler.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = euler.png; sourceTree = "<group>"; };
 		63C52FC2172BBA4C0084CAAC /* lnxlog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lnxlog.png; sourceTree = "<group>"; };
 		63C52FC4172BC0690084CAAC /* trigfunctions.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trigfunctions.png; sourceTree = "<group>"; };
 		63C52FC6172BCD320084CAAC /* chain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chain.png; sourceTree = "<group>"; };
+		63D12E2C17BF1A5A00ABACEE /* year 10 exponents and logs quiz.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "year 10 exponents and logs quiz.pdf"; sourceTree = "<group>"; };
+		63FF037D178921E4005865BB /* scroller.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scroller.png; sourceTree = "<group>"; };
+		63FF038217892B87005865BB /* InitialView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InitialView.h; sourceTree = "<group>"; };
+		63FF038317892B87005865BB /* InitialView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InitialView.m; sourceTree = "<group>"; };
+		63FF038617892CE4005865BB /* ECSlidingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECSlidingViewController.h; sourceTree = "<group>"; };
+		63FF038717892CE4005865BB /* ECSlidingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECSlidingViewController.m; sourceTree = "<group>"; };
+		63FF038817892CE4005865BB /* UIImage+ImageWithUIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageWithUIView.h"; sourceTree = "<group>"; };
+		63FF038917892CE4005865BB /* UIImage+ImageWithUIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageWithUIView.m"; sourceTree = "<group>"; };
+		63FF038C17892E09005865BB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		63FF038E17892E72005865BB /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		63FF038F17892E72005865BB /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		63FF03C21789433F005865BB /* GRAPHITE-Education-Logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GRAPHITE-Education-Logo@2x.png"; sourceTree = "<group>"; };
+		63FF03C917895C58005865BB /* CustomSegueLeft.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomSegueLeft.h; sourceTree = "<group>"; };
+		63FF03CA17895C59005865BB /* CustomSegueLeft.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomSegueLeft.m; sourceTree = "<group>"; };
+		63FF03CC178974A7005865BB /* int10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = int10.png; sourceTree = "<group>"; };
+		63FF03CD178974A7005865BB /* int9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = int9.png; sourceTree = "<group>"; };
+		63FF03CE178974A7005865BB /* int8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = int8.png; sourceTree = "<group>"; };
+		63FF03CF178974A7005865BB /* int7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = int7.png; sourceTree = "<group>"; };
+		63FF03D4178974D0005865BB /* int3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = int3.png; sourceTree = "<group>"; };
+		63FF03D5178974D0005865BB /* int2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = int2.png; sourceTree = "<group>"; };
+		63FF03D6178974D0005865BB /* int1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = int1.png; sourceTree = "<group>"; };
+		63FF03DA178974E9005865BB /* int6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = int6.png; sourceTree = "<group>"; };
+		63FF03DB178974E9005865BB /* int5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = int5.png; sourceTree = "<group>"; };
+		63FF03DC178974E9005865BB /* int4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = int4.png; sourceTree = "<group>"; };
+		63FF03E0178A645F005865BB /* g1calc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = g1calc.png; sourceTree = "<group>"; };
+		BF3E120E1792A1C600555DBB /* Kefa.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = Kefa.ttc; sourceTree = "<group>"; };
+		BF823140177858490082E6E5 /* backArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backArrow.png; sourceTree = "<group>"; };
+		BF823141177858490082E6E5 /* backArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backArrow@2x.png"; sourceTree = "<group>"; };
+		BF82315217785B8A0082E6E5 /* searchButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = searchButton.png; sourceTree = "<group>"; };
+		BF82315317785B8A0082E6E5 /* searchButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "searchButton@2x.png"; sourceTree = "<group>"; };
+		BF82315417785B8A0082E6E5 /* settingsButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settingsButton.png; sourceTree = "<group>"; };
+		BF82315517785B8A0082E6E5 /* settingsButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "settingsButton@2x.png"; sourceTree = "<group>"; };
+		BF82315A17785BA00082E6E5 /* formulaeLogo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "formulaeLogo@2x.png"; sourceTree = "<group>"; };
+		BF82315B17785BA00082E6E5 /* formulaeLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = formulaeLogo.png; sourceTree = "<group>"; };
+		BF82315E177AD6510082E6E5 /* EquationViewer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EquationViewer.h; sourceTree = "<group>"; };
+		BF82315F177AD6510082E6E5 /* EquationViewer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EquationViewer.m; sourceTree = "<group>"; };
+		BFD085A8177C39E0002340A6 /* iPhone_Icon_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhone_Icon_icon.png; sourceTree = "<group>"; };
+		BFD085AA177C39EB002340A6 /* iPhoneRetina_Icon_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhoneRetina_Icon_icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -359,8 +461,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63ACA4E8172BE95F002606C7 /* MediaPlayer.framework in Frameworks */,
-				63284C20172295490093C4B3 /* AVFoundation.framework in Frameworks */,
+				63FF038D17892E09005865BB /* QuartzCore.framework in Frameworks */,
 				63284BCD17226E190093C4B3 /* UIKit.framework in Frameworks */,
 				63284BCF17226E190093C4B3 /* Foundation.framework in Frameworks */,
 				63284BD117226E190093C4B3 /* CoreGraphics.framework in Frameworks */,
@@ -373,12 +474,8 @@
 		63284BC017226E190093C4B3 = {
 			isa = PBXGroup;
 			children = (
-				63ACA4E7172BE95F002606C7 /* MediaPlayer.framework */,
-				63284C1F172295490093C4B3 /* AVFoundation.framework */,
-				63284C071722883B0093C4B3 /* Resized-RFXPI.png */,
-				63284C05172288380093C4B3 /* Resized-UT6SR-1.png */,
-				63284C03172281850093C4B3 /* Resized-UUKXV.png */,
-				63284C01172281700093C4B3 /* Resized-MJSJQ.png */,
+				63FF038C17892E09005865BB /* QuartzCore.framework */,
+				BF82313617784DEF0082E6E5 /* Files */,
 				63284BD217226E190093C4B3 /* Formulae */,
 				63284BCB17226E190093C4B3 /* Frameworks */,
 				63284BCA17226E190093C4B3 /* Products */,
@@ -406,20 +503,19 @@
 		63284BD217226E190093C4B3 /* Formulae */ = {
 			isa = PBXGroup;
 			children = (
-				63284BDB17226E190093C4B3 /* AppDelegate.h */,
-				63284BDC17226E190093C4B3 /* AppDelegate.m */,
-				63284BE717226E190093C4B3 /* ViewController.h */,
-				63284BE817226E190093C4B3 /* ViewController.m */,
-				63ACA4E9172BF5F0002606C7 /* Formulae.mp4 */,
-				63284CD91723A0410093C4B3 /* CustomAlertView.h */,
-				63284CDA1723A0410093C4B3 /* CustomAlertView.m */,
+				63FF03CC178974A7005865BB /* int10.png */,
+				63FF03CD178974A7005865BB /* int9.png */,
+				63FF03CE178974A7005865BB /* int8.png */,
+				63FF03CF178974A7005865BB /* int7.png */,
+				63FF03DA178974E9005865BB /* int6.png */,
+				63FF03DB178974E9005865BB /* int5.png */,
+				63FF03DC178974E9005865BB /* int4.png */,
+				63FF03D4178974D0005865BB /* int3.png */,
+				63FF03D5178974D0005865BB /* int2.png */,
+				63FF03D6178974D0005865BB /* int1.png */,
 				63670489172B4D690038ECBD /* slopederivative.png */,
-				63ACA4EB172BF7BC002606C7 /* formulaios.png */,
-				63284BE417226E190093C4B3 /* MainStoryboard.storyboard */,
-				63ACA4ED172BF81B002606C7 /* play_button.png */,
 				63284CD717239ADD0093C4B3 /* concial.png */,
 				63C52FC2172BBA4C0084CAAC /* lnxlog.png */,
-				63284BEF1722730B0093C4B3 /* printable-pdf-graph-paper1.jpg */,
 				63C52FC4172BC0690084CAAC /* trigfunctions.png */,
 				63C52FC6172BCD320084CAAC /* chain.png */,
 				63284C8F17236E3C0093C4B3 /* divisor.png */,
@@ -451,6 +547,7 @@
 				63284C9D1723719D0093C4B3 /* me.png */,
 				63284CC9172398E50093C4B3 /* tsacircle.png */,
 				63284C97172370300093C4B3 /* mypercent.png */,
+				636622D017D07F1500CDD510 /* Year 11 Quadratics What do I remember.pdf */,
 				63284CB91723957B0093C4B3 /* areame.png */,
 				63284C8117236AFB0093C4B3 /* firstderiviszero.png */,
 				63284C731722C3A20093C4B3 /* pythag.png */,
@@ -459,7 +556,6 @@
 				63284C9117236EA00093C4B3 /* multiplier.png */,
 				63284C8717236BAA0093C4B3 /* deltadiscrim.png */,
 				63284C9517236F390093C4B3 /* otherway.png */,
-				63284C211722A77A0093C4B3 /* computer 62.mp3 */,
 				63284C4F1722BA320093C4B3 /* indexme.png */,
 				63284C8917236BEC0093C4B3 /* quadform.png */,
 				63284C611722C0560093C4B3 /* sinratio.png */,
@@ -521,7 +617,6 @@
 				63284C351722AE340093C4B3 /* slopechangerates.png */,
 				63284C4B1722B70F0093C4B3 /* binomial2line.png */,
 				63284C291722AB8E0093C4B3 /* radius.png */,
-				63284C1B172293090093C4B3 /* button-9.mp3 */,
 				63284C251722A9DE0093C4B3 /* dist.png */,
 				63284C431722B3F90093C4B3 /* t score.png */,
 				63284CB1172376AD0093C4B3 /* veli.png */,
@@ -582,6 +677,92 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		63FF038517892CE4005865BB /* Open Source Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				63FF038617892CE4005865BB /* ECSlidingViewController.h */,
+				63FF038717892CE4005865BB /* ECSlidingViewController.m */,
+				63FF038817892CE4005865BB /* UIImage+ImageWithUIView.h */,
+				63FF038917892CE4005865BB /* UIImage+ImageWithUIView.m */,
+			);
+			name = "Open Source Frameworks";
+			path = ECSlidingViewController;
+			sourceTree = "<group>";
+		};
+		BF82313617784DEF0082E6E5 /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF3E120E1792A1C600555DBB /* Kefa.ttc */,
+				63284BE417226E190093C4B3 /* MainStoryboard.storyboard */,
+				63284BDB17226E190093C4B3 /* AppDelegate.h */,
+				63284BDC17226E190093C4B3 /* AppDelegate.m */,
+				63FF03C917895C58005865BB /* CustomSegueLeft.h */,
+				63FF03CA17895C59005865BB /* CustomSegueLeft.m */,
+				63158ED917B8D8B30073EF64 /* CustomSegueRight.h */,
+				63158EDA17B8D8B40073EF64 /* CustomSegueRight.m */,
+				63284BE717226E190093C4B3 /* ViewController.h */,
+				6305E1E217ABA9B900D9B8FD /* bottomShadow@2x.png */,
+				633EFBAC17C78B4A0030436A /* u subsitution worksheet-1.pdf */,
+				636622CE17D07DEA00CDD510 /* Diff Quiz.pdf */,
+				6305E1E017ABA9B500D9B8FD /* topShadow@2x.png */,
+				63284BE817226E190093C4B3 /* ViewController.m */,
+				63FF038E17892E72005865BB /* MenuViewController.h */,
+				636622D817D081E700CDD510 /* Fractions Exam Grade 7.pdf */,
+				636622DE17D090B600CDD510 /* First Principles.pdf */,
+				63FF038F17892E72005865BB /* MenuViewController.m */,
+				635F8B0617941CEA009D7DF5 /* SeguePush.h */,
+				63D12E2C17BF1A5A00ABACEE /* year 10 exponents and logs quiz.pdf */,
+				636622E017D0924E00CDD510 /* POWER RULE 101.pdf */,
+				635F8B0717941CEA009D7DF5 /* SeguePush.m */,
+				636622F217D0A0D900CDD510 /* SLOPE.pdf */,
+				BF82315E177AD6510082E6E5 /* EquationViewer.h */,
+				636622D217D07FF300CDD510 /* Mathematics Statistics Test .pdf */,
+				636622D417D0807B00CDD510 /* Maths Studies Binomial Distribution Revision.pdf */,
+				636622E417D0935A00CDD510 /* SUM RULE.pdf */,
+				636622EE17D095BE00CDD510 /* TRIGONOMETRIC FUNCTION DERIVATIVES.pdf */,
+				636622F617D0A2D000CDD510 /* MIDPOINT.pdf */,
+				636622F417D0A24C00CDD510 /* DISTANCE.pdf */,
+				636622F017D0963100CDD510 /* CHAIN RULE.pdf */,
+				636622F817D0A34A00CDD510 /* INTERCEPTS.pdf */,
+				BF82315F177AD6510082E6E5 /* EquationViewer.m */,
+				636622EC17D0954500CDD510 /* LNX.pdf */,
+				636622EA17D094F700CDD510 /* EULER RULE.pdf */,
+				636622E817D094AE00CDD510 /* PRODUCT RULE.pdf */,
+				636622E617D093EC00CDD510 /* QUOTIENT RULE.pdf */,
+				636622E217D092F500CDD510 /* POWER RULE.pdf */,
+				636622D617D080E300CDD510 /* Physics Textbook 5.0.pdf */,
+				636622DA17D082AE00CDD510 /* How many moles in a ham and cheese sandwich.pdf */,
+				63FF038217892B87005865BB /* InitialView.h */,
+				63FF038317892B87005865BB /* InitialView.m */,
+				63158ED617B5CB910073EF64 /* Red.h */,
+				63158ED717B5CB910073EF64 /* Red.m */,
+				63FF038517892CE4005865BB /* Open Source Frameworks */,
+				BF82313717784E200082E6E5 /* Graphics */,
+			);
+			name = Files;
+			sourceTree = "<group>";
+		};
+		BF82313717784E200082E6E5 /* Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				63158EDC17B8E4920073EF64 /* documentsLogoLarge@2x.png */,
+				63FF03E0178A645F005865BB /* g1calc.png */,
+				63FF03C21789433F005865BB /* GRAPHITE-Education-Logo@2x.png */,
+				63FF037D178921E4005865BB /* scroller.png */,
+				BFD085AA177C39EB002340A6 /* iPhoneRetina_Icon_icon.png */,
+				BFD085A8177C39E0002340A6 /* iPhone_Icon_icon.png */,
+				BF82315A17785BA00082E6E5 /* formulaeLogo@2x.png */,
+				BF82315B17785BA00082E6E5 /* formulaeLogo.png */,
+				BF82315217785B8A0082E6E5 /* searchButton.png */,
+				BF82315317785B8A0082E6E5 /* searchButton@2x.png */,
+				BF82315417785B8A0082E6E5 /* settingsButton.png */,
+				BF82315517785B8A0082E6E5 /* settingsButton@2x.png */,
+				BF823140177858490082E6E5 /* backArrow.png */,
+				BF823141177858490082E6E5 /* backArrow@2x.png */,
+			);
+			name = Graphics;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -638,7 +819,6 @@
 				63284BE117226E190093C4B3 /* Default@2x.png in Resources */,
 				63284BE317226E190093C4B3 /* Default-568h@2x.png in Resources */,
 				63284BE617226E190093C4B3 /* MainStoryboard.storyboard in Resources */,
-				63284BF01722730B0093C4B3 /* printable-pdf-graph-paper1.jpg in Resources */,
 				63284BF2172274E50093C4B3 /* first principles.png in Resources */,
 				63284BF4172275970093C4B3 /* fist.png in Resources */,
 				63284BF6172275C20093C4B3 /* dove.png in Resources */,
@@ -647,10 +827,6 @@
 				63284BFC172278630093C4B3 /* prod.png in Resources */,
 				63284BFE1722790D0093C4B3 /* fdaprime.png in Resources */,
 				63284C0017227A040093C4B3 /* etodax.png in Resources */,
-				63284C02172281700093C4B3 /* Resized-MJSJQ.png in Resources */,
-				63284C04172281850093C4B3 /* Resized-UUKXV.png in Resources */,
-				63284C06172288380093C4B3 /* Resized-UT6SR-1.png in Resources */,
-				63284C081722883B0093C4B3 /* Resized-RFXPI.png in Resources */,
 				63284C0A172288E60093C4B3 /* eulers rule.png in Resources */,
 				63284C0C172289330093C4B3 /* yomumma.png in Resources */,
 				63284C0E17228B7E0093C4B3 /* lnx.png in Resources */,
@@ -660,8 +836,6 @@
 				63284C1617228D370093C4B3 /* tanablonde.png in Resources */,
 				63284C1817228DEE0093C4B3 /* chain gang.png in Resources */,
 				63284C1A17228E140093C4B3 /* chaingangers.png in Resources */,
-				63284C1C172293090093C4B3 /* button-9.mp3 in Resources */,
-				63284C221722A77A0093C4B3 /* computer 62.mp3 in Resources */,
 				63284C241722A9280093C4B3 /* slope.png in Resources */,
 				63284C261722A9DE0093C4B3 /* dist.png in Resources */,
 				63284C281722AA540093C4B3 /* midpoint.png in Resources */,
@@ -789,9 +963,56 @@
 				63C52FC3172BBA4C0084CAAC /* lnxlog.png in Resources */,
 				63C52FC5172BC0690084CAAC /* trigfunctions.png in Resources */,
 				63C52FC7172BCD320084CAAC /* chain.png in Resources */,
-				63ACA4EA172BF5F1002606C7 /* Formulae.mp4 in Resources */,
-				63ACA4EC172BF7BC002606C7 /* formulaios.png in Resources */,
-				63ACA4EE172BF81B002606C7 /* play_button.png in Resources */,
+				BF823142177858490082E6E5 /* backArrow.png in Resources */,
+				BF823143177858490082E6E5 /* backArrow@2x.png in Resources */,
+				BF82315617785B8A0082E6E5 /* searchButton.png in Resources */,
+				BF82315717785B8A0082E6E5 /* searchButton@2x.png in Resources */,
+				BF82315817785B8A0082E6E5 /* settingsButton.png in Resources */,
+				BF82315917785B8A0082E6E5 /* settingsButton@2x.png in Resources */,
+				BF82315C17785BA00082E6E5 /* formulaeLogo@2x.png in Resources */,
+				BF82315D17785BA00082E6E5 /* formulaeLogo.png in Resources */,
+				BFD085A9177C39E0002340A6 /* iPhone_Icon_icon.png in Resources */,
+				BFD085AB177C39EB002340A6 /* iPhoneRetina_Icon_icon.png in Resources */,
+				63FF037E178921E4005865BB /* scroller.png in Resources */,
+				63FF03C31789433F005865BB /* GRAPHITE-Education-Logo@2x.png in Resources */,
+				63FF03D0178974A7005865BB /* int10.png in Resources */,
+				63FF03D1178974A7005865BB /* int9.png in Resources */,
+				63FF03D2178974A7005865BB /* int8.png in Resources */,
+				63FF03D3178974A7005865BB /* int7.png in Resources */,
+				63FF03D7178974D0005865BB /* int3.png in Resources */,
+				63FF03D8178974D0005865BB /* int2.png in Resources */,
+				63FF03D9178974D0005865BB /* int1.png in Resources */,
+				63FF03DD178974E9005865BB /* int6.png in Resources */,
+				63FF03DE178974E9005865BB /* int5.png in Resources */,
+				63FF03DF178974E9005865BB /* int4.png in Resources */,
+				63FF03E1178A645F005865BB /* g1calc.png in Resources */,
+				BF3E120F1792A1C600555DBB /* Kefa.ttc in Resources */,
+				6305E1E117ABA9B500D9B8FD /* topShadow@2x.png in Resources */,
+				6305E1E317ABA9B900D9B8FD /* bottomShadow@2x.png in Resources */,
+				63158EDD17B8E4930073EF64 /* documentsLogoLarge@2x.png in Resources */,
+				63D12E2D17BF1A5A00ABACEE /* year 10 exponents and logs quiz.pdf in Resources */,
+				633EFBAD17C78B4A0030436A /* u subsitution worksheet-1.pdf in Resources */,
+				636622CF17D07DEA00CDD510 /* Diff Quiz.pdf in Resources */,
+				636622D117D07F1500CDD510 /* Year 11 Quadratics What do I remember.pdf in Resources */,
+				636622D317D07FF300CDD510 /* Mathematics Statistics Test .pdf in Resources */,
+				636622D517D0807B00CDD510 /* Maths Studies Binomial Distribution Revision.pdf in Resources */,
+				636622D717D080E300CDD510 /* Physics Textbook 5.0.pdf in Resources */,
+				636622D917D081E700CDD510 /* Fractions Exam Grade 7.pdf in Resources */,
+				636622DB17D082AE00CDD510 /* How many moles in a ham and cheese sandwich.pdf in Resources */,
+				636622DF17D090B600CDD510 /* First Principles.pdf in Resources */,
+				636622E117D0924E00CDD510 /* POWER RULE 101.pdf in Resources */,
+				636622E317D092F500CDD510 /* POWER RULE.pdf in Resources */,
+				636622E517D0935A00CDD510 /* SUM RULE.pdf in Resources */,
+				636622E717D093EC00CDD510 /* QUOTIENT RULE.pdf in Resources */,
+				636622E917D094AE00CDD510 /* PRODUCT RULE.pdf in Resources */,
+				636622EB17D094F700CDD510 /* EULER RULE.pdf in Resources */,
+				636622ED17D0954500CDD510 /* LNX.pdf in Resources */,
+				636622EF17D095BE00CDD510 /* TRIGONOMETRIC FUNCTION DERIVATIVES.pdf in Resources */,
+				636622F117D0963100CDD510 /* CHAIN RULE.pdf in Resources */,
+				636622F317D0A0D900CDD510 /* SLOPE.pdf in Resources */,
+				636622F517D0A24C00CDD510 /* DISTANCE.pdf in Resources */,
+				636622F717D0A2D100CDD510 /* MIDPOINT.pdf in Resources */,
+				636622F917D0A34A00CDD510 /* INTERCEPTS.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -805,7 +1026,15 @@
 				63284BD917226E190093C4B3 /* main.m in Sources */,
 				63284BDD17226E190093C4B3 /* AppDelegate.m in Sources */,
 				63284BE917226E190093C4B3 /* ViewController.m in Sources */,
-				63284CDB1723A0410093C4B3 /* CustomAlertView.m in Sources */,
+				BF823160177AD6510082E6E5 /* EquationViewer.m in Sources */,
+				63FF038417892B87005865BB /* InitialView.m in Sources */,
+				63FF038A17892CE4005865BB /* ECSlidingViewController.m in Sources */,
+				63FF038B17892CE4005865BB /* UIImage+ImageWithUIView.m in Sources */,
+				63FF039017892E72005865BB /* MenuViewController.m in Sources */,
+				63FF03CB17895C5A005865BB /* CustomSegueLeft.m in Sources */,
+				635F8B0817941CEA009D7DF5 /* SeguePush.m in Sources */,
+				63158ED817B5CB910073EF64 /* Red.m in Sources */,
+				63158EDB17B8D8B40073EF64 /* CustomSegueRight.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -826,6 +1055,7 @@
 				63284BE517226E190093C4B3 /* en */,
 			);
 			name = MainStoryboard.storyboard;
+			path = Formulae;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -889,14 +1119,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Achim Grozinger (NKH2X549NQ)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Achim Grozinger (NKH2X549NQ)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Lecker PTY LTD (FF5R64KLU6)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Lecker PTY LTD (FF5R64KLU6)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Formulae/Formulae-Prefix.pch";
 				INFOPLIST_FILE = "Formulae/Formulae-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "64E3C7E4-C3D7-4DA4-8E9D-BACC45BC451C";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "64E3C7E4-C3D7-4DA4-8E9D-BACC45BC451C";
+				PROVISIONING_PROFILE = "71CC5FA9-82FB-4675-9609-D8F2462644FC";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "71CC5FA9-82FB-4675-9609-D8F2462644FC";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -905,14 +1135,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Achim Grozinger (NKH2X549NQ)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Achim Grozinger (NKH2X549NQ)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Lecker PTY LTD (FF5R64KLU6)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Lecker PTY LTD (FF5R64KLU6)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Formulae/Formulae-Prefix.pch";
 				INFOPLIST_FILE = "Formulae/Formulae-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "64E3C7E4-C3D7-4DA4-8E9D-BACC45BC451C";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "64E3C7E4-C3D7-4DA4-8E9D-BACC45BC451C";
+				PROVISIONING_PROFILE = "71CC5FA9-82FB-4675-9609-D8F2462644FC";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "71CC5FA9-82FB-4675-9609-D8F2462644FC";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
