@@ -7,19 +7,45 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <MediaPlayer/MediaPlayer.h>
+#import <QuartzCore/QuartzCore.h>
+#import "ECSlidingViewController.h"
 
 @interface ViewController : UIViewController {
     IBOutlet UIScrollView *scroller;
-    IBOutlet UIWebView *webView;
-    IBOutlet UIImageView *imageView;
+    IBOutlet UILabel *Label;
+    IBOutlet UILabel *Label2;
+    IBOutlet UILabel *Label3;
+    IBOutlet UILabel *Label4;
+    IBOutlet UILabel *Label5;
+    IBOutlet UILabel *Label6;
+    IBOutlet UILabel *Label7;
+    IBOutlet UILabel *Label8;
+    IBOutlet UILabel *Label9;
+    IBOutlet UILabel *Label10;
+    IBOutlet UILabel *Label11;
+    IBOutlet UILabel *Label12;
+    IBOutlet UILabel *Label13;
+    IBOutlet UILabel *special;
+   
 }
-@property (nonatomic,strong)IBOutlet UIWebView *webView;
-@property (nonatomic,strong)IBOutlet UIImageView *imageView;
--(IBAction)powerRule1;
--(IBAction)sumRule;
--(IBAction)quotientRule;
--(IBAction)chainRule;
--(IBAction)trigRule;
--(IBAction)videoPlay;
+
+-(IBAction)someMethod;
+@property (nonatomic, strong) UILabel *Label;
+@property (nonatomic, strong) UILabel *special;
+@property (nonatomic, strong) UILabel *Label2;
+@property (nonatomic, strong) UILabel *Label3;
+@property (nonatomic, strong) UILabel *Label4;
+@property (nonatomic, strong) UILabel *Label5;
+@property (nonatomic, strong) UILabel *Label6;
+@property (nonatomic, strong) UILabel *Label7;
+@property (nonatomic, strong) UILabel *Label8;
+@property (nonatomic, strong) UILabel *Label9;
+@property (nonatomic, strong) UILabel *Label10;
+@property (nonatomic, strong) UILabel *Label11;
+@property (nonatomic, strong) UILabel *Label12;
+@property (nonatomic, strong) UILabel *Label13;
+-(IBAction)usub;
+
+@property (nonatomic, strong) UIScrollView *scroller;
+
 @end

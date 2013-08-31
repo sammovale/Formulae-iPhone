@@ -7,316 +7,128 @@
 //
 
 #import "ViewController.h"
-#import <AVFoundation/AVFoundation.h>
-#import "CustomAlertView.h"
+#import "MenuViewController.h"
+#import "SeguePush.h"
+#import "EquationViewer.h"
+#import "AppDelegate.h"
+#import <QuartzCore/QuartzCore.h>
 
-@interface ViewController ()
+@interface ViewController () < MenuViewControllerDelegate>
 
 @end
 
 @implementation ViewController
-@synthesize webView;
-@synthesize imageView;
+@synthesize scroller;
+@synthesize Label, Label2, Label3, Label4, Label5, Label6, Label7, Label8, Label9, Label10, Label11, Label12, Label13;
+
+
+
+
+
+
+
+- (void)viewDidAppear:(BOOL)animated
+{
+    
+    
+    [super viewDidAppear:animated];
+}
+
+- (void)viewWillDisappear:(BOOL)animated
+{
+	[super viewWillDisappear:animated];
+}
+
+- (void)viewDidDisappear:(BOOL)animated
+{
+	[super viewDidDisappear:animated];
+}
 
 - (void)viewDidLoad
-{ [scroller setScrollEnabled:YES];
-    [scroller setContentSize:CGSizeMake(320, 1120)];
+{
     
+   
+    [scroller setScrollEnabled:YES];
+    [scroller setContentSize:CGSizeMake(320, 740)];
     [super viewDidLoad];
     
-    [webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://twitter.com/formulaeios"]]];
+  
     
-    
-    [imageView setHidden:YES];
-    
-    { UISwipeGestureRecognizer *swipeRecognizer =
-		[[UISwipeGestureRecognizer alloc]
-		 initWithTarget:self
-		 action:@selector(swipeRightDetected:)];
-		swipeRecognizer.direction = UISwipeGestureRecognizerDirectionRight;
-		[self.view addGestureRecognizer:swipeRecognizer];
-	}
-	{UISwipeGestureRecognizer *swipeRecognizer =
-		[[UISwipeGestureRecognizer alloc]	 initWithTarget:self
-												   action:@selector(swipeLeftDetected:)];
-		swipeRecognizer.direction = UISwipeGestureRecognizerDirectionLeft;
-		[self.view addGestureRecognizer:swipeRecognizer];
-		 }
-    
-    
-    BOOL ranBefore = [[NSUserDefaults standardUserDefaults]boolForKey:@"RanBefore"];
-    if(!ranBefore) {
-        CustomAlertView *alert = [[CustomAlertView alloc]
-                                  initWithTitle:@"Welcome to Formulae 1.1" message:@"Thank you for purchasing! Worked examples for the Differential Calculus section are now in the app. Simply tap on a formula to view then swipe left or right to dismiss. Remember to contribute formulae on twitter (@FormulaeiOS). More worked examples coming soon."  delegate:self cancelButtonTitle:@"OK" otherButtonTitles: nil];
-        
-                
-         
-        [alert show];
-        [[NSUserDefaults standardUserDefaults]setBool:YES forKey:@"RanBefore"];
-        [[NSUserDefaults standardUserDefaults] synchronize];
+    }
 
-    
-    
-    
-        }
-    
-}
 
--(IBAction)messages {
-    
-    CustomAlertView *alert = [[CustomAlertView alloc]
-                              initWithTitle:@"What is Formulae?" message:@"Formulae is a community in #math #physics #chemistry which grows based on contributions. Converse with the community via Twitter and enjoy the many formulae you have at your fingertips. Worked examples, like those in the Differential Calculus section, are being added and will help you feel confident with using formulae."  delegate:self cancelButtonTitle:@"OK" otherButtonTitles: nil];
-    
-    
-    
-    [alert show];
 
-    
-    
-}
 
--(IBAction)videoPlay {
 
-NSString *filepath   =   [[NSBundle mainBundle] pathForResource:@"Formulae" ofType:@"mp4"];
-NSURL    *fileURL    =   [NSURL fileURLWithPath:filepath];
-MPMoviePlayerController *moviePlayerController = [[MPMoviePlayerController alloc] initWithContentURL:fileURL];
-[self.view addSubview:moviePlayerController.view];
-moviePlayerController.fullscreen = YES;
-[moviePlayerController play];
 
-}
--(void)viewDidAppear:(BOOL)animated {
-    
-    [imageView setHidden:YES];
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
    
     
 }
 
--(IBAction)firstPrinciples {
-    [imageView setHidden:NO];
-    UIImage *image = [UIImage imageNamed: @"slopederivative.png"];
-    [imageView setImage:image];
+- (void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
     
-    [UIView animateWithDuration:.5 animations:^{
+     [Label setFont:[UIFont fontWithName:@"Kefa" size:17]];
+    [Label2 setFont:[UIFont fontWithName:@"Kefa" size:17]];
+    [Label3 setFont:[UIFont fontWithName:@"Kefa" size:17]];
+    [Label4 setFont:[UIFont fontWithName:@"Kefa" size:17]];
+    [Label5 setFont:[UIFont fontWithName:@"Kefa" size:17]];
+    [Label6 setFont:[UIFont fontWithName:@"Kefa" size:17]];
+    [Label7 setFont:[UIFont fontWithName:@"Kefa" size:17]];
+    [Label8 setFont:[UIFont fontWithName:@"Kefa" size:17]];
+    [Label9 setFont:[UIFont fontWithName:@"Kefa" size:17]];
+    [Label10 setFont:[UIFont fontWithName:@"Kefa" size:17]];
+    [Label11 setFont:[UIFont fontWithName:@"Kefa" size:17]];
+    [Label12 setFont:[UIFont fontWithName:@"Kefa" size:17]];
+    [Label13 setFont:[UIFont fontWithName:@"Kefa" size:17]];
+    [special setFont:[UIFont fontWithName:@"Kefa" size:19]];
         
-        imageView.alpha = 1;
-        
-        
-        
-    } ];
-
-    [scroller setScrollEnabled:YES];
-    [scroller setContentSize:CGSizeMake(320, 850)];
-    
-}
-
--(IBAction)euler {
-    [imageView setHidden:NO];
-    UIImage *image = [UIImage imageNamed: @"euler.png"];
-    [imageView setImage:image];
-    
-    [UIView animateWithDuration:.5 animations:^{
-        
-        imageView.alpha = 1;
-        
-        
-        
-    } ];
+    self.view.layer.shadowOpacity = 0.75f;
+    self.view.layer.shadowRadius = 10.0f;
+    self.view.layer.shadowColor = [[UIColor blackColor] CGColor];
     
     
-    [scroller setScrollEnabled:YES];
-    [scroller setContentSize:CGSizeMake(320, 850)];
+    if (![self.slidingViewController.underLeftViewController isKindOfClass:[MenuViewController class]]) {
+        self.slidingViewController.underLeftViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"MenuView"];
+        
+        [(MenuViewController *)self.slidingViewController.underLeftViewController setDelegate:self];
+    }
     
-}
-
--(IBAction)powerRule {
-    [imageView setHidden:NO];
-    UIImage *image = [UIImage imageNamed: @"powerule.png"];
-    [imageView setImage:image];
-    
-    [UIView animateWithDuration:.5 animations:^{
+    if (![self.slidingViewController.underRightViewController isKindOfClass:[EquationViewer class]]) {
+        self.slidingViewController.underRightViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"INTCALC"];
         
-        imageView.alpha = 1;
-        
-        
-        
-    } ];
+       [(EquationViewer *)self.slidingViewController.underRightViewController setDelegate:self];
+    }
     
     
-    [scroller setScrollEnabled:YES];
-    [scroller setContentSize:CGSizeMake(320, 850)];
     
-}
-
--(IBAction)powerRule1 {
-    [imageView setHidden:NO];
-    UIImage *image = [UIImage imageNamed: @"poweri.png"];
-    [imageView setImage:image];
-    
-    [UIView animateWithDuration:.5 animations:^{
-        
-        imageView.alpha = 1;
-        
-        
-        
-    } ];
-        
-    [scroller setScrollEnabled:YES];
-    [scroller setContentSize:CGSizeMake(320, 850)];
-    
-}
-
--(IBAction)sumRule {
-    [imageView setHidden:NO];
-    UIImage *image = [UIImage imageNamed: @"sumrule.png"];
-    [imageView setImage:image];
-    
-    [UIView animateWithDuration:.5 animations:^{
-        
-        imageView.alpha = 1;
-        
-        
-        
-    } ];
-    
-    
-    [scroller setScrollEnabled:YES];
-    [scroller setContentSize:CGSizeMake(320, 850)];
-    
-}
-
--(IBAction)quotientRule {
-    [imageView setHidden:NO];
-    UIImage *image = [UIImage imageNamed: @"mymaths.png"];
-    [imageView setImage:image];
-    
-    [UIView animateWithDuration:.5 animations:^{
-        
-        imageView.alpha = 1;
-        
-        
-        
-    } ];
-    
-    [scroller setScrollEnabled:YES];
-    [scroller setContentSize:CGSizeMake(320, 850)];
-    
-}
-
--(IBAction)lnxRule {
-    [imageView setHidden:NO];
-    UIImage *image = [UIImage imageNamed: @"lnxlog.png"];
-    [imageView setImage:image];
-    
-    [UIView animateWithDuration:.5 animations:^{
-        
-        imageView.alpha = 1;
-        
-        
-        
-    } ];
-
-    [scroller setScrollEnabled:YES];
-    [scroller setContentSize:CGSizeMake(320, 850)];
-    
-}
-
--(IBAction)trigRule {
-    [imageView setHidden:NO];
-    UIImage *image = [UIImage imageNamed: @"trigfunctions.png"];
-    [imageView setImage:image];
-    
-    [UIView animateWithDuration:.5 animations:^{
-        
-        imageView.alpha = 1;
-        
-        
-        
-    } ];
-    
-
-    
-    [scroller setScrollEnabled:YES];
-    [scroller setContentSize:CGSizeMake(320, 850)];
-    
-}
-
--(IBAction)chainRule {
-    [imageView setHidden:NO];
-    UIImage *image = [UIImage imageNamed: @"chain.png"];
-    [imageView setImage:image];
-    
-    [UIView animateWithDuration:.5 animations:^{
-        
-        imageView.alpha = 1;
-        
-        
-        
-    } ];
-    
-    
-
-    [scroller setScrollEnabled:YES];
-    [scroller setContentSize:CGSizeMake(320, 850)];
+    [self.view addGestureRecognizer:self.slidingViewController.panGesture];
     
 }
 
 
--(IBAction)productRule {
-    [imageView setHidden:NO];
-    UIImage *image = [UIImage imageNamed: @"productrule.png"];
-    [imageView setImage:image];
-    
-    [UIView animateWithDuration:.5 animations:^{
-        
-        imageView.alpha = 1;
-        
-        
-        
-    
-    } ];
+
+
+
     
 
-    [scroller setScrollEnabled:YES];
-    [scroller setContentSize:CGSizeMake(320, 850)];
+
+- (void)menuViewControllerDidFinishWithCategoryId:(NSInteger)categoryId
+{
+
+    [self.slidingViewController resetTopView];
+}
+
+-(IBAction)exit:(UIStoryboardSegue *)test{
+    
     
 }
-- (IBAction)swipeRightDetected:(UIGestureRecognizer *)sender {
-	[UIView animateWithDuration:.5 animations:^{
-        
-        imageView.alpha = 0;
-        [imageView setHidden:YES];
-        
-        
-    } ];
-    
-    [scroller setScrollEnabled:YES];
-    [scroller setContentSize:CGSizeMake(320, 1120)];
-
-}
-     
 
 
-- (IBAction)swipeLeftDetected:(UIGestureRecognizer *)sender {
-    [UIView animateWithDuration:.5 animations:^{
-        
-        imageView.alpha = 0;
-        [imageView setHidden:YES];
-        
-        
-    } ];
-    
 
-    [scroller setScrollEnabled:YES];
-    [scroller setContentSize:CGSizeMake(320, 1120)];
-}
-    
-	// Do any additional setup after loading the view, typically from a nib.
-
--(void)webView:(UIWebView *)webView didFailLoadWithError:(NSError *)error {
-    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"This function requires an Internet Connection" message:@"Please turn on Wi-Fi or Cellular Data to access this function" delegate:self cancelButtonTitle:@"Dismiss" otherButtonTitles:nil];
-    [alert show];
-}
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
