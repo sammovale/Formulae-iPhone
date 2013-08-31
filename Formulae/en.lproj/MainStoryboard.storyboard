@@ -845,7 +845,7 @@
                                 <color key="backgroundColor" red="0.12941176469999999" green="0.12941176469999999" blue="0.12941176469999999" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" indicatorStyle="white" id="YnB-9C-mGD">
-                                <rect key="frame" x="0.0" y="54" width="320" height="494"/>
+                                <rect key="frame" x="0.0" y="55" width="320" height="493"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" heightSizable="YES"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="sYm-AA-5Cv">
@@ -1157,6 +1157,9 @@
                                         <state key="highlighted">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="workedexample9" destination="RNG-ua-b7i" eventType="touchUpInside" id="jri-B2-QNx"/>
+                                        </connections>
                                     </button>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Differentiating Sine" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="7Lk-15-f4u">
                                         <rect key="frame" x="23" y="945" width="127" height="51"/>
@@ -1181,6 +1184,9 @@
                                         <state key="highlighted">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="workedexample9" destination="RNG-ua-b7i" eventType="touchUpInside" id="R7j-3j-yf2"/>
+                                        </connections>
                                     </button>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="engchauh.png" id="Yld-eO-EH8">
                                         <rect key="frame" x="136" y="1016" width="170" height="75"/>
@@ -1205,6 +1211,9 @@
                                         <state key="highlighted">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="workedexample9" destination="RNG-ua-b7i" eventType="touchUpInside" id="ErB-DZ-zl7"/>
+                                        </connections>
                                     </button>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Differentiating Tan" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Z59-6h-rBw">
                                         <rect key="frame" x="23" y="1111" width="138" height="51"/>
@@ -1377,6 +1386,9 @@
                                         <state key="highlighted">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="workedexample11" destination="9YR-Qa-xZk" eventType="touchUpInside" id="tCp-Y3-v58"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="wD4-bV-ENG">
                                         <rect key="frame" x="15" y="98" width="291" height="75"/>
@@ -1390,6 +1402,9 @@
                                         <state key="highlighted">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="workedexample12" destination="9YR-Qa-xZk" eventType="touchUpInside" id="zO4-v5-tvz"/>
+                                        </connections>
                                     </button>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="dist.png" id="ICr-SN-s0c">
                                         <rect key="frame" x="136" y="98" width="170" height="75"/>
@@ -1414,6 +1429,9 @@
                                         <state key="highlighted">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="workedexample13" destination="9YR-Qa-xZk" eventType="touchUpInside" id="IkR-Ll-gha"/>
+                                        </connections>
                                     </button>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Midpoint Formula" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Way-TT-JCq">
                                         <rect key="frame" x="30" y="193" width="109" height="51"/>
@@ -6335,6 +6353,11 @@
                 <relationship kind="action" name="unwindToRed:" candidateClass="UIStoryboardSegue"/>
                 <relationship kind="action" name="usub"/>
                 <relationship kind="action" name="verticalLine:"/>
+                <relationship kind="action" name="workedexample11"/>
+                <relationship kind="action" name="workedexample12"/>
+                <relationship kind="action" name="workedexample13"/>
+                <relationship kind="action" name="workedexample14"/>
+                <relationship kind="action" name="workedexample9"/>
                 <relationship kind="outlet" name="Label" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="Label10" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="Label11" candidateClass="UILabel"/>
@@ -6430,7 +6453,6 @@
         <class className="ViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
             <relationships>
-                <relationship kind="action" name="exit:" candidateClass="UIStoryboardSegue"/>
                 <relationship kind="action" name="someMethod"/>
                 <relationship kind="action" name="usub"/>
                 <relationship kind="outlet" name="Label" candidateClass="UILabel"/>

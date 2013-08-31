@@ -86,5 +86,10 @@
 -(IBAction)diffCalc;
 -(IBAction)stats;
 -(IBAction)quads;
+-(IBAction)workedexample9;
+-(IBAction)workedexample11;
+-(IBAction)workedexample12;
+-(IBAction)workedexample13;
+-(IBAction)workedexample14;
 
 @end

@@ -267,6 +267,53 @@ self.topViewController = [self.storyboard instantiateViewControllerWithIdentifie
     self.topViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"Viewer"];
 }
 
+-(IBAction)workedexample11 {
+    NSString *name = @"Slope";
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    
+    [defaults setObject:name forKey:@"name"];
+    
+    [defaults synchronize];
+    
+    self.topViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"Viewer"];
+}
+
+-(IBAction)workedexample12 {
+    NSString *name = @"Distance";
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    
+    [defaults setObject:name forKey:@"name"];
+    
+    [defaults synchronize];
+    
+    self.topViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"Viewer"];
+}
+
+-(IBAction)workedexample13 {
+    NSString *name = @"Midpoint";
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    
+    [defaults setObject:name forKey:@"name"];
+    
+    [defaults synchronize];
+    
+    self.topViewController = [self.storyboard
+                    instantiateViewControllerWithIdentifier:@"Viewer"];
+}
+
+-(IBAction)workedexample14 {
+    NSString *name = @"Intercepts";
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    
+    [defaults setObject:name forKey:@"name"];
+    
+    [defaults synchronize];
+    
+    self.topViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"Viewer"];
+}
+
+
+
 
 
 
@@ -325,8 +372,51 @@ self.topViewController = [self.storyboard instantiateViewControllerWithIdentifie
         [Webview setHidden:NO];
         
     }
+    if([name isEqualToString:@"Slope"]) {
+        
+        NSString *path = [[NSBundle mainBundle] pathForResource:@"SLOPE" ofType:@"pdf"];
+        NSURL *url = [NSURL fileURLWithPath:path];
+        NSURLRequest *request = [NSURLRequest requestWithURL:url];
+        [Webview loadRequest:request];
+        [Webview setScalesPageToFit:YES];
+        [Webview setHidden:NO];
+        
+    }
+    if([name isEqualToString:@"Distance"]) {
+        
+        NSString *path = [[NSBundle mainBundle] pathForResource:@"DISTANCE" ofType:@"pdf"];
+        NSURL *url = [NSURL fileURLWithPath:path];
+        NSURLRequest *request = [NSURLRequest requestWithURL:url];
+        [Webview loadRequest:request];
+        [Webview setScalesPageToFit:YES];
+        [Webview setHidden:NO];
+        
+    }
+    if([name isEqualToString:@"Midpoint"]) {
+        
+        NSString *path = [[NSBundle mainBundle] pathForResource:@"MIDPOINT" ofType:@"pdf"];
+        NSURL *url = [NSURL fileURLWithPath:path];
+        NSURLRequest *request = [NSURLRequest requestWithURL:url];
+        [Webview loadRequest:request];
+        [Webview setScalesPageToFit:YES];
+        [Webview setHidden:NO];
+        
+    }
     
-    if([name isEqualToString:@"ln differentiation"]) {
+    if([name isEqualToString:@"Intercepts"]) {
+        
+        NSString *path = [[NSBundle mainBundle] pathForResource:@"INTERCEPTS" ofType:@"pdf"];
+        NSURL *url = [NSURL fileURLWithPath:path];
+        NSURLRequest *request = [NSURLRequest requestWithURL:url];
+        [Webview loadRequest:request];
+        [Webview setScalesPageToFit:YES];
+        [Webview setHidden:NO];
+        
+    }
+
+
+    
+    if([name isEqualToString:@"ln Differentiation"]) {
         
         NSString *path = [[NSBundle mainBundle] pathForResource:@"LNX" ofType:@"pdf"];
         NSURL *url = [NSURL fileURLWithPath:path];
@@ -372,7 +462,7 @@ self.topViewController = [self.storyboard instantiateViewControllerWithIdentifie
         
     }
     
-    if([name isEqualToString:@"Euler Rule"]) {
+    if([name isEqualToString:@"Euler Differentiation"]) {
         
         NSString *path = [[NSBundle mainBundle] pathForResource:@"EULER RULE" ofType:@"pdf"];
         NSURL *url = [NSURL fileURLWithPath:path];

@@ -176,6 +176,10 @@
 		636622ED17D0954500CDD510 /* LNX.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 636622EC17D0954500CDD510 /* LNX.pdf */; };
 		636622EF17D095BE00CDD510 /* TRIGONOMETRIC FUNCTION DERIVATIVES.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 636622EE17D095BE00CDD510 /* TRIGONOMETRIC FUNCTION DERIVATIVES.pdf */; };
 		636622F117D0963100CDD510 /* CHAIN RULE.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 636622F017D0963100CDD510 /* CHAIN RULE.pdf */; };
+		636622F317D0A0D900CDD510 /* SLOPE.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 636622F217D0A0D900CDD510 /* SLOPE.pdf */; };
+		636622F517D0A24C00CDD510 /* DISTANCE.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 636622F417D0A24C00CDD510 /* DISTANCE.pdf */; };
+		636622F717D0A2D100CDD510 /* MIDPOINT.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 636622F617D0A2D000CDD510 /* MIDPOINT.pdf */; };
+		636622F917D0A34A00CDD510 /* INTERCEPTS.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 636622F817D0A34A00CDD510 /* INTERCEPTS.pdf */; };
 		6367048A172B4D690038ECBD /* slopederivative.png in Resources */ = {isa = PBXBuildFile; fileRef = 63670489172B4D690038ECBD /* slopederivative.png */; };
 		6367048C172B99400038ECBD /* powerule.png in Resources */ = {isa = PBXBuildFile; fileRef = 6367048B172B99400038ECBD /* powerule.png */; };
 		6367048E172B9C520038ECBD /* poweri.png in Resources */ = {isa = PBXBuildFile; fileRef = 6367048D172B9C520038ECBD /* poweri.png */; };
@@ -398,6 +402,10 @@
 		636622EC17D0954500CDD510 /* LNX.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = LNX.pdf; sourceTree = "<group>"; };
 		636622EE17D095BE00CDD510 /* TRIGONOMETRIC FUNCTION DERIVATIVES.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "TRIGONOMETRIC FUNCTION DERIVATIVES.pdf"; sourceTree = "<group>"; };
 		636622F017D0963100CDD510 /* CHAIN RULE.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "CHAIN RULE.pdf"; sourceTree = "<group>"; };
+		636622F217D0A0D900CDD510 /* SLOPE.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = SLOPE.pdf; sourceTree = "<group>"; };
+		636622F417D0A24C00CDD510 /* DISTANCE.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = DISTANCE.pdf; sourceTree = "<group>"; };
+		636622F617D0A2D000CDD510 /* MIDPOINT.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = MIDPOINT.pdf; sourceTree = "<group>"; };
+		636622F817D0A34A00CDD510 /* INTERCEPTS.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = INTERCEPTS.pdf; sourceTree = "<group>"; };
 		63670489172B4D690038ECBD /* slopederivative.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slopederivative.png; sourceTree = "<group>"; };
 		6367048B172B99400038ECBD /* powerule.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = powerule.png; sourceTree = "<group>"; };
 		6367048D172B9C520038ECBD /* poweri.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = poweri.png; sourceTree = "<group>"; };
@@ -706,12 +714,16 @@
 				63D12E2C17BF1A5A00ABACEE /* year 10 exponents and logs quiz.pdf */,
 				636622E017D0924E00CDD510 /* POWER RULE 101.pdf */,
 				635F8B0717941CEA009D7DF5 /* SeguePush.m */,
+				636622F217D0A0D900CDD510 /* SLOPE.pdf */,
 				BF82315E177AD6510082E6E5 /* EquationViewer.h */,
 				636622D217D07FF300CDD510 /* Mathematics Statistics Test .pdf */,
 				636622D417D0807B00CDD510 /* Maths Studies Binomial Distribution Revision.pdf */,
 				636622E417D0935A00CDD510 /* SUM RULE.pdf */,
 				636622EE17D095BE00CDD510 /* TRIGONOMETRIC FUNCTION DERIVATIVES.pdf */,
+				636622F617D0A2D000CDD510 /* MIDPOINT.pdf */,
+				636622F417D0A24C00CDD510 /* DISTANCE.pdf */,
 				636622F017D0963100CDD510 /* CHAIN RULE.pdf */,
+				636622F817D0A34A00CDD510 /* INTERCEPTS.pdf */,
 				BF82315F177AD6510082E6E5 /* EquationViewer.m */,
 				636622EC17D0954500CDD510 /* LNX.pdf */,
 				636622EA17D094F700CDD510 /* EULER RULE.pdf */,
@@ -997,6 +1009,10 @@
 				636622ED17D0954500CDD510 /* LNX.pdf in Resources */,
 				636622EF17D095BE00CDD510 /* TRIGONOMETRIC FUNCTION DERIVATIVES.pdf in Resources */,
 				636622F117D0963100CDD510 /* CHAIN RULE.pdf in Resources */,
+				636622F317D0A0D900CDD510 /* SLOPE.pdf in Resources */,
+				636622F517D0A24C00CDD510 /* DISTANCE.pdf in Resources */,
+				636622F717D0A2D100CDD510 /* MIDPOINT.pdf in Resources */,
+				636622F917D0A34A00CDD510 /* INTERCEPTS.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1103,14 +1119,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Achim Grozinger (NKH2X549NQ)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Achim Grozinger (NKH2X549NQ)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Lecker PTY LTD (FF5R64KLU6)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Lecker PTY LTD (FF5R64KLU6)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Formulae/Formulae-Prefix.pch";
 				INFOPLIST_FILE = "Formulae/Formulae-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "64E3C7E4-C3D7-4DA4-8E9D-BACC45BC451C";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "64E3C7E4-C3D7-4DA4-8E9D-BACC45BC451C";
+				PROVISIONING_PROFILE = "71CC5FA9-82FB-4675-9609-D8F2462644FC";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "71CC5FA9-82FB-4675-9609-D8F2462644FC";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -1119,14 +1135,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Achim Grozinger (NKH2X549NQ)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Achim Grozinger (NKH2X549NQ)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Lecker PTY LTD (FF5R64KLU6)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Lecker PTY LTD (FF5R64KLU6)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Formulae/Formulae-Prefix.pch";
 				INFOPLIST_FILE = "Formulae/Formulae-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "64E3C7E4-C3D7-4DA4-8E9D-BACC45BC451C";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "64E3C7E4-C3D7-4DA4-8E9D-BACC45BC451C";
+				PROVISIONING_PROFILE = "71CC5FA9-82FB-4675-9609-D8F2462644FC";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "71CC5FA9-82FB-4675-9609-D8F2462644FC";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
