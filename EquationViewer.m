@@ -48,15 +48,12 @@ self.topViewController = [self.storyboard instantiateViewControllerWithIdentifie
     
     
 }
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
-{
+
+-(IBAction)returnPreviousView{
     
-    
-    
-        
-        
-    
+    [self.navigationController popViewControllerAnimated:TRUE];
 }
+
 
 -(IBAction)usub {
     NSString *name = @"Integration By Substitution";

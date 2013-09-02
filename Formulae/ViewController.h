@@ -26,11 +26,9 @@
     IBOutlet UILabel *Label11;
     IBOutlet UILabel *Label12;
     IBOutlet UILabel *Label13;
-    IBOutlet UILabel *special;
    
 }
 
--(IBAction)someMethod;
 @property (nonatomic, strong) UILabel *Label;
 @property (nonatomic, strong) UILabel *special;
 @property (nonatomic, strong) UILabel *Label2;
@@ -46,7 +44,6 @@
 @property (nonatomic, strong) UILabel *Label12;
 @property (nonatomic, strong) UILabel *Label13;
 -(IBAction)usub;
--(IBAction)exit:(UIStoryboardSegue *)test;
 @property (nonatomic, strong) UIScrollView *scroller;
 
 @end
