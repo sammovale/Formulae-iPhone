@@ -84,7 +84,6 @@
     [Label11 setFont:[UIFont fontWithName:@"Kefa" size:17]];
     [Label12 setFont:[UIFont fontWithName:@"Kefa" size:17]];
     [Label13 setFont:[UIFont fontWithName:@"Kefa" size:17]];
-    [special setFont:[UIFont fontWithName:@"Kefa" size:19]];
         
     self.view.layer.shadowOpacity = 0.75f;
     self.view.layer.shadowRadius = 10.0f;
@@ -109,11 +108,6 @@
     
 }
 
-
-
-
-
-    
 
 
 - (void)menuViewControllerDidFinishWithCategoryId:(NSInteger)categoryId

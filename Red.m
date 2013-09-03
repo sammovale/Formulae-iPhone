@@ -48,20 +48,6 @@
     [scroller setContentSize:CGSizeMake(320, 680)];
     [super viewDidLoad];
     
-    
-    
-}
-
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
-{
-    
-    
-}
-
-- (void)viewWillAppear:(BOOL)animated
-{
-    [super viewWillAppear:animated];
-    
     [Label setFont:[UIFont fontWithName:@"Kefa" size:17]];
     [Label2 setFont:[UIFont fontWithName:@"Kefa" size:17]];
     [Label3 setFont:[UIFont fontWithName:@"Kefa" size:17]];
@@ -76,6 +62,20 @@
     [Label12 setFont:[UIFont fontWithName:@"Kefa" size:17]];
     [Label13 setFont:[UIFont fontWithName:@"Kefa" size:17]];
     
+}
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    
+    
+}
+
+- (void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    
+   
+    
     self.view.layer.shadowOpacity = 0.75f;
     self.view.layer.shadowRadius = 10.0f;
     self.view.layer.shadowColor = [[UIColor blackColor] CGColor];
@@ -84,7 +84,7 @@
     if (![self.slidingViewController.underLeftViewController isKindOfClass:[MenuViewController class]]) {
         self.slidingViewController.underLeftViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"MenuView"];
         
-        [(MenuViewController *)self.slidingViewController.underLeftViewController setDelegate:self];
+ /*       [(MenuViewController *)self.slidingViewController.underLeftViewController setDelegate:self]; */
     }
     
     

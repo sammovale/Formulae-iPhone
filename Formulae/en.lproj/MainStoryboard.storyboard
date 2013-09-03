@@ -6347,10 +6347,8 @@
                 <relationship kind="action" name="goBack:" candidateClass="UIStoryboardSegue"/>
                 <relationship kind="action" name="goBackward"/>
                 <relationship kind="action" name="quads"/>
-                <relationship kind="action" name="returnActionForSegue:" candidateClass="UIStoryboardSegue"/>
                 <relationship kind="action" name="returningMove"/>
                 <relationship kind="action" name="stats"/>
-                <relationship kind="action" name="unwindToRed:" candidateClass="UIStoryboardSegue"/>
                 <relationship kind="action" name="usub"/>
                 <relationship kind="action" name="verticalLine:"/>
                 <relationship kind="action" name="workedexample11"/>
@@ -6452,7 +6450,6 @@
         <class className="ViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
             <relationships>
-                <relationship kind="action" name="exit:" candidateClass="UIStoryboardSegue"/>
                 <relationship kind="action" name="someMethod"/>
                 <relationship kind="action" name="usub"/>
                 <relationship kind="outlet" name="Label" candidateClass="UILabel"/>
