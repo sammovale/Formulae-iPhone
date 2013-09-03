@@ -42,18 +42,6 @@
     IBOutlet UILabel *LabelTop;
     
     
-    NSTimer *myTimer1;
-    NSTimer *myTimer2;
-    NSTimer *myTimer3;
-    NSTimer *myTimer4;
-    NSTimer *myTimer5;
-    NSTimer *myTimer6;
-    NSTimer *myTimer7;
-    NSTimer *myTimer8;
-    NSTimer *myTimer9;
-    NSTimer *myTimer10;
-    NSTimer *myTimer11;
-    
     IBOutlet UIImageView *image2;
     IBOutlet UIImageView *image3;
     IBOutlet UIImageView *image4;
