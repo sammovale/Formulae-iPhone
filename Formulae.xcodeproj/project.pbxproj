@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		6305E1E117ABA9B500D9B8FD /* topShadow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6305E1E017ABA9B500D9B8FD /* topShadow@2x.png */; };
 		6305E1E317ABA9B900D9B8FD /* bottomShadow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6305E1E217ABA9B900D9B8FD /* bottomShadow@2x.png */; };
-		63158ED817B5CB910073EF64 /* Red.m in Sources */ = {isa = PBXBuildFile; fileRef = 63158ED717B5CB910073EF64 /* Red.m */; };
 		63158EDB17B8D8B40073EF64 /* CustomSegueRight.m in Sources */ = {isa = PBXBuildFile; fileRef = 63158EDA17B8D8B40073EF64 /* CustomSegueRight.m */; };
 		63158EDD17B8E4930073EF64 /* documentsLogoLarge@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63158EDC17B8E4920073EF64 /* documentsLogoLarge@2x.png */; };
 		63284BCD17226E190093C4B3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63284BCC17226E190093C4B3 /* UIKit.framework */; };
@@ -227,8 +226,6 @@
 /* Begin PBXFileReference section */
 		6305E1E017ABA9B500D9B8FD /* topShadow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "topShadow@2x.png"; sourceTree = "<group>"; };
 		6305E1E217ABA9B900D9B8FD /* bottomShadow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bottomShadow@2x.png"; sourceTree = "<group>"; };
-		63158ED617B5CB910073EF64 /* Red.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Red.h; sourceTree = "<group>"; };
-		63158ED717B5CB910073EF64 /* Red.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Red.m; sourceTree = "<group>"; };
 		63158ED917B8D8B30073EF64 /* CustomSegueRight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomSegueRight.h; sourceTree = "<group>"; };
 		63158EDA17B8D8B40073EF64 /* CustomSegueRight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomSegueRight.m; sourceTree = "<group>"; };
 		63158EDC17B8E4920073EF64 /* documentsLogoLarge@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "documentsLogoLarge@2x.png"; sourceTree = "<group>"; };
@@ -710,8 +707,6 @@
 				635F8B0717941CEA009D7DF5 /* SeguePush.m */,
 				63FF038217892B87005865BB /* InitialView.h */,
 				63FF038317892B87005865BB /* InitialView.m */,
-				63158ED617B5CB910073EF64 /* Red.h */,
-				63158ED717B5CB910073EF64 /* Red.m */,
 				BF91462917D5CF2A0076F7D8 /* Content */,
 				63FF038517892CE4005865BB /* Open Source Frameworks */,
 				BF82313717784E200082E6E5 /* Graphics */,
@@ -1041,7 +1036,6 @@
 				63FF039017892E72005865BB /* MenuViewController.m in Sources */,
 				63FF03CB17895C5A005865BB /* CustomSegueLeft.m in Sources */,
 				635F8B0817941CEA009D7DF5 /* SeguePush.m in Sources */,
-				63158ED817B5CB910073EF64 /* Red.m in Sources */,
 				63158EDB17B8D8B40073EF64 /* CustomSegueRight.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
