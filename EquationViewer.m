@@ -31,15 +31,6 @@
     return self;
 }
 
--(IBAction)returningMove {
-    
-
-self.topViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"ViewController"];
-    
-    
-
-}
-
 -(IBAction)documentMenu {
     
     

@@ -75,10 +75,7 @@
 @property (nonatomic, strong)  UILabel *Title;
 @property (nonatomic, strong)  UIScrollView *scroll;
 @property (nonatomic, retain) IBOutlet UILabel *labelVertical;
--(IBAction)goBack:(UIStoryboardSegue *)segue;
 @property (nonatomic, weak) id <EquationViewerDelegate> delegate;
--(IBAction)goBackward;
--(IBAction)returningMove;
 @property (nonatomic, strong) NSArray *categoryList;
 -(IBAction)exponent;
 -(IBAction)usub;
@@ -91,5 +88,6 @@
 -(IBAction)workedexample12;
 -(IBAction)workedexample13;
 -(IBAction)workedexample14;
+-(IBAction)returnPreviousView;
 
 @end
