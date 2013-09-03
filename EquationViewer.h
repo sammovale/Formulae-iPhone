@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "ECSlidingViewController.h" 
+#import "ECSlidingViewController.h"
+#import "ViewController.h"
+#import <QuartzCore/QuartzCore.h>
+#import "SeguePush.h"
 
 @protocol EquationViewerDelegate;
 

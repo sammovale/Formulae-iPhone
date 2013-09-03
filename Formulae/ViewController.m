@@ -21,12 +21,6 @@
 @synthesize scroller;
 @synthesize Label, Label2, Label3, Label4, Label5, Label6, Label7, Label8, Label9, Label10, Label11, Label12, Label13;
 
-
-
-
-
-
-
 - (void)viewDidAppear:(BOOL)animated
 {
     
@@ -55,17 +49,6 @@
   
     
     }
-
-
-
-
-
-
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
-{
-   
-    
-}
 
 - (void)viewWillAppear:(BOOL)animated
 {

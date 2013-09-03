@@ -705,37 +705,14 @@
 				BF82315E177AD6510082E6E5 /* EquationViewer.h */,
 				BF82315F177AD6510082E6E5 /* EquationViewer.m */,
 				63FF038E17892E72005865BB /* MenuViewController.h */,
-				6305E1E217ABA9B900D9B8FD /* bottomShadow@2x.png */,
-				633EFBAC17C78B4A0030436A /* u subsitution worksheet-1.pdf */,
-				636622CE17D07DEA00CDD510 /* Diff Quiz.pdf */,
-				6305E1E017ABA9B500D9B8FD /* topShadow@2x.png */,
-				636622D817D081E700CDD510 /* Fractions Exam Grade 7.pdf */,
-				636622DE17D090B600CDD510 /* First Principles.pdf */,
 				63FF038F17892E72005865BB /* MenuViewController.m */,
 				635F8B0617941CEA009D7DF5 /* SeguePush.h */,
-				63D12E2C17BF1A5A00ABACEE /* year 10 exponents and logs quiz.pdf */,
-				636622E017D0924E00CDD510 /* POWER RULE 101.pdf */,
 				635F8B0717941CEA009D7DF5 /* SeguePush.m */,
-				636622F217D0A0D900CDD510 /* SLOPE.pdf */,
-				636622D217D07FF300CDD510 /* Mathematics Statistics Test .pdf */,
-				636622D417D0807B00CDD510 /* Maths Studies Binomial Distribution Revision.pdf */,
-				636622E417D0935A00CDD510 /* SUM RULE.pdf */,
-				636622EE17D095BE00CDD510 /* TRIGONOMETRIC FUNCTION DERIVATIVES.pdf */,
-				636622F617D0A2D000CDD510 /* MIDPOINT.pdf */,
-				636622F417D0A24C00CDD510 /* DISTANCE.pdf */,
-				636622F017D0963100CDD510 /* CHAIN RULE.pdf */,
-				636622F817D0A34A00CDD510 /* INTERCEPTS.pdf */,
-				636622EC17D0954500CDD510 /* LNX.pdf */,
-				636622EA17D094F700CDD510 /* EULER RULE.pdf */,
-				636622E817D094AE00CDD510 /* PRODUCT RULE.pdf */,
-				636622E617D093EC00CDD510 /* QUOTIENT RULE.pdf */,
-				636622E217D092F500CDD510 /* POWER RULE.pdf */,
-				636622D617D080E300CDD510 /* Physics Textbook 5.0.pdf */,
-				636622DA17D082AE00CDD510 /* How many moles in a ham and cheese sandwich.pdf */,
 				63FF038217892B87005865BB /* InitialView.h */,
 				63FF038317892B87005865BB /* InitialView.m */,
 				63158ED617B5CB910073EF64 /* Red.h */,
 				63158ED717B5CB910073EF64 /* Red.m */,
+				BF91462917D5CF2A0076F7D8 /* Content */,
 				63FF038517892CE4005865BB /* Open Source Frameworks */,
 				BF82313717784E200082E6E5 /* Graphics */,
 			);
@@ -745,6 +722,8 @@
 		BF82313717784E200082E6E5 /* Graphics */ = {
 			isa = PBXGroup;
 			children = (
+				6305E1E217ABA9B900D9B8FD /* bottomShadow@2x.png */,
+				6305E1E017ABA9B500D9B8FD /* topShadow@2x.png */,
 				63158EDC17B8E4920073EF64 /* documentsLogoLarge@2x.png */,
 				63FF03E0178A645F005865BB /* g1calc.png */,
 				63FF03C21789433F005865BB /* GRAPHITE-Education-Logo@2x.png */,
@@ -761,6 +740,35 @@
 				BF823141177858490082E6E5 /* backArrow@2x.png */,
 			);
 			name = Graphics;
+			sourceTree = "<group>";
+		};
+		BF91462917D5CF2A0076F7D8 /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				633EFBAC17C78B4A0030436A /* u subsitution worksheet-1.pdf */,
+				636622CE17D07DEA00CDD510 /* Diff Quiz.pdf */,
+				636622D817D081E700CDD510 /* Fractions Exam Grade 7.pdf */,
+				636622DE17D090B600CDD510 /* First Principles.pdf */,
+				63D12E2C17BF1A5A00ABACEE /* year 10 exponents and logs quiz.pdf */,
+				636622E017D0924E00CDD510 /* POWER RULE 101.pdf */,
+				636622F217D0A0D900CDD510 /* SLOPE.pdf */,
+				636622D217D07FF300CDD510 /* Mathematics Statistics Test .pdf */,
+				636622D417D0807B00CDD510 /* Maths Studies Binomial Distribution Revision.pdf */,
+				636622E417D0935A00CDD510 /* SUM RULE.pdf */,
+				636622EE17D095BE00CDD510 /* TRIGONOMETRIC FUNCTION DERIVATIVES.pdf */,
+				636622F617D0A2D000CDD510 /* MIDPOINT.pdf */,
+				636622F417D0A24C00CDD510 /* DISTANCE.pdf */,
+				636622F017D0963100CDD510 /* CHAIN RULE.pdf */,
+				636622F817D0A34A00CDD510 /* INTERCEPTS.pdf */,
+				636622EC17D0954500CDD510 /* LNX.pdf */,
+				636622EA17D094F700CDD510 /* EULER RULE.pdf */,
+				636622E817D094AE00CDD510 /* PRODUCT RULE.pdf */,
+				636622E617D093EC00CDD510 /* QUOTIENT RULE.pdf */,
+				636622E217D092F500CDD510 /* POWER RULE.pdf */,
+				636622D617D080E300CDD510 /* Physics Textbook 5.0.pdf */,
+				636622DA17D082AE00CDD510 /* How many moles in a ham and cheese sandwich.pdf */,
+			);
+			name = Content;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

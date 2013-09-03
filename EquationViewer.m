@@ -8,9 +8,7 @@
 
 #import "EquationViewer.h"
 #import "AppDelegate.h"
-#import "ViewController.h"
-#import <QuartzCore/QuartzCore.h>
-#import "SeguePush.h"
+
 
 @interface EquationViewer ()
 
@@ -18,8 +16,6 @@
 
 @implementation EquationViewer
 @synthesize Title,labelVertical,scroll;
-
-
 
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
@@ -46,15 +42,6 @@ self.topViewController = [self.storyboard instantiateViewControllerWithIdentifie
     self.topViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"Documents"];
     
     
-    
-}
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
-{
-    
-    
-    
-        
-        
     
 }
 
