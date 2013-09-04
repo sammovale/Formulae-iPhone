@@ -99,13 +99,6 @@
     [self.slidingViewController resetTopView];
 }
 
--(IBAction)exit:(UIStoryboardSegue *)test{
-    
-    
-}
-
-
-
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];

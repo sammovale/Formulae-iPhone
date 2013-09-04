@@ -5794,10 +5794,8 @@
                 <relationship kind="action" name="documentMenu"/>
                 <relationship kind="action" name="exponent"/>
                 <relationship kind="action" name="quads"/>
-                <relationship kind="action" name="returnActionForSegue:" candidateClass="UIStoryboardSegue"/>
                 <relationship kind="action" name="returningMove"/>
                 <relationship kind="action" name="stats"/>
-                <relationship kind="action" name="unwindToRed:" candidateClass="UIStoryboardSegue"/>
                 <relationship kind="action" name="usub"/>
                 <relationship kind="action" name="verticalLine:"/>
                 <relationship kind="action" name="workedexample11"/>
@@ -5873,13 +5871,9 @@
                 <relationship kind="outlet" name="scrollView" candidateClass="UIScrollView"/>
             </relationships>
         </class>
-        <class className="UIStoryboardSegue" superclassName="NSObject">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/UIStoryboardSegue.h"/>
-        </class>
         <class className="ViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
             <relationships>
-                <relationship kind="action" name="exit:" candidateClass="UIStoryboardSegue"/>
                 <relationship kind="outlet" name="Label" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="Label10" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="Label11" candidateClass="UILabel"/>
