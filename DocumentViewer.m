@@ -39,7 +39,11 @@
     [Label8 setFont:[UIFont fontWithName:@"Kefa" size:14]];
 }
 
-
+-(IBAction)returnToPreviousView{
+    
+    
+    [self.navigationController popViewControllerAnimated:YES];
+}
 
 - (void)didReceiveMemoryWarning
 {

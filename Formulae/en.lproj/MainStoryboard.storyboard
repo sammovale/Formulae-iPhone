@@ -7,7 +7,7 @@
         <!--Navigation Controller-->
         <scene sceneID="f9r-2u-f2s">
             <objects>
-                <navigationController definesPresentationContext="YES" navigationBarHidden="YES" id="SHq-cd-CPK" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="" definesPresentationContext="YES" navigationBarHidden="YES" id="SHq-cd-CPK" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="a0u-pk-U4o">
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -39,6 +39,21 @@
                                                 <rect key="frame" x="107" y="19" width="107" height="16"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoLight" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="LYj-a5-4rS">
+                                                <rect key="frame" x="20" y="17" width="18" height="19"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                                <state key="normal">
+                                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <state key="highlighted">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="OQA-W7-R8t" kind="push" id="AFy-jp-X3C"/>
+                                                </connections>
+                                            </button>
                                         </subviews>
                                         <color key="backgroundColor" red="0.12941176469999999" green="0.12941176469999999" blue="0.12941176469999999" alpha="1" colorSpace="calibratedRGB"/>
                                     </view>
@@ -520,6 +535,9 @@
                                                 <state key="highlighted">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
+                                                <connections>
+                                                    <segue destination="tiK-Xp-WPS" kind="push" id="Cdo-6U-WdY"/>
+                                                </connections>
                                             </button>
                                             <view userInteractionEnabled="NO" contentMode="scaleToFill" id="dH8-Ap-FSw">
                                                 <rect key="frame" x="256" y="619" width="50" height="50"/>
@@ -781,9 +799,25 @@
                                 <rect key="frame" x="0.0" y="450" width="320" height="72"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="mYA-if-YtU">
+                                <rect key="frame" x="6" y="0.0" width="48" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" image="backArrow.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="back" destination="OQA-W7-R8t" eventType="touchUpInside" id="KP2-Zs-wzQ"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="0.90000000000000002" colorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="o4k-MX-Kwz"/>
                     <connections>
                         <outlet property="Label" destination="bdH-Jw-pFQ" id="utu-y3-Ysz"/>
                         <outlet property="Label10" destination="usZ-sZ-8pt" id="ifI-Xr-pLM"/>
@@ -5152,6 +5186,9 @@
                                         <state key="highlighted">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="returnToPreviousView" destination="tiK-Xp-WPS" eventType="touchUpInside" id="ysQ-ff-S9M"/>
+                                        </connections>
                                     </button>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Documents" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="5tr-76-msJ">
                                         <rect key="frame" x="67" y="15" width="186" height="23"/>
@@ -5724,6 +5761,7 @@
         <class className="DocumentViewer" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/DocumentViewer.h"/>
             <relationships>
+                <relationship kind="action" name="returnToPreviousView"/>
                 <relationship kind="outlet" name="Label" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="Label2" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="Label3" candidateClass="UILabel"/>
@@ -5800,6 +5838,7 @@
         <class className="MenuViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/MenuViewController.h"/>
             <relationships>
+                <relationship kind="action" name="back"/>
                 <relationship kind="outlet" name="Label" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="Label10" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="Label11" candidateClass="UILabel"/>

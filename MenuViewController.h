@@ -54,7 +54,7 @@
 @property (nonatomic, strong) UITextView *Label14;
 @property (nonatomic, strong) UITextView *Label15;
 @property (nonatomic, strong) UITextView *Label16;
-
+-(IBAction)back;
 
 
 

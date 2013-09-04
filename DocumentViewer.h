@@ -23,6 +23,7 @@
 }
 
 @property (nonatomic, strong)IBOutlet UIScrollView *scroll;
+-(IBAction)returnToPreviousView;
 
 @property(nonatomic, strong) IBOutlet UILabel *Label;
 @property(nonatomic, strong) IBOutlet UILabel *Label2;

@@ -19,6 +19,10 @@
 @synthesize Label2, Label16, Label15, Label14, Label13, Label12, Label11, Label10, Label9, Label8, Label7, Label6, Label5, Label, Label4, Label3, Label1;
 @synthesize startTime, timer;
 
+-(IBAction)back{
+    [self.navigationController popViewControllerAnimated:YES];
+    
+}
 
 - (void)viewDidLoad
 {
