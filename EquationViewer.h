@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "ECSlidingViewController.h" 
+#import "ECSlidingViewController.h"
+#import "ViewController.h"
+#import <QuartzCore/QuartzCore.h>
+#import "SeguePush.h"
 
 @protocol EquationViewerDelegate;
 
@@ -42,18 +45,6 @@
     IBOutlet UILabel *LabelTop;
     
     
-    NSTimer *myTimer1;
-    NSTimer *myTimer2;
-    NSTimer *myTimer3;
-    NSTimer *myTimer4;
-    NSTimer *myTimer5;
-    NSTimer *myTimer6;
-    NSTimer *myTimer7;
-    NSTimer *myTimer8;
-    NSTimer *myTimer9;
-    NSTimer *myTimer10;
-    NSTimer *myTimer11;
-    
     IBOutlet UIImageView *image2;
     IBOutlet UIImageView *image3;
     IBOutlet UIImageView *image4;
@@ -75,9 +66,7 @@
 @property (nonatomic, strong)  UILabel *Title;
 @property (nonatomic, strong)  UIScrollView *scroll;
 @property (nonatomic, retain) IBOutlet UILabel *labelVertical;
--(IBAction)goBack:(UIStoryboardSegue *)segue;
 @property (nonatomic, weak) id <EquationViewerDelegate> delegate;
--(IBAction)goBackward;
 -(IBAction)returningMove;
 @property (nonatomic, strong) NSArray *categoryList;
 -(IBAction)exponent;
@@ -90,6 +79,5 @@
 -(IBAction)workedexample11;
 -(IBAction)workedexample12;
 -(IBAction)workedexample13;
--(IBAction)workedexample14;
 
 @end

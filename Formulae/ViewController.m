@@ -21,12 +21,6 @@
 @synthesize scroller;
 @synthesize Label, Label2, Label3, Label4, Label5, Label6, Label7, Label8, Label9, Label10, Label11, Label12, Label13;
 
-
-
-
-
-
-
 - (void)viewDidAppear:(BOOL)animated
 {
     
@@ -56,17 +50,6 @@
     
     }
 
-
-
-
-
-
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
-{
-   
-    
-}
-
 - (void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
@@ -84,7 +67,6 @@
     [Label11 setFont:[UIFont fontWithName:@"Kefa" size:17]];
     [Label12 setFont:[UIFont fontWithName:@"Kefa" size:17]];
     [Label13 setFont:[UIFont fontWithName:@"Kefa" size:17]];
-    [special setFont:[UIFont fontWithName:@"Kefa" size:19]];
         
     self.view.layer.shadowOpacity = 0.75f;
     self.view.layer.shadowRadius = 10.0f;
@@ -111,23 +93,11 @@
 
 
 
-
-
-    
-
-
 - (void)menuViewControllerDidFinishWithCategoryId:(NSInteger)categoryId
 {
 
     [self.slidingViewController resetTopView];
 }
-
--(IBAction)exit:(UIStoryboardSegue *)test{
-    
-    
-}
-
-
 
 - (void)didReceiveMemoryWarning
 {
