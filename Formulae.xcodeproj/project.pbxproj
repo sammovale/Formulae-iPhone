@@ -220,6 +220,7 @@
 		BF82315C17785BA00082E6E5 /* formulaeLogo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF82315A17785BA00082E6E5 /* formulaeLogo@2x.png */; };
 		BF82315D17785BA00082E6E5 /* formulaeLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = BF82315B17785BA00082E6E5 /* formulaeLogo.png */; };
 		BF823160177AD6510082E6E5 /* EquationViewer.m in Sources */ = {isa = PBXBuildFile; fileRef = BF82315F177AD6510082E6E5 /* EquationViewer.m */; };
+		BF91462C17D89A090076F7D8 /* WorkedExamplesViewer.m in Sources */ = {isa = PBXBuildFile; fileRef = BF91462B17D89A090076F7D8 /* WorkedExamplesViewer.m */; };
 		BFCBB72B17D1CDFF0032F173 /* DocumentViewer.m in Sources */ = {isa = PBXBuildFile; fileRef = BFCBB72A17D1CDFF0032F173 /* DocumentViewer.m */; };
 		BFD085A9177C39E0002340A6 /* iPhone_Icon_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = BFD085A8177C39E0002340A6 /* iPhone_Icon_icon.png */; };
 		BFD085AB177C39EB002340A6 /* iPhoneRetina_Icon_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = BFD085AA177C39EB002340A6 /* iPhoneRetina_Icon_icon.png */; };
@@ -453,6 +454,8 @@
 		BF82315B17785BA00082E6E5 /* formulaeLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = formulaeLogo.png; sourceTree = "<group>"; };
 		BF82315E177AD6510082E6E5 /* EquationViewer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EquationViewer.h; sourceTree = "<group>"; };
 		BF82315F177AD6510082E6E5 /* EquationViewer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EquationViewer.m; sourceTree = "<group>"; };
+		BF91462A17D89A080076F7D8 /* WorkedExamplesViewer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorkedExamplesViewer.h; sourceTree = "<group>"; };
+		BF91462B17D89A090076F7D8 /* WorkedExamplesViewer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorkedExamplesViewer.m; sourceTree = "<group>"; };
 		BFCBB72917D1CDFF0032F173 /* DocumentViewer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DocumentViewer.h; sourceTree = "<group>"; };
 		BFCBB72A17D1CDFF0032F173 /* DocumentViewer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DocumentViewer.m; sourceTree = "<group>"; };
 		BFD085A8177C39E0002340A6 /* iPhone_Icon_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhone_Icon_icon.png; sourceTree = "<group>"; };
@@ -697,6 +700,8 @@
 			children = (
 				BF3E120E1792A1C600555DBB /* Kefa.ttc */,
 				63284BE417226E190093C4B3 /* MainStoryboard.storyboard */,
+				BF91462A17D89A080076F7D8 /* WorkedExamplesViewer.h */,
+				BF91462B17D89A090076F7D8 /* WorkedExamplesViewer.m */,
 				BFCBB72917D1CDFF0032F173 /* DocumentViewer.h */,
 				BFCBB72A17D1CDFF0032F173 /* DocumentViewer.m */,
 				63284BDB17226E190093C4B3 /* AppDelegate.h */,
@@ -1041,6 +1046,7 @@
 				63158ED817B5CB910073EF64 /* Red.m in Sources */,
 				63158EDB17B8D8B40073EF64 /* CustomSegueRight.m in Sources */,
 				BFCBB72B17D1CDFF0032F173 /* DocumentViewer.m in Sources */,
+				BF91462C17D89A090076F7D8 /* WorkedExamplesViewer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

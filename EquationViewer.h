@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "ECSlidingViewController.h" 
+#import "WorkedExamplesViewer.h"
 
 @protocol EquationViewerDelegate;
 
@@ -38,9 +39,9 @@
     IBOutlet UILabel *Label20;
     IBOutlet UILabel *Label21;
     IBOutlet UILabel *Label22;
-    IBOutlet UILabel *Label32;
     IBOutlet UILabel *LabelTop;
     
+    WorkedExamplesViewer *WorkedViewer;
     
     NSTimer *myTimer1;
     NSTimer *myTimer2;
@@ -89,5 +90,7 @@
 -(IBAction)workedexample13;
 -(IBAction)workedexample14;
 -(IBAction)returnPreviousView;
+-(IBAction)workedexample1;
+
 
 @end

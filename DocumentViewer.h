@@ -34,4 +34,13 @@
 @property(nonatomic, strong) IBOutlet UILabel *Label7;
 @property(nonatomic, strong) IBOutlet UILabel *Label8;
 
+-(IBAction)usub;
+-(IBAction)exponent;
+-(IBAction)diffCalc;
+-(IBAction)quads;
+-(IBAction)stats;
+-(IBAction)binomialRevision;
+-(IBAction)fractions;
+-(IBAction)moles;
+-(IBAction)physics;
 @end

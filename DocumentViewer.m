@@ -25,6 +25,98 @@
     return self;
 }
 
+
+-(IBAction)usub {
+    NSString *name = @"Integration By Substitution";
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    
+    [defaults setObject:name forKey:@"name"];
+    
+    [defaults synchronize];
+    
+}
+
+-(IBAction)exponent {
+    NSString *name = @"Year 10 Exponents Quiz";
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    
+    [defaults setObject:name forKey:@"name"];
+    
+    [defaults synchronize];
+    
+}
+
+-(IBAction)diffCalc {
+    NSString *name = @"Differential Calculus Quiz";
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    
+    [defaults setObject:name forKey:@"name"];
+    
+    [defaults synchronize];
+    
+}
+
+-(IBAction)quads {
+    NSString *name = @"Year 11 Quadratics Elicitation";
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    
+    [defaults setObject:name forKey:@"name"];
+    
+    [defaults synchronize];
+    
+}
+
+-(IBAction)stats {
+    NSString *name = @"Statistics";
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    
+    [defaults setObject:name forKey:@"name"];
+    
+    [defaults synchronize];
+    
+}
+
+-(IBAction)binomialRevision {
+    NSString *name = @"Mathematics Binomial Revision";
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    
+    [defaults setObject:name forKey:@"name"];
+    
+    [defaults synchronize];
+    
+}
+
+-(IBAction)fractions {
+    NSString *name = @"Fractions Examination";
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    
+    [defaults setObject:name forKey:@"name"];
+    
+    [defaults synchronize];
+    
+}
+
+-(IBAction)moles {
+    NSString *name = @"An introduction to moles";
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    
+    [defaults setObject:name forKey:@"name"];
+    
+    [defaults synchronize];
+    
+}
+
+-(IBAction)physics {
+    NSString *name = @"Physics Textbook";
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    
+    [defaults setObject:name forKey:@"name"];
+    
+    [defaults synchronize];
+    
+}
+
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];

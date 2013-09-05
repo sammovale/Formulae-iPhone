@@ -900,6 +900,10 @@
                                         <state key="highlighted">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="workedexample1" destination="RNG-ua-b7i" eventType="touchUpInside" id="tFU-T2-7V6"/>
+                                            <segue destination="vjy-9d-JPN" kind="push" id="WAh-7o-EVE"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="3cb-AO-hcW">
                                         <rect key="frame" x="15" y="99" width="291" height="75"/>
@@ -5109,10 +5113,10 @@
             </objects>
             <point key="canvasLocation" x="690" y="548"/>
         </scene>
-        <!--Equation Viewer-->
+        <!--Worked Examples Viewer-->
         <scene sceneID="MQS-8Q-u9o">
             <objects>
-                <viewController restorationIdentifier="Viewer" storyboardIdentifier="Viewer" id="vjy-9d-JPN" customClass="EquationViewer" sceneMemberID="viewController">
+                <viewController restorationIdentifier="Viewer" storyboardIdentifier="Viewer" id="vjy-9d-JPN" customClass="WorkedExamplesViewer" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hcU-JJ-hPK">
                         <rect key="frame" x="0.0" y="20" width="320" height="548"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -5133,7 +5137,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <action selector="documentMenu" destination="vjy-9d-JPN" eventType="touchUpInside" id="vpp-vK-l4S"/>
+                                            <action selector="returnToPreviousView" destination="vjy-9d-JPN" eventType="touchUpInside" id="7C9-MA-Teg"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Viewer" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Hc7-MK-OOp">
@@ -5154,8 +5158,8 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="JUT-4K-YJE"/>
                     <connections>
-                        <outlet property="Label32" destination="Hc7-MK-OOp" id="doZ-35-bEj"/>
                         <outlet property="Webview" destination="rrm-qB-ESc" id="4p6-EU-sdg"/>
                     </connections>
                 </viewController>
@@ -5216,6 +5220,10 @@
                                         <state key="highlighted">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="diffCalc" destination="tiK-Xp-WPS" eventType="touchUpInside" id="tfP-eA-xaW"/>
+                                            <segue destination="vjy-9d-JPN" kind="push" id="s7B-Ww-LJS"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="QoC-kl-OYa">
                                         <rect key="frame" x="15" y="124" width="291" height="50"/>
@@ -5229,6 +5237,10 @@
                                         <state key="highlighted">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="exponent" destination="tiK-Xp-WPS" eventType="touchUpInside" id="d5y-Ie-jWH"/>
+                                            <segue destination="vjy-9d-JPN" kind="push" id="1xt-qX-ld1"/>
+                                        </connections>
                                     </button>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Exponents and Logarithms" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="DSZ-Lg-lBH">
                                         <rect key="frame" x="75" y="138" width="225" height="21"/>
@@ -5261,6 +5273,10 @@
                                         <state key="highlighted">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="stats" destination="tiK-Xp-WPS" eventType="touchUpInside" id="ggX-yf-xON"/>
+                                            <segue destination="vjy-9d-JPN" kind="push" id="Krv-Zi-87O"/>
+                                        </connections>
                                     </button>
                                     <view userInteractionEnabled="NO" contentMode="scaleToFill" id="BBk-eA-yJU">
                                         <rect key="frame" x="256" y="234" width="50" height="50"/>
@@ -5295,6 +5311,10 @@
                                         <state key="highlighted">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="binomialRevision" destination="tiK-Xp-WPS" eventType="touchUpInside" id="O3r-wV-VZx"/>
+                                            <segue destination="vjy-9d-JPN" kind="push" id="epw-B4-y9x"/>
+                                        </connections>
                                     </button>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Binomial Distributions" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="sRk-59-pfn">
                                         <rect key="frame" x="75" y="248" width="191" height="21"/>
@@ -5315,6 +5335,10 @@
                                         <state key="highlighted">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="moles" destination="tiK-Xp-WPS" eventType="touchUpInside" id="GvO-We-cTt"/>
+                                            <segue destination="vjy-9d-JPN" kind="push" id="7Vp-rS-ydA"/>
+                                        </connections>
                                     </button>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="An introduction to moles" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="7BQ-eg-Ftl">
                                         <rect key="frame" x="75" y="303" width="191" height="21"/>
@@ -5335,6 +5359,9 @@
                                         <state key="highlighted">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <segue destination="vjy-9d-JPN" kind="push" id="Maw-u2-rgC"/>
+                                        </connections>
                                     </button>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Polynomials" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="qTn-ea-C8i">
                                         <rect key="frame" x="75" y="358" width="191" height="21"/>
@@ -5355,6 +5382,10 @@
                                         <state key="highlighted">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="physics" destination="tiK-Xp-WPS" eventType="touchUpInside" id="UE0-pb-sy7"/>
+                                            <segue destination="vjy-9d-JPN" kind="push" id="0u2-X3-CZU"/>
+                                        </connections>
                                     </button>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Physics Textbook" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="mOf-9T-owJ">
                                         <rect key="frame" x="75" y="413" width="191" height="21"/>
@@ -5428,6 +5459,10 @@
                                         <state key="highlighted">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="usub" destination="tiK-Xp-WPS" eventType="touchUpInside" id="UMK-T8-OIB"/>
+                                            <segue destination="vjy-9d-JPN" kind="push" id="5Nt-Bf-zwZ"/>
+                                        </connections>
                                     </button>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="U Substitution Questions" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="qFx-YS-WBn">
                                         <rect key="frame" x="75" y="83" width="191" height="21"/>
@@ -5761,7 +5796,16 @@
         <class className="DocumentViewer" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/DocumentViewer.h"/>
             <relationships>
+                <relationship kind="action" name="binomialRevision"/>
+                <relationship kind="action" name="diffCalc"/>
+                <relationship kind="action" name="exponent"/>
+                <relationship kind="action" name="fractions"/>
+                <relationship kind="action" name="moles"/>
+                <relationship kind="action" name="physics"/>
+                <relationship kind="action" name="quads"/>
                 <relationship kind="action" name="returnToPreviousView"/>
+                <relationship kind="action" name="stats"/>
+                <relationship kind="action" name="usub"/>
                 <relationship kind="outlet" name="Label" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="Label2" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="Label3" candidateClass="UILabel"/>
@@ -5787,6 +5831,7 @@
                 <relationship kind="action" name="stats"/>
                 <relationship kind="action" name="usub"/>
                 <relationship kind="action" name="verticalLine:"/>
+                <relationship kind="action" name="workedexample1"/>
                 <relationship kind="action" name="workedexample11"/>
                 <relationship kind="action" name="workedexample12"/>
                 <relationship kind="action" name="workedexample13"/>
@@ -5808,7 +5853,6 @@
                 <relationship kind="outlet" name="Label21" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="Label22" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="Label3" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="Label32" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="Label4" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="Label5" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="Label6" candidateClass="UILabel"/>
@@ -5879,10 +5923,20 @@
                 <relationship kind="outlet" name="scroller" candidateClass="UIScrollView"/>
             </relationships>
         </class>
+        <class className="WorkedExamplesViewer" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/WorkedExamplesViewer.h"/>
+            <relationships>
+                <relationship kind="action" name="returnToPreviousView"/>
+                <relationship kind="outlet" name="Webview" candidateClass="UIWebView"/>
+            </relationships>
+        </class>
     </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
+    <inferredMetricsTieBreakers>
+        <segue reference="s7B-Ww-LJS"/>
+    </inferredMetricsTieBreakers>
 </document>
