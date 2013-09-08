@@ -43,17 +43,6 @@
     
     WorkedExamplesViewer *WorkedViewer;
     
-    NSTimer *myTimer1;
-    NSTimer *myTimer2;
-    NSTimer *myTimer3;
-    NSTimer *myTimer4;
-    NSTimer *myTimer5;
-    NSTimer *myTimer6;
-    NSTimer *myTimer7;
-    NSTimer *myTimer8;
-    NSTimer *myTimer9;
-    NSTimer *myTimer10;
-    NSTimer *myTimer11;
     
     IBOutlet UIImageView *image2;
     IBOutlet UIImageView *image3;
@@ -78,13 +67,7 @@
 @property (nonatomic, retain) IBOutlet UILabel *labelVertical;
 @property (nonatomic, weak) id <EquationViewerDelegate> delegate;
 @property (nonatomic, strong) NSArray *categoryList;
--(IBAction)exponent;
--(IBAction)usub;
--(IBAction)documentMenu;
--(IBAction)diffCalc;
--(IBAction)stats;
--(IBAction)quads;
--(IBAction)workedexample9;
+
 -(IBAction)workedexample11;
 -(IBAction)workedexample12;
 -(IBAction)workedexample13;

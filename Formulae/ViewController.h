@@ -43,7 +43,6 @@
 @property (nonatomic, strong) UILabel *Label11;
 @property (nonatomic, strong) UILabel *Label12;
 @property (nonatomic, strong) UILabel *Label13;
--(IBAction)usub;
 @property (nonatomic, strong) UIScrollView *scroller;
 
 @end
