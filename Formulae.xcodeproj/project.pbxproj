@@ -10,7 +10,6 @@
 		6305E1E117ABA9B500D9B8FD /* topShadow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6305E1E017ABA9B500D9B8FD /* topShadow@2x.png */; };
 		6305E1E317ABA9B900D9B8FD /* bottomShadow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6305E1E217ABA9B900D9B8FD /* bottomShadow@2x.png */; };
 		63158ED817B5CB910073EF64 /* Red.m in Sources */ = {isa = PBXBuildFile; fileRef = 63158ED717B5CB910073EF64 /* Red.m */; };
-		63158EDB17B8D8B40073EF64 /* CustomSegueRight.m in Sources */ = {isa = PBXBuildFile; fileRef = 63158EDA17B8D8B40073EF64 /* CustomSegueRight.m */; };
 		63158EDD17B8E4930073EF64 /* documentsLogoLarge@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63158EDC17B8E4920073EF64 /* documentsLogoLarge@2x.png */; };
 		63284BCD17226E190093C4B3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63284BCC17226E190093C4B3 /* UIKit.framework */; };
 		63284BCF17226E190093C4B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63284BCE17226E190093C4B3 /* Foundation.framework */; };
@@ -158,7 +157,6 @@
 		63284D0D1723B5590093C4B3 /* yahg.png in Resources */ = {isa = PBXBuildFile; fileRef = 63284D0C1723B5590093C4B3 /* yahg.png */; };
 		63284D0F1723B5CA0093C4B3 /* com.png in Resources */ = {isa = PBXBuildFile; fileRef = 63284D0E1723B5CA0093C4B3 /* com.png */; };
 		633EFBAD17C78B4A0030436A /* u subsitution worksheet-1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 633EFBAC17C78B4A0030436A /* u subsitution worksheet-1.pdf */; };
-		635F8B0817941CEA009D7DF5 /* SeguePush.m in Sources */ = {isa = PBXBuildFile; fileRef = 635F8B0717941CEA009D7DF5 /* SeguePush.m */; };
 		636622CF17D07DEA00CDD510 /* Diff Quiz.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 636622CE17D07DEA00CDD510 /* Diff Quiz.pdf */; };
 		636622D117D07F1500CDD510 /* Year 11 Quadratics What do I remember.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 636622D017D07F1500CDD510 /* Year 11 Quadratics What do I remember.pdf */; };
 		636622D317D07FF300CDD510 /* Mathematics Statistics Test .pdf in Resources */ = {isa = PBXBuildFile; fileRef = 636622D217D07FF300CDD510 /* Mathematics Statistics Test .pdf */; };
@@ -198,7 +196,6 @@
 		63FF038D17892E09005865BB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63FF038C17892E09005865BB /* QuartzCore.framework */; };
 		63FF039017892E72005865BB /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63FF038F17892E72005865BB /* MenuViewController.m */; };
 		63FF03C31789433F005865BB /* GRAPHITE-Education-Logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63FF03C21789433F005865BB /* GRAPHITE-Education-Logo@2x.png */; };
-		63FF03CB17895C5A005865BB /* CustomSegueLeft.m in Sources */ = {isa = PBXBuildFile; fileRef = 63FF03CA17895C59005865BB /* CustomSegueLeft.m */; };
 		63FF03D0178974A7005865BB /* int10.png in Resources */ = {isa = PBXBuildFile; fileRef = 63FF03CC178974A7005865BB /* int10.png */; };
 		63FF03D1178974A7005865BB /* int9.png in Resources */ = {isa = PBXBuildFile; fileRef = 63FF03CD178974A7005865BB /* int9.png */; };
 		63FF03D2178974A7005865BB /* int8.png in Resources */ = {isa = PBXBuildFile; fileRef = 63FF03CE178974A7005865BB /* int8.png */; };
@@ -231,8 +228,6 @@
 		6305E1E217ABA9B900D9B8FD /* bottomShadow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bottomShadow@2x.png"; sourceTree = "<group>"; };
 		63158ED617B5CB910073EF64 /* Red.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Red.h; sourceTree = "<group>"; };
 		63158ED717B5CB910073EF64 /* Red.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Red.m; sourceTree = "<group>"; };
-		63158ED917B8D8B30073EF64 /* CustomSegueRight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomSegueRight.h; sourceTree = "<group>"; };
-		63158EDA17B8D8B40073EF64 /* CustomSegueRight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomSegueRight.m; sourceTree = "<group>"; };
 		63158EDC17B8E4920073EF64 /* documentsLogoLarge@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "documentsLogoLarge@2x.png"; sourceTree = "<group>"; };
 		63284BC917226E190093C4B3 /* Formulae.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Formulae.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63284BCC17226E190093C4B3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -385,8 +380,6 @@
 		63284D0C1723B5590093C4B3 /* yahg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yahg.png; sourceTree = "<group>"; };
 		63284D0E1723B5CA0093C4B3 /* com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = com.png; sourceTree = "<group>"; };
 		633EFBAC17C78B4A0030436A /* u subsitution worksheet-1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "u subsitution worksheet-1.pdf"; sourceTree = "<group>"; };
-		635F8B0617941CEA009D7DF5 /* SeguePush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SeguePush.h; sourceTree = "<group>"; };
-		635F8B0717941CEA009D7DF5 /* SeguePush.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SeguePush.m; sourceTree = "<group>"; };
 		636622CE17D07DEA00CDD510 /* Diff Quiz.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Diff Quiz.pdf"; sourceTree = "<group>"; };
 		636622D017D07F1500CDD510 /* Year 11 Quadratics What do I remember.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Year 11 Quadratics What do I remember.pdf"; sourceTree = "<group>"; };
 		636622D217D07FF300CDD510 /* Mathematics Statistics Test .pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Mathematics Statistics Test .pdf"; sourceTree = "<group>"; };
@@ -430,8 +423,6 @@
 		63FF038E17892E72005865BB /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
 		63FF038F17892E72005865BB /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
 		63FF03C21789433F005865BB /* GRAPHITE-Education-Logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GRAPHITE-Education-Logo@2x.png"; sourceTree = "<group>"; };
-		63FF03C917895C58005865BB /* CustomSegueLeft.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomSegueLeft.h; sourceTree = "<group>"; };
-		63FF03CA17895C59005865BB /* CustomSegueLeft.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomSegueLeft.m; sourceTree = "<group>"; };
 		63FF03CC178974A7005865BB /* int10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = int10.png; sourceTree = "<group>"; };
 		63FF03CD178974A7005865BB /* int9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = int9.png; sourceTree = "<group>"; };
 		63FF03CE178974A7005865BB /* int8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = int8.png; sourceTree = "<group>"; };
@@ -706,16 +697,11 @@
 				BFCBB72A17D1CDFF0032F173 /* DocumentViewer.m */,
 				63284BDB17226E190093C4B3 /* AppDelegate.h */,
 				63284BDC17226E190093C4B3 /* AppDelegate.m */,
-				63FF03C917895C58005865BB /* CustomSegueLeft.h */,
-				63FF03CA17895C59005865BB /* CustomSegueLeft.m */,
-				63158ED917B8D8B30073EF64 /* CustomSegueRight.h */,
-				63158EDA17B8D8B40073EF64 /* CustomSegueRight.m */,
 				63284BE717226E190093C4B3 /* ViewController.h */,
 				BF82315F177AD6510082E6E5 /* EquationViewer.m */,
 				63284BE817226E190093C4B3 /* ViewController.m */,
 				63FF038E17892E72005865BB /* MenuViewController.h */,
 				63FF038F17892E72005865BB /* MenuViewController.m */,
-				635F8B0617941CEA009D7DF5 /* SeguePush.h */,
 				BF82315E177AD6510082E6E5 /* EquationViewer.h */,
 				6305E1E217ABA9B900D9B8FD /* bottomShadow@2x.png */,
 				633EFBAC17C78B4A0030436A /* u subsitution worksheet-1.pdf */,
@@ -725,7 +711,6 @@
 				636622DE17D090B600CDD510 /* First Principles.pdf */,
 				63D12E2C17BF1A5A00ABACEE /* year 10 exponents and logs quiz.pdf */,
 				636622E017D0924E00CDD510 /* POWER RULE 101.pdf */,
-				635F8B0717941CEA009D7DF5 /* SeguePush.m */,
 				636622F217D0A0D900CDD510 /* SLOPE.pdf */,
 				636622D217D07FF300CDD510 /* Mathematics Statistics Test .pdf */,
 				636622D417D0807B00CDD510 /* Maths Studies Binomial Distribution Revision.pdf */,
@@ -1041,10 +1026,7 @@
 				63FF038A17892CE4005865BB /* ECSlidingViewController.m in Sources */,
 				63FF038B17892CE4005865BB /* UIImage+ImageWithUIView.m in Sources */,
 				63FF039017892E72005865BB /* MenuViewController.m in Sources */,
-				63FF03CB17895C5A005865BB /* CustomSegueLeft.m in Sources */,
-				635F8B0817941CEA009D7DF5 /* SeguePush.m in Sources */,
 				63158ED817B5CB910073EF64 /* Red.m in Sources */,
-				63158EDB17B8D8B40073EF64 /* CustomSegueRight.m in Sources */,
 				BFCBB72B17D1CDFF0032F173 /* DocumentViewer.m in Sources */,
 				BF91462C17D89A090076F7D8 /* WorkedExamplesViewer.m in Sources */,
 			);

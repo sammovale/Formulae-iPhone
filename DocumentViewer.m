@@ -121,7 +121,7 @@
 {
     [super viewDidLoad];
     
-    [Label setFont:[UIFont fontWithName:@"Kefa" size:20]];
+    [Label setFont:[UIFont fontWithName:@"Kefa" size:14]];
     [Label2 setFont:[UIFont fontWithName:@"Kefa" size:14]];
     [Label3 setFont:[UIFont fontWithName:@"Kefa" size:14]];
     [Label4 setFont:[UIFont fontWithName:@"Kefa" size:14]];
