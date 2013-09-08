@@ -10,7 +10,6 @@
 #import "AppDelegate.h"
 #import "ViewController.h"
 #import <QuartzCore/QuartzCore.h>
-#import "SeguePush.h"
 #import "WorkedExamplesViewer.h"
 
 @interface EquationViewer ()

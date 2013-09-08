@@ -8,7 +8,6 @@
 
 #import "ViewController.h"
 #import "MenuViewController.h"
-#import "SeguePush.h"
 #import "EquationViewer.h"
 #import "AppDelegate.h"
 #import <QuartzCore/QuartzCore.h>
