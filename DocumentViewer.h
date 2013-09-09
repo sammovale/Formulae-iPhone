@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "ViewController.h"
 
-@interface DocumentViewer : UIViewController{
+@interface DocumentViewer : ECSlidingViewController{
     IBOutlet UIScrollView *scroll;
     IBOutlet UILabel *Label;
     IBOutlet UILabel *Label2;

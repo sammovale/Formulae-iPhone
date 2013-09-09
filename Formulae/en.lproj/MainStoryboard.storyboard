@@ -792,7 +792,7 @@
                                 </subviews>
                             </scrollView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="topShadow@2x.png" id="rlT-DV-bmg">
-                                <rect key="frame" x="0.0" y="31" width="320" height="73"/>
+                                <rect key="frame" x="0.0" y="35" width="320" height="73"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="bottomShadow@2x.png" id="52y-XM-7lo">
@@ -5173,7 +5173,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1Nh-7l-89N" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="690" y="-167"/>
+            <point key="canvasLocation" x="846" y="-167"/>
         </scene>
         <!--Document Viewer-->
         <scene sceneID="xiZ-I2-NhV">
@@ -5801,7 +5801,7 @@
         <image name="z score.png" width="306" height="206"/>
     </resources>
     <classes>
-        <class className="DocumentViewer" superclassName="UIViewController">
+        <class className="DocumentViewer" superclassName="ECSlidingViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/DocumentViewer.h"/>
             <relationships>
                 <relationship kind="action" name="binomialRevision"/>
@@ -5831,22 +5831,16 @@
         <class className="EquationViewer" superclassName="ECSlidingViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/EquationViewer.h"/>
             <relationships>
-                <relationship kind="action" name="diffCalc"/>
-                <relationship kind="action" name="documentMenu"/>
-                <relationship kind="action" name="exponent"/>
-                <relationship kind="action" name="quads"/>
                 <relationship kind="action" name="returnActionForSegue:" candidateClass="UIStoryboardSegue"/>
                 <relationship kind="action" name="returnPreviousView"/>
-                <relationship kind="action" name="stats"/>
+                <relationship kind="action" name="returnToPreviousView"/>
                 <relationship kind="action" name="unwindToRed:" candidateClass="UIStoryboardSegue"/>
-                <relationship kind="action" name="usub"/>
                 <relationship kind="action" name="verticalLine:"/>
                 <relationship kind="action" name="workedexample1"/>
                 <relationship kind="action" name="workedexample11"/>
                 <relationship kind="action" name="workedexample12"/>
                 <relationship kind="action" name="workedexample13"/>
                 <relationship kind="action" name="workedexample14"/>
-                <relationship kind="action" name="workedexample9"/>
                 <relationship kind="outlet" name="Label" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="Label10" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="Label11" candidateClass="UILabel"/>
@@ -5920,7 +5914,6 @@
             <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
             <relationships>
                 <relationship kind="action" name="exit:" candidateClass="UIStoryboardSegue"/>
-                <relationship kind="action" name="usub"/>
                 <relationship kind="outlet" name="Label" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="Label10" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="Label11" candidateClass="UILabel"/>
@@ -5937,7 +5930,7 @@
                 <relationship kind="outlet" name="scroller" candidateClass="UIScrollView"/>
             </relationships>
         </class>
-        <class className="WorkedExamplesViewer" superclassName="UIViewController">
+        <class className="WorkedExamplesViewer" superclassName="ECSlidingViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/WorkedExamplesViewer.h"/>
             <relationships>
                 <relationship kind="action" name="returnToPreviousView"/>

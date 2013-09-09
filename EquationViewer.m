@@ -39,6 +39,8 @@
     
     [defaults synchronize];
     
+    self.topViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"Viewer"];
+    
 }
 
 -(IBAction)workedexample2 {
@@ -48,6 +50,8 @@
     [defaults setObject:name forKey:@"name"];
     
     [defaults synchronize];
+    
+    self.topViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"Viewer"];
     
 }
 
@@ -59,6 +63,8 @@
     
     [defaults synchronize];
     
+    self.topViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"Viewer"];
+    
 }
 
 -(IBAction)workedexample4 {
@@ -68,6 +74,8 @@
     [defaults setObject:name forKey:@"name"];
     
     [defaults synchronize];
+    
+    self.topViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"Viewer"];
     
 }
 
@@ -79,6 +87,8 @@
     
     [defaults synchronize];
     
+    self.topViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"Viewer"];
+    
 }
 
 -(IBAction)workedexample6 {
@@ -88,6 +98,8 @@
     [defaults setObject:name forKey:@"name"];
     
     [defaults synchronize];
+    
+    self.topViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"Viewer"];
     
 }
 
@@ -99,6 +111,8 @@
     
     [defaults synchronize];
     
+    self.topViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"Viewer"];
+    
 }
 
 -(IBAction)workedexample8 {
@@ -109,6 +123,8 @@
     
     [defaults synchronize];
     
+    self.topViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"Viewer"];
+    
 }
 
 -(IBAction)workedexample9 {
@@ -118,6 +134,8 @@
     [defaults setObject:name forKey:@"name"];
     
     [defaults synchronize];
+    
+    self.topViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"Viewer"];
 }
 
 -(IBAction)workedexample10 {
@@ -128,6 +146,7 @@
     
     [defaults synchronize];
     
+    self.topViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"Viewer"];
 }
 
 
@@ -188,7 +207,6 @@
 
 
 
-
 - (IBAction)returnActionForSegue:(UIStoryboardSegue *)returnSegue {
     
     ViewController *vc=[self.storyboard instantiateViewControllerWithIdentifier:@"ViewController"];
@@ -227,6 +245,10 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+       
+    
+
     
     [Label setFont:[UIFont fontWithName:@"Kefa" size:17]];
     [LabelTop setFont:[UIFont fontWithName:@"Kefa" size:17]];
@@ -281,8 +303,15 @@
         [scroll setContentSize:CGSizeMake(320, 1270)];
     }
     
-	// Do any additional setup after loading the view.
+    	// Do any additional setup after loading the view.
 }
+
+-(IBAction)returnToPreviousView{
+    
+    
+    [self.navigationController popViewControllerAnimated:YES];
+}
+
 
 
 - (void)didReceiveMemoryWarning

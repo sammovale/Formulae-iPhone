@@ -67,7 +67,7 @@
 @property (nonatomic, retain) IBOutlet UILabel *labelVertical;
 @property (nonatomic, weak) id <EquationViewerDelegate> delegate;
 @property (nonatomic, strong) NSArray *categoryList;
-
+-(IBAction)returnToPreviousView;
 -(IBAction)workedexample11;
 -(IBAction)workedexample12;
 -(IBAction)workedexample13;

@@ -32,7 +32,11 @@
     
     [defaults setObject:name forKey:@"name"];
     
+     
+    
     [defaults synchronize];
+    
+    self.topViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"Viewer"];
     
 }
 
@@ -42,7 +46,11 @@
     
     [defaults setObject:name forKey:@"name"];
     
+        
+    
     [defaults synchronize];
+    
+    self.topViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"Viewer"];
     
 }
 
@@ -54,6 +62,8 @@
     
     [defaults synchronize];
     
+    self.topViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"Viewer"];
+    
 }
 
 -(IBAction)quads {
@@ -63,6 +73,8 @@
     [defaults setObject:name forKey:@"name"];
     
     [defaults synchronize];
+    
+    self.topViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"Viewer"];
     
 }
 
@@ -74,6 +86,8 @@
     
     [defaults synchronize];
     
+    self.topViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"Viewer"];
+    
 }
 
 -(IBAction)binomialRevision {
@@ -83,6 +97,8 @@
     [defaults setObject:name forKey:@"name"];
     
     [defaults synchronize];
+    
+    self.topViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"Viewer"];
     
 }
 
@@ -94,6 +110,8 @@
     
     [defaults synchronize];
     
+    self.topViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"Viewer"];
+    
 }
 
 -(IBAction)moles {
@@ -104,6 +122,8 @@
     
     [defaults synchronize];
     
+    self.topViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"Viewer"];
+    
 }
 
 -(IBAction)physics {
@@ -113,6 +133,8 @@
     [defaults setObject:name forKey:@"name"];
     
     [defaults synchronize];
+    
+    self.topViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"Viewer"];
     
 }
 
