@@ -19,7 +19,9 @@
 @implementation EquationViewer
 @synthesize Title,labelVertical,scroll;
 
-
+-(UIStatusBarStyle)preferredStatusBarStyle{
+    return UIStatusBarStyleLightContent;
+}
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -39,7 +41,7 @@
     
     [defaults synchronize];
     
-    self.topViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"Viewer"];
+   // self.topViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"Viewer"];
     
 }
 
@@ -51,7 +53,7 @@
     
     [defaults synchronize];
     
-    self.topViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"Viewer"];
+   // self.topViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"Viewer"];
     
 }
 
@@ -63,7 +65,7 @@
     
     [defaults synchronize];
     
-    self.topViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"Viewer"];
+  //  self.topViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"Viewer"];
     
 }
 
@@ -75,7 +77,7 @@
     
     [defaults synchronize];
     
-    self.topViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"Viewer"];
+  //  self.topViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"Viewer"];
     
 }
 
@@ -87,7 +89,7 @@
     
     [defaults synchronize];
     
-    self.topViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"Viewer"];
+   // self.topViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"Viewer"];
     
 }
 
@@ -99,7 +101,7 @@
     
     [defaults synchronize];
     
-    self.topViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"Viewer"];
+ //   self.topViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"Viewer"];
     
 }
 
@@ -111,7 +113,7 @@
     
     [defaults synchronize];
     
-    self.topViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"Viewer"];
+  //  self.topViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"Viewer"];
     
 }
 
@@ -123,7 +125,7 @@
     
     [defaults synchronize];
     
-    self.topViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"Viewer"];
+   // self.topViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"Viewer"];
     
 }
 
@@ -135,7 +137,7 @@
     
     [defaults synchronize];
     
-    self.topViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"Viewer"];
+  //  self.topViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"Viewer"];
 }
 
 -(IBAction)workedexample10 {
@@ -146,7 +148,7 @@
     
     [defaults synchronize];
     
-    self.topViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"Viewer"];
+   // self.topViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"Viewer"];
 }
 
 
@@ -165,7 +167,7 @@
     
     [defaults synchronize];
     
-    self.topViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"Viewer"];
+   // self.topViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"Viewer"];
 }
 
 -(IBAction)workedexample12 {
@@ -176,7 +178,7 @@
     
     [defaults synchronize];
     
-    self.topViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"Viewer"];
+   // self.topViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"Viewer"];
 }
 
 -(IBAction)workedexample13 {
@@ -187,8 +189,8 @@
     
     [defaults synchronize];
     
-    self.topViewController = [self.storyboard
-                    instantiateViewControllerWithIdentifier:@"Viewer"];
+   // self.topViewController = [self.storyboard
+    //                instantiateViewControllerWithIdentifier:@"Viewer"];
 }
 
 -(IBAction)workedexample14 {
@@ -199,7 +201,7 @@
     
     [defaults synchronize];
     
-    self.topViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"Viewer"];
+   // self.topViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"Viewer"];
 }
 
 

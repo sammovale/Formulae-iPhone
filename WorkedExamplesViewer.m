@@ -24,6 +24,10 @@
     return self;
 }
 
+-(UIStatusBarStyle)preferredStatusBarStyle{
+    return UIStatusBarStyleLightContent;
+}
+
 -(IBAction)returnToPreviousView{
     
     
