@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12E55" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="SHq-cd-CPK">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4510" systemVersion="12F37" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="SHq-cd-CPK">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
+        <deployment defaultVersion="1552" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3742"/>
     </dependencies>
     <scenes>
         <!--Navigation Controller-->
         <scene sceneID="f9r-2u-f2s">
             <objects>
-                <navigationController storyboardIdentifier="" definesPresentationContext="YES" navigationBarHidden="YES" id="SHq-cd-CPK" sceneMemberID="viewController">
+                <navigationController definesPresentationContext="YES" navigationBarHidden="YES" id="SHq-cd-CPK" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="a0u-pk-U4o">
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -24,7 +25,7 @@
             <objects>
                 <viewController id="KTE-Wc-JFi" customClass="ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="9O9-4F-gZ9">
-                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" id="AFP-4x-Z8P">
@@ -40,7 +41,7 @@
                                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoLight" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="LYj-a5-4rS">
-                                                <rect key="frame" x="20" y="17" width="18" height="19"/>
+                                                <rect key="frame" x="20" y="17" width="22" height="22"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                                 <state key="normal">
@@ -628,17 +629,17 @@
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" white="0.5811758668" alpha="1" colorSpace="calibratedWhite"/>
                                             </view>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="documentsLogoLarge@2x.png" id="rCx-kV-KgU">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="documentsLogoLarge.png" id="rCx-kV-KgU">
                                                 <rect key="frame" x="26" y="677" width="37" height="45"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
                                         </subviews>
                                     </scrollView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="topShadow@2x.png" id="71g-82-x2L">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="topShadow.png" id="71g-82-x2L">
                                         <rect key="frame" x="0.0" y="54" width="320" height="31"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="bottomShadow@2x.png" id="amj-nH-KIE">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="bottomShadow.png" id="amj-nH-KIE">
                                         <rect key="frame" x="0.0" y="517" width="320" height="31"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
@@ -676,11 +677,11 @@
             <objects>
                 <viewController storyboardIdentifier="MenuView" id="OQA-W7-R8t" customClass="MenuViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Pb9-6k-J7Y">
-                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="yIj-aU-kG0">
-                                <rect key="frame" x="0.0" y="35" width="320" height="477"/>
+                                <rect key="frame" x="0.0" y="55" width="320" height="477"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <subviews>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Formulae 2.0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="bdH-Jw-pFQ">
@@ -760,7 +761,7 @@
                                         <color key="textColor" red="0.80624202810000001" green="0.80624202810000001" blue="0.80624202810000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="GRAPHITE-Education-Logo@2x.png" id="Jig-vg-zc0">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="GRAPHITE-Education-Logo.png" id="Jig-vg-zc0">
                                         <rect key="frame" x="20" y="15" width="116" height="38"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
@@ -791,11 +792,11 @@
                                     </textView>
                                 </subviews>
                             </scrollView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="topShadow@2x.png" id="rlT-DV-bmg">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="topShadow.png" id="rlT-DV-bmg">
                                 <rect key="frame" x="0.0" y="35" width="320" height="73"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="bottomShadow@2x.png" id="52y-XM-7lo">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="bottomShadow.png" id="52y-XM-7lo">
                                 <rect key="frame" x="0.0" y="450" width="320" height="72"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -845,9 +846,9 @@
         <!--Equation Viewer-->
         <scene sceneID="xag-O8-uTV">
             <objects>
-                <viewController storyboardIdentifier="" id="RNG-ua-b7i" customClass="EquationViewer" sceneMemberID="viewController">
+                <viewController id="RNG-ua-b7i" customClass="EquationViewer" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="FXR-s8-a7L">
-                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" id="9Zb-Um-WMs">
@@ -885,7 +886,7 @@
                                 <color key="backgroundColor" red="0.12941176469999999" green="0.12941176469999999" blue="0.12941176469999999" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" indicatorStyle="white" id="YnB-9C-mGD">
-                                <rect key="frame" x="0.0" y="55" width="320" height="493"/>
+                                <rect key="frame" x="0.0" y="55" width="320" height="513"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" heightSizable="YES"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="sYm-AA-5Cv">
@@ -1260,7 +1261,7 @@
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="topShadow@2x.png" id="EAK-42-u1F">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="topShadow.png" id="EAK-42-u1F">
                                         <rect key="frame" x="0.0" y="-1" width="320" height="13"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
@@ -1279,11 +1280,11 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="topShadow@2x.png" id="sgX-qu-g8x">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="topShadow.png" id="sgX-qu-g8x">
                                 <rect key="frame" x="0.0" y="54" width="320" height="39"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="bottomShadow@2x.png" id="rAS-ES-qvP">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="bottomShadow.png" id="rAS-ES-qvP">
                                 <rect key="frame" x="0.0" y="509" width="320" height="39"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -1328,7 +1329,7 @@
             <objects>
                 <viewController id="9YR-Qa-xZk" customClass="EquationViewer" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="iHG-C1-8j6">
-                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" id="fiV-rx-jfI">
@@ -1378,7 +1379,7 @@
                                 <color key="backgroundColor" red="0.12941176469999999" green="0.12941176469999999" blue="0.12941176469999999" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" indicatorStyle="white" id="8yk-AU-7a8">
-                                <rect key="frame" x="0.0" y="54" width="320" height="493"/>
+                                <rect key="frame" x="0.0" y="54" width="320" height="513"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" heightSizable="YES"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="RNp-yy-4is">
@@ -1647,11 +1648,11 @@
                                     </button>
                                 </subviews>
                             </scrollView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="topShadow@2x.png" id="H9Q-D4-zhC">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="topShadow.png" id="H9Q-D4-zhC">
                                 <rect key="frame" x="0.0" y="53" width="320" height="39"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="bottomShadow@2x.png" id="eSy-ZR-iwI">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="bottomShadow.png" id="eSy-ZR-iwI">
                                 <rect key="frame" x="0.0" y="509" width="320" height="39"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -1685,7 +1686,7 @@
             <objects>
                 <viewController id="eFE-ZQ-MJF" customClass="EquationViewer" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="9r8-me-Jbm">
-                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" id="3CN-hm-Gnd">
@@ -1715,7 +1716,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <view userInteractionEnabled="NO" contentMode="scaleToFill" id="f92-zK-ZiW">
-                                        <rect key="frame" x="315.5" y="0.0" width="5" height="53"/>
+                                        <rect key="frame" x="316" y="0.0" width="5" height="53"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.70318202549999997" green="0.54031706199999996" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     </view>
@@ -1723,7 +1724,7 @@
                                 <color key="backgroundColor" red="0.12941176469999999" green="0.12941176469999999" blue="0.12941176469999999" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" indicatorStyle="white" id="W02-x4-mtm">
-                                <rect key="frame" x="0.0" y="53" width="320" height="495"/>
+                                <rect key="frame" x="0.0" y="53" width="320" height="515"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" heightSizable="YES"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="9PU-ei-a2T">
@@ -1972,11 +1973,11 @@
                                     </label>
                                 </subviews>
                             </scrollView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="topShadow@2x.png" id="QgM-hN-UXr">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="topShadow.png" id="QgM-hN-UXr">
                                 <rect key="frame" x="0.0" y="53" width="320" height="39"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="bottomShadow@2x.png" id="dUQ-l5-GcJ">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="bottomShadow.png" id="dUQ-l5-GcJ">
                                 <rect key="frame" x="0.0" y="509" width="320" height="39"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -2009,7 +2010,7 @@
             <objects>
                 <viewController id="EZK-9j-M0W" customClass="EquationViewer" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="t86-F3-ttc">
-                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" id="KVM-WP-Cmu">
@@ -2047,7 +2048,7 @@
                                 <color key="backgroundColor" red="0.12941176469999999" green="0.12941176469999999" blue="0.12941176469999999" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" indicatorStyle="white" id="9hY-4F-9Yb">
-                                <rect key="frame" x="0.0" y="52" width="320" height="496"/>
+                                <rect key="frame" x="0.0" y="52" width="320" height="516"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" heightSizable="YES"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="jaB-D5-9V7">
@@ -2296,11 +2297,11 @@
                                     </label>
                                 </subviews>
                             </scrollView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="topShadow@2x.png" id="uGO-7g-jNU">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="topShadow.png" id="uGO-7g-jNU">
                                 <rect key="frame" x="0.0" y="52" width="320" height="39"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="bottomShadow@2x.png" id="ZIB-o8-Uj2">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="bottomShadow.png" id="ZIB-o8-Uj2">
                                 <rect key="frame" x="1" y="509" width="320" height="39"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -2333,7 +2334,7 @@
             <objects>
                 <viewController id="xFH-oC-vhD" customClass="EquationViewer" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="VRp-dQ-MLB">
-                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" id="VWs-uD-r8h">
@@ -2371,7 +2372,7 @@
                                 <color key="backgroundColor" red="0.12941176469999999" green="0.12941176469999999" blue="0.12941176469999999" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" indicatorStyle="white" id="Jbq-LR-IL5">
-                                <rect key="frame" x="0.0" y="54" width="320" height="494"/>
+                                <rect key="frame" x="0.0" y="54" width="320" height="514"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" heightSizable="YES"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="H3y-NX-IrE">
@@ -2620,11 +2621,11 @@
                                     </label>
                                 </subviews>
                             </scrollView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="topShadow@2x.png" id="tav-Jv-O3g">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="topShadow.png" id="tav-Jv-O3g">
                                 <rect key="frame" x="0.0" y="53" width="320" height="39"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="bottomShadow@2x.png" id="n7o-uI-LW6">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="bottomShadow.png" id="n7o-uI-LW6">
                                 <rect key="frame" x="0.0" y="507" width="320" height="39"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -2657,7 +2658,7 @@
             <objects>
                 <viewController id="Iv5-DV-Udq" customClass="EquationViewer" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5ni-1N-xuf">
-                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" id="jDI-dh-vTq">
@@ -2695,7 +2696,7 @@
                                 <color key="backgroundColor" red="0.12941176469999999" green="0.12941176469999999" blue="0.12941176469999999" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsVerticalScrollIndicator="NO" indicatorStyle="white" id="N4i-7Y-ukg">
-                                <rect key="frame" x="0.0" y="54" width="320" height="494"/>
+                                <rect key="frame" x="0.0" y="54" width="320" height="514"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" heightSizable="YES"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="KFf-6D-1u4">
@@ -2942,13 +2943,13 @@
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="topShadow@2x.png" id="6Ku-NJ-PXh">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="topShadow.png" id="6Ku-NJ-PXh">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="39"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                 </subviews>
                             </scrollView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="bottomShadow@2x.png" id="NV0-OA-4aD">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="bottomShadow.png" id="NV0-OA-4aD">
                                 <rect key="frame" x="0.0" y="509" width="320" height="39"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -2981,7 +2982,7 @@
             <objects>
                 <viewController id="GOX-4o-1dF" customClass="EquationViewer" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="sUr-AB-OID">
-                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" id="fLA-On-HX6">
@@ -3019,7 +3020,7 @@
                                 <color key="backgroundColor" red="0.12941176469999999" green="0.12941176469999999" blue="0.12941176469999999" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" id="Cun-jF-xZ5">
-                                <rect key="frame" x="0.0" y="54" width="320" height="494"/>
+                                <rect key="frame" x="0.0" y="54" width="320" height="514"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" heightSizable="YES"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Dwt-8X-D95">
@@ -3255,13 +3256,13 @@
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="topShadow@2x.png" id="R6m-Bn-ERu">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="topShadow.png" id="R6m-Bn-ERu">
                                         <rect key="frame" x="0.0" y="-1" width="320" height="39"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                 </subviews>
                             </scrollView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="bottomShadow@2x.png" id="xzO-sF-61X">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="bottomShadow.png" id="xzO-sF-61X">
                                 <rect key="frame" x="0.0" y="509" width="320" height="39"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -3293,7 +3294,7 @@
             <objects>
                 <viewController id="Bkh-Zn-ITA" customClass="EquationViewer" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="H7y-hn-Dp6">
-                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" id="dtT-PL-aES">
@@ -3331,7 +3332,7 @@
                                 <color key="backgroundColor" red="0.12941176469999999" green="0.12941176469999999" blue="0.12941176469999999" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" indicatorStyle="white" id="iXt-3F-WSR">
-                                <rect key="frame" x="0.0" y="52" width="320" height="496"/>
+                                <rect key="frame" x="0.0" y="52" width="320" height="516"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" heightSizable="YES"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="5at-1A-EYE">
@@ -3554,13 +3555,13 @@
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="topShadow@2x.png" id="fWY-FD-gOk">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="topShadow.png" id="fWY-FD-gOk">
                                         <rect key="frame" x="0.0" y="5" width="320" height="39"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                 </subviews>
                             </scrollView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="bottomShadow@2x.png" id="HPY-Nf-CUy">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="bottomShadow.png" id="HPY-Nf-CUy">
                                 <rect key="frame" x="0.0" y="509" width="320" height="39"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -3593,7 +3594,7 @@
             <objects>
                 <viewController id="tL4-0u-Zva" customClass="EquationViewer" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="pOb-5z-eeV">
-                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" id="oSP-Gr-1ad">
@@ -3631,7 +3632,7 @@
                                 <color key="backgroundColor" red="0.12941176469999999" green="0.12941176469999999" blue="0.12941176469999999" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" id="bnh-qC-sSG">
-                                <rect key="frame" x="0.0" y="50" width="320" height="497"/>
+                                <rect key="frame" x="0.0" y="50" width="320" height="517"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" heightSizable="YES"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="0cV-3A-4RO">
@@ -3998,13 +3999,13 @@
                                         <rect key="frame" x="165" y="350" width="120" height="56"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="topShadow@2x.png" id="Sfq-Oz-pb9">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="topShadow.png" id="Sfq-Oz-pb9">
                                         <rect key="frame" x="0.0" y="1" width="320" height="39"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                 </subviews>
                             </scrollView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="bottomShadow@2x.png" id="SBi-Vu-0wk">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="bottomShadow.png" id="SBi-Vu-0wk">
                                 <rect key="frame" x="0.0" y="509" width="320" height="39"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -4042,7 +4043,7 @@
             <objects>
                 <viewController id="2go-xy-qfD" customClass="EquationViewer" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="q1d-eE-vje">
-                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" id="row-36-glB">
@@ -4080,7 +4081,7 @@
                                 <color key="backgroundColor" red="0.12941176469999999" green="0.12941176469999999" blue="0.12941176469999999" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" id="yRK-Wi-SNe">
-                                <rect key="frame" x="0.0" y="53" width="320" height="495"/>
+                                <rect key="frame" x="0.0" y="53" width="320" height="515"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" heightSizable="YES"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="SPP-kR-PU9">
@@ -4327,13 +4328,13 @@
                                         <rect key="frame" x="136" y="346" width="170" height="75"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="topShadow@2x.png" id="7x5-U2-NNr">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="topShadow.png" id="7x5-U2-NNr">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="39"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                 </subviews>
                             </scrollView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="bottomShadow@2x.png" id="woC-I1-bnd">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="bottomShadow.png" id="woC-I1-bnd">
                                 <rect key="frame" x="-1" y="509" width="320" height="39"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -4366,7 +4367,7 @@
             <objects>
                 <viewController id="UVi-NT-ucm" customClass="EquationViewer" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="96i-dO-oMt">
-                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" id="SwT-XB-0Wa">
@@ -4404,7 +4405,7 @@
                                 <color key="backgroundColor" red="0.12941176469999999" green="0.12941176469999999" blue="0.12941176469999999" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" id="Vno-2l-rPa">
-                                <rect key="frame" x="0.0" y="54" width="320" height="494"/>
+                                <rect key="frame" x="0.0" y="54" width="320" height="514"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" heightSizable="YES"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="mrk-9j-wYD">
@@ -4750,13 +4751,13 @@
                                         <rect key="frame" x="136" y="346" width="170" height="75"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="topShadow@2x.png" id="a4F-f5-yXe">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="topShadow.png" id="a4F-f5-yXe">
                                         <rect key="frame" x="0.0" y="3" width="320" height="39"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                 </subviews>
                             </scrollView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="bottomShadow@2x.png" id="drN-H8-Z7o">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="bottomShadow.png" id="drN-H8-Z7o">
                                 <rect key="frame" x="0.0" y="509" width="320" height="39"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -4790,7 +4791,7 @@
             <objects>
                 <viewController storyboardIdentifier="INTCALC" id="4M9-uL-bUT" customClass="EquationViewer" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="M5D-T2-uyb">
-                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" id="BmY-GZ-oDx">
@@ -4833,7 +4834,7 @@
                                 <color key="backgroundColor" red="0.12941176469999999" green="0.12941176469999999" blue="0.12941176469999999" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" indicatorStyle="white" id="AuF-nw-CM2">
-                                <rect key="frame" x="0.0" y="55" width="320" height="493"/>
+                                <rect key="frame" x="0.0" y="55" width="320" height="513"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" heightSizable="YES"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="q4L-29-HZP">
@@ -5078,11 +5079,11 @@
                                     </label>
                                 </subviews>
                             </scrollView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="topShadow@2x.png" id="t4l-hG-Ihi">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="topShadow.png" id="t4l-hG-Ihi">
                                 <rect key="frame" x="0.0" y="55" width="320" height="39"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="bottomShadow@2x.png" id="n0Y-WK-dHG">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="bottomShadow.png" id="n0Y-WK-dHG">
                                 <rect key="frame" x="1" y="509" width="320" height="39"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -5126,7 +5127,7 @@
             <objects>
                 <viewController restorationIdentifier="Viewer" storyboardIdentifier="Viewer" id="vjy-9d-JPN" customClass="WorkedExamplesViewer" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hcU-JJ-hPK">
-                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" id="WDp-U5-tbc">
@@ -5180,7 +5181,7 @@
             <objects>
                 <viewController restorationIdentifier="Documents" storyboardIdentifier="Documents" id="tiK-Xp-WPS" customClass="DocumentViewer" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="h4V-nT-xFp">
-                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" id="l5J-df-Tn9">
@@ -5213,7 +5214,7 @@
                                 <color key="backgroundColor" red="0.12941176469999999" green="0.12941176469999999" blue="0.12941176469999999" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" indicatorStyle="white" id="1CO-LL-OzN">
-                                <rect key="frame" x="0.0" y="55" width="320" height="493"/>
+                                <rect key="frame" x="0.0" y="55" width="320" height="513"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" heightSizable="YES"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Ytp-zY-8up">
@@ -5591,49 +5592,49 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" white="0.5811758668" alpha="1" colorSpace="calibratedWhite"/>
                                     </view>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="documentsLogoLarge@2x.png" id="ieb-wX-IcL">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="documentsLogoLarge.png" id="ieb-wX-IcL">
                                         <rect key="frame" x="26" y="677" width="37" height="45"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="documentsLogoLarge@2x.png" id="uXh-zO-xqE">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="documentsLogoLarge.png" id="uXh-zO-xqE">
                                         <rect key="frame" x="14" y="13" width="52" height="50"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="documentsLogoLarge@2x.png" id="U9l-2u-pNL">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="documentsLogoLarge.png" id="U9l-2u-pNL">
                                         <rect key="frame" x="13" y="69" width="53" height="50"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="documentsLogoLarge@2x.png" id="oGX-eK-UMO">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="documentsLogoLarge.png" id="oGX-eK-UMO">
                                         <rect key="frame" x="14" y="124" width="52" height="50"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="documentsLogoLarge@2x.png" id="g4Y-hs-tKy">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="documentsLogoLarge.png" id="g4Y-hs-tKy">
                                         <rect key="frame" x="13" y="179" width="53" height="50"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="documentsLogoLarge@2x.png" id="mln-Eu-ftD">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="documentsLogoLarge.png" id="mln-Eu-ftD">
                                         <rect key="frame" x="13" y="234" width="53" height="50"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="documentsLogoLarge@2x.png" id="SRl-Uu-mlR">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="documentsLogoLarge.png" id="SRl-Uu-mlR">
                                         <rect key="frame" x="13" y="289" width="53" height="50"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="documentsLogoLarge@2x.png" id="lEk-Xq-fKe">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="documentsLogoLarge.png" id="lEk-Xq-fKe">
                                         <rect key="frame" x="13" y="344" width="53" height="50"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="documentsLogoLarge@2x.png" id="dmB-xN-TGN">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="documentsLogoLarge.png" id="dmB-xN-TGN">
                                         <rect key="frame" x="13" y="399" width="53" height="50"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="bottomShadow@2x.png" id="Qxt-9j-Uad">
-                                        <rect key="frame" x="0.0" y="462" width="320" height="27"/>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="bottomShadow.png" id="Qxt-9j-Uad">
+                                        <rect key="frame" x="0.0" y="463" width="320" height="27"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                 </subviews>
                             </scrollView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="topShadow@2x.png" id="dyy-U1-IFN">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="topShadow.png" id="dyy-U1-IFN">
                                 <rect key="frame" x="0.0" y="54" width="320" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -5661,7 +5662,7 @@
     <resources>
         <image name="2ndderiv.png" width="207" height="68"/>
         <image name="Confidence Intervals.png" width="638" height="213"/>
-        <image name="GRAPHITE-Education-Logo@2x.png" width="225" height="50"/>
+        <image name="GRAPHITE-Education-Logo.png" width="112" height="25"/>
         <image name="PSL.png" width="478" height="76"/>
         <image name="acceleration.png" width="338" height="135"/>
         <image name="ace.png" width="376" height="63"/>
@@ -5671,10 +5672,38 @@
         <image name="areasquare.png" width="152" height="51"/>
         <image name="arrow oh.png" width="338" height="72"/>
         <image name="backArrow.png" width="16" height="16"/>
+        <image name="backArrow.png" width="16" height="16"/>
+        <image name="backArrow.png" width="16" height="16"/>
+        <image name="backArrow.png" width="16" height="16"/>
+        <image name="backArrow.png" width="16" height="16"/>
+        <image name="backArrow.png" width="16" height="16"/>
+        <image name="backArrow.png" width="16" height="16"/>
+        <image name="backArrow.png" width="16" height="16"/>
+        <image name="backArrow.png" width="16" height="16"/>
+        <image name="backArrow.png" width="16" height="16"/>
+        <image name="backArrow.png" width="16" height="16"/>
+        <image name="backArrow.png" width="16" height="16"/>
+        <image name="backArrow.png" width="16" height="16"/>
+        <image name="backArrow.png" width="16" height="16"/>
+        <image name="backArrow.png" width="16" height="16"/>
         <image name="balls.png" width="250" height="68"/>
         <image name="binomial2line.png" width="1011" height="253"/>
         <image name="boet.png" width="532" height="120"/>
-        <image name="bottomShadow@2x.png" width="580" height="29"/>
+        <image name="bottomShadow.png" width="290" height="14"/>
+        <image name="bottomShadow.png" width="290" height="14"/>
+        <image name="bottomShadow.png" width="290" height="14"/>
+        <image name="bottomShadow.png" width="290" height="14"/>
+        <image name="bottomShadow.png" width="290" height="14"/>
+        <image name="bottomShadow.png" width="290" height="14"/>
+        <image name="bottomShadow.png" width="290" height="14"/>
+        <image name="bottomShadow.png" width="290" height="14"/>
+        <image name="bottomShadow.png" width="290" height="14"/>
+        <image name="bottomShadow.png" width="290" height="14"/>
+        <image name="bottomShadow.png" width="290" height="14"/>
+        <image name="bottomShadow.png" width="290" height="14"/>
+        <image name="bottomShadow.png" width="290" height="14"/>
+        <image name="bottomShadow.png" width="290" height="14"/>
+        <image name="bottomShadow.png" width="290" height="14"/>
         <image name="bracketed.png" width="379" height="120"/>
         <image name="btri.png" width="190" height="131"/>
         <image name="c9.png" width="199" height="68"/>
@@ -5699,7 +5728,16 @@
         <image name="displacement.png" width="283" height="131"/>
         <image name="dist.png" width="824" height="133"/>
         <image name="divisor.png" width="292" height="131"/>
-        <image name="documentsLogoLarge@2x.png" width="100" height="100"/>
+        <image name="documentsLogoLarge.png" width="50" height="50"/>
+        <image name="documentsLogoLarge.png" width="50" height="50"/>
+        <image name="documentsLogoLarge.png" width="50" height="50"/>
+        <image name="documentsLogoLarge.png" width="50" height="50"/>
+        <image name="documentsLogoLarge.png" width="50" height="50"/>
+        <image name="documentsLogoLarge.png" width="50" height="50"/>
+        <image name="documentsLogoLarge.png" width="50" height="50"/>
+        <image name="documentsLogoLarge.png" width="50" height="50"/>
+        <image name="documentsLogoLarge.png" width="50" height="50"/>
+        <image name="documentsLogoLarge.png" width="50" height="50"/>
         <image name="dots.png" width="465" height="76"/>
         <image name="double.png" width="482" height="51"/>
         <image name="dove.png" width="452" height="120"/>
@@ -5780,7 +5818,22 @@
         <image name="takeaway.png" width="283" height="131"/>
         <image name="tanablonde.png" width="645" height="120"/>
         <image name="tanaranga.png" width="419" height="206"/>
-        <image name="topShadow@2x.png" width="580" height="30"/>
+        <image name="topShadow.png" width="290" height="15"/>
+        <image name="topShadow.png" width="290" height="15"/>
+        <image name="topShadow.png" width="290" height="15"/>
+        <image name="topShadow.png" width="290" height="15"/>
+        <image name="topShadow.png" width="290" height="15"/>
+        <image name="topShadow.png" width="290" height="15"/>
+        <image name="topShadow.png" width="290" height="15"/>
+        <image name="topShadow.png" width="290" height="15"/>
+        <image name="topShadow.png" width="290" height="15"/>
+        <image name="topShadow.png" width="290" height="15"/>
+        <image name="topShadow.png" width="290" height="15"/>
+        <image name="topShadow.png" width="290" height="15"/>
+        <image name="topShadow.png" width="290" height="15"/>
+        <image name="topShadow.png" width="290" height="15"/>
+        <image name="topShadow.png" width="290" height="15"/>
+        <image name="topShadow.png" width="290" height="15"/>
         <image name="tsacircle.png" width="254" height="59"/>
         <image name="twop.png" width="343" height="63"/>
         <image name="umt.png" width="332" height="219"/>
@@ -5800,150 +5853,12 @@
         <image name="yxint.png" width="186" height="100"/>
         <image name="z score.png" width="306" height="206"/>
     </resources>
-    <classes>
-        <class className="DocumentViewer" superclassName="ECSlidingViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/DocumentViewer.h"/>
-            <relationships>
-                <relationship kind="action" name="binomialRevision"/>
-                <relationship kind="action" name="diffCalc"/>
-                <relationship kind="action" name="exponent"/>
-                <relationship kind="action" name="fractions"/>
-                <relationship kind="action" name="moles"/>
-                <relationship kind="action" name="physics"/>
-                <relationship kind="action" name="quads"/>
-                <relationship kind="action" name="returnToPreviousView"/>
-                <relationship kind="action" name="stats"/>
-                <relationship kind="action" name="usub"/>
-                <relationship kind="outlet" name="Label" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="Label2" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="Label3" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="Label4" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="Label5" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="Label6" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="Label7" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="Label8" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="scroll" candidateClass="UIScrollView"/>
-            </relationships>
-        </class>
-        <class className="ECSlidingViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/ECSlidingViewController.h"/>
-        </class>
-        <class className="EquationViewer" superclassName="ECSlidingViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/EquationViewer.h"/>
-            <relationships>
-                <relationship kind="action" name="returnActionForSegue:" candidateClass="UIStoryboardSegue"/>
-                <relationship kind="action" name="returnPreviousView"/>
-                <relationship kind="action" name="returnToPreviousView"/>
-                <relationship kind="action" name="unwindToRed:" candidateClass="UIStoryboardSegue"/>
-                <relationship kind="action" name="verticalLine:"/>
-                <relationship kind="action" name="workedexample1"/>
-                <relationship kind="action" name="workedexample11"/>
-                <relationship kind="action" name="workedexample12"/>
-                <relationship kind="action" name="workedexample13"/>
-                <relationship kind="action" name="workedexample14"/>
-                <relationship kind="outlet" name="Label" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="Label10" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="Label11" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="Label12" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="Label13" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="Label14" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="Label15" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="Label16" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="Label17" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="Label18" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="Label19" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="Label2" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="Label20" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="Label21" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="Label22" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="Label3" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="Label4" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="Label5" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="Label6" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="Label7" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="Label8" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="Label9" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="LabelTop" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="Title" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="Webview" candidateClass="UIWebView"/>
-                <relationship kind="outlet" name="image10" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="image11" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="image12" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="image13" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="image2" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="image3" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="image4" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="image5" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="image6" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="image7" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="image8" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="image9" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="labelVertical" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="scroll" candidateClass="UIScrollView"/>
-                <relationship kind="outlet" name="special" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-        <class className="MenuViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/MenuViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="back"/>
-                <relationship kind="outlet" name="Label" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="Label10" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="Label11" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="Label12" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="Label13" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="Label14" candidateClass="UITextView"/>
-                <relationship kind="outlet" name="Label15" candidateClass="UITextView"/>
-                <relationship kind="outlet" name="Label16" candidateClass="UITextView"/>
-                <relationship kind="outlet" name="Label2" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="Label3" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="Label4" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="Label5" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="Label6" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="Label7" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="Label8" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="Label9" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="navigationBar" candidateClass="UINavigationBar"/>
-                <relationship kind="outlet" name="scrollView" candidateClass="UIScrollView"/>
-            </relationships>
-        </class>
-        <class className="UIStoryboardSegue" superclassName="NSObject">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/UIStoryboardSegue.h"/>
-        </class>
-        <class className="ViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="exit:" candidateClass="UIStoryboardSegue"/>
-                <relationship kind="outlet" name="Label" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="Label10" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="Label11" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="Label12" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="Label13" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="Label2" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="Label3" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="Label4" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="Label5" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="Label6" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="Label7" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="Label8" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="Label9" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="scroller" candidateClass="UIScrollView"/>
-            </relationships>
-        </class>
-        <class className="WorkedExamplesViewer" superclassName="ECSlidingViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/WorkedExamplesViewer.h"/>
-            <relationships>
-                <relationship kind="action" name="returnToPreviousView"/>
-                <relationship kind="outlet" name="Webview" candidateClass="UIWebView"/>
-            </relationships>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="WAh-7o-EVE"/>
+        <segue reference="s7B-Ww-LJS"/>
     </inferredMetricsTieBreakers>
 </document>
