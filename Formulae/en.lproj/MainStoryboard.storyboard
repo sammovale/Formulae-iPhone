@@ -5,12 +5,12 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3742"/>
     </dependencies>
     <scenes>
-        <!--Navigation Controller-->
+        <!--Initial View-->
         <scene sceneID="f9r-2u-f2s">
             <objects>
-                <navigationController definesPresentationContext="YES" navigationBarHidden="YES" id="SHq-cd-CPK" sceneMemberID="viewController">
+                <navigationController definesPresentationContext="YES" id="SHq-cd-CPK" customClass="InitialView" sceneMemberID="viewController">
                     <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
-                    <navigationBar key="navigationBar" alpha="0.0" contentMode="scaleToFill" translucent="NO" id="a0u-pk-U4o">
+                    <navigationBar key="navigationBar" hidden="YES" alpha="0.0" contentMode="scaleToFill" translucent="NO" backIndicatorImage="backArrow" id="a0u-pk-U4o">
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="barTintColor" red="0.12941176470588234" green="0.12941176470588234" blue="0.12941176470588234" alpha="1" colorSpace="calibratedRGB"/>
                     </navigationBar>
@@ -5570,6 +5570,7 @@
         <image name="areame" width="148" height="55"/>
         <image name="areasquare" width="152" height="51"/>
         <image name="arrow oh.png" width="338" height="72"/>
+        <image name="backArrow" width="16" height="16"/>
         <image name="backArrow" width="16" height="16"/>
         <image name="backArrow" width="16" height="16"/>
         <image name="backArrow" width="16" height="16"/>
