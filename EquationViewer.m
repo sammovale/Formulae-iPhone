@@ -320,4 +320,10 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation{
+    
+    return (interfaceOrientation == UIInterfaceOrientationPortrait);
+    
+}
+
 @end

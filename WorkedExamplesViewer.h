@@ -8,12 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
-@interface WorkedExamplesViewer : UIViewController{
+@interface WorkedExamplesViewer :   UIViewController <UIPrintInteractionControllerDelegate> {
     
     IBOutlet UIWebView *Webview;
 
 }
 @property (nonatomic, strong) IBOutlet UIWebView *Webview;
 -(IBAction)returnToPreviousView;
+
+-(IBAction)printdoc;
 
 @end

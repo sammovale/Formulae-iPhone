@@ -25,6 +25,40 @@
     return self;
 }
 
+-(IBAction)printdoc
+{
+    
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"" ofType:@"jpg"];
+    NSData *myData = [NSData dataWithContentsOfFile: path];
+    
+    
+    UIPrintInteractionController *pic = [UIPrintInteractionController sharedPrintController];
+    
+    if(pic && [UIPrintInteractionController canPrintData: myData] ) {
+        
+        pic.delegate = self;
+        
+        UIPrintInfo *printInfo = [UIPrintInfo printInfo];
+        printInfo.outputType = UIPrintInfoOutputGeneral;
+        printInfo.jobName = [path lastPathComponent];
+        printInfo.duplex = UIPrintInfoDuplexLongEdge;
+        pic.printInfo = printInfo;
+        pic.showsPageRange = YES;
+        pic.printingItem = myData;
+        
+        void (^completionHandler)(UIPrintInteractionController *, BOOL, NSError *) = ^(UIPrintInteractionController *pic, BOOL completed, NSError *error) {
+            
+            if (!completed && error) {
+                NSLog(@"FAILED! due to error in domain %@ with error code %u", error.domain, error.code);
+            }
+        };
+        
+        [pic presentAnimated:YES completionHandler:completionHandler];
+        
+    }
+    
+}
+
 
 -(IBAction)usub {
     NSString *name = @"Integration By Substitution";
@@ -138,6 +172,18 @@
     
 }
 
+-(IBAction)steadyState {
+    NSString *name = @"Steady State";
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    
+    [defaults setObject:name forKey:@"name"];
+    
+    [defaults synchronize];
+    
+    self.topViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"Viewer"];
+    
+}
+
 
 - (void)viewDidLoad
 {
@@ -163,6 +209,12 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation{
+    
+    return (interfaceOrientation == UIInterfaceOrientationPortrait);
+    
 }
 
 @end

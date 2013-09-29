@@ -183,6 +183,9 @@
 		63670490172BA0E30038ECBD /* sumrule.png in Resources */ = {isa = PBXBuildFile; fileRef = 6367048F172BA0E30038ECBD /* sumrule.png */; };
 		63670492172BA40D0038ECBD /* mymaths.png in Resources */ = {isa = PBXBuildFile; fileRef = 63670491172BA40D0038ECBD /* mymaths.png */; };
 		63670494172BA6880038ECBD /* productrule.png in Resources */ = {isa = PBXBuildFile; fileRef = 63670493172BA6880038ECBD /* productrule.png */; };
+		637E8E3517F7A4EC008A2173 /* A look at z scores.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 637E8E3417F7A4EC008A2173 /* A look at z scores.pdf */; };
+		637E8E3717F7A5BA008A2173 /* Steady State Matrices.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 637E8E3617F7A5BA008A2173 /* Steady State Matrices.pdf */; };
+		637E8E3917F7BF4B008A2173 /* Printer.png in Resources */ = {isa = PBXBuildFile; fileRef = 637E8E3817F7BF4B008A2173 /* Printer.png */; };
 		63C52FC1172BB2230084CAAC /* euler.png in Resources */ = {isa = PBXBuildFile; fileRef = 63C52FC0172BB2230084CAAC /* euler.png */; };
 		63C52FC3172BBA4C0084CAAC /* lnxlog.png in Resources */ = {isa = PBXBuildFile; fileRef = 63C52FC2172BBA4C0084CAAC /* lnxlog.png */; };
 		63C52FC5172BC0690084CAAC /* trigfunctions.png in Resources */ = {isa = PBXBuildFile; fileRef = 63C52FC4172BC0690084CAAC /* trigfunctions.png */; };
@@ -404,6 +407,9 @@
 		6367048F172BA0E30038ECBD /* sumrule.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sumrule.png; sourceTree = "<group>"; };
 		63670491172BA40D0038ECBD /* mymaths.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mymaths.png; sourceTree = "<group>"; };
 		63670493172BA6880038ECBD /* productrule.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = productrule.png; sourceTree = "<group>"; };
+		637E8E3417F7A4EC008A2173 /* A look at z scores.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "A look at z scores.pdf"; sourceTree = "<group>"; };
+		637E8E3617F7A5BA008A2173 /* Steady State Matrices.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Steady State Matrices.pdf"; sourceTree = "<group>"; };
+		637E8E3817F7BF4B008A2173 /* Printer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Printer.png; sourceTree = "<group>"; };
 		63C52FC0172BB2230084CAAC /* euler.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = euler.png; sourceTree = "<group>"; };
 		63C52FC2172BBA4C0084CAAC /* lnxlog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lnxlog.png; sourceTree = "<group>"; };
 		63C52FC4172BC0690084CAAC /* trigfunctions.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trigfunctions.png; sourceTree = "<group>"; };
@@ -711,6 +717,7 @@
 			isa = PBXGroup;
 			children = (
 				BF3E120E1792A1C600555DBB /* Kefa.ttc */,
+				637E8E3417F7A4EC008A2173 /* A look at z scores.pdf */,
 				63284BE417226E190093C4B3 /* MainStoryboard.storyboard */,
 				BF91462A17D89A080076F7D8 /* WorkedExamplesViewer.h */,
 				BF91462B17D89A090076F7D8 /* WorkedExamplesViewer.m */,
@@ -718,6 +725,7 @@
 				BFCBB72A17D1CDFF0032F173 /* DocumentViewer.m */,
 				63284BDB17226E190093C4B3 /* AppDelegate.h */,
 				63284BDC17226E190093C4B3 /* AppDelegate.m */,
+				637E8E3817F7BF4B008A2173 /* Printer.png */,
 				63284BE717226E190093C4B3 /* ViewController.h */,
 				63284BE817226E190093C4B3 /* ViewController.m */,
 				BF82315E177AD6510082E6E5 /* EquationViewer.h */,
@@ -726,6 +734,7 @@
 				63FF038F17892E72005865BB /* MenuViewController.m */,
 				63FF038217892B87005865BB /* InitialView.h */,
 				63FF038317892B87005865BB /* InitialView.m */,
+				637E8E3617F7A5BA008A2173 /* Steady State Matrices.pdf */,
 				63FF038517892CE4005865BB /* Open Source Frameworks */,
 				BF82313717784E200082E6E5 /* Graphics */,
 			);
@@ -1003,6 +1012,9 @@
 				636622F517D0A24C00CDD510 /* DISTANCE.pdf in Resources */,
 				636622F717D0A2D100CDD510 /* MIDPOINT.pdf in Resources */,
 				636622F917D0A34A00CDD510 /* INTERCEPTS.pdf in Resources */,
+				637E8E3517F7A4EC008A2173 /* A look at z scores.pdf in Resources */,
+				637E8E3717F7A5BA008A2173 /* Steady State Matrices.pdf in Resources */,
+				637E8E3917F7BF4B008A2173 /* Printer.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

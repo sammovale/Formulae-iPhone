@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "ViewController.h"
 
-@interface DocumentViewer : ECSlidingViewController{
+@interface DocumentViewer : ECSlidingViewController <UIPrintInteractionControllerDelegate> {
     IBOutlet UIScrollView *scroll;
     IBOutlet UILabel *Label;
     IBOutlet UILabel *Label2;
@@ -24,7 +24,7 @@
 
 @property (nonatomic, strong)IBOutlet UIScrollView *scroll;
 -(IBAction)returnToPreviousView;
-
+-(IBAction)steadyState;
 @property(nonatomic, strong) IBOutlet UILabel *Label;
 @property(nonatomic, strong) IBOutlet UILabel *Label2;
 @property(nonatomic, strong) IBOutlet UILabel *Label3;
@@ -33,6 +33,11 @@
 @property(nonatomic, strong) IBOutlet UILabel *Label6;
 @property(nonatomic, strong) IBOutlet UILabel *Label7;
 @property(nonatomic, strong) IBOutlet UILabel *Label8;
+@property(nonatomic, strong) IBOutlet UILabel *Label9;
+@property(nonatomic, strong) IBOutlet UILabel *Label10;
+@property(nonatomic, strong) IBOutlet UILabel *Label11;
+@property(nonatomic, strong) IBOutlet UILabel *Label12;
+-(IBAction)printdoc;
 
 -(IBAction)usub;
 -(IBAction)exponent;

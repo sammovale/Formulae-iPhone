@@ -24,16 +24,54 @@
     return self;
 }
 
+
 -(IBAction)returnToPreviousView{
     
     
     [self.navigationController popViewControllerAnimated:YES];
 }
 
+-(IBAction)printdoc {
+    
+    UIPrintInteractionController *pic = [UIPrintInteractionController sharedPrintController];
+    
+    UIPrintInfo *printInfo = [UIPrintInfo printInfo];
+    
+    printInfo.outputType = UIPrintInfoOutputGeneral;
+    
+    pic.printInfo = printInfo;
+    
+    pic.printFormatter = [Webview viewPrintFormatter];
+    
+    pic.showsPageRange = YES;
+    
+    void (^completionHandler)(UIPrintInteractionController *, BOOL, NSError *) =
+    ^(UIPrintInteractionController *printController, BOOL completed, NSError *error)
+    {
+        if (!completed && error)
+        {
+            NSLog(@"Printing could not complete because of error: %@", error);
+        }
+    };
+    [pic presentAnimated:YES completionHandler:completionHandler];
+    
+    
+}
+
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    Webview.backgroundColor = [UIColor clearColor];
+   
+    
+    for (UIView* shadowView in [Webview.scrollView subviews])
+    {
+        if ([shadowView isKindOfClass:[UIImageView class]]) {
+            [shadowView setHidden:YES];
+        }
+    }
     
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     
@@ -299,7 +337,22 @@
         [Webview setHidden:NO];
         
     }
+    
+    if([name isEqualToString:@"Steady State"]) {
+        
+        NSString *path = [[NSBundle mainBundle] pathForResource:@"Steady State Matrices" ofType:@"pdf"];
+        NSURL *url = [NSURL fileURLWithPath:path];
+        NSURLRequest *request = [NSURLRequest requestWithURL:url];
+        [Webview loadRequest:request];
+        [Webview setScalesPageToFit:YES];
+        [Webview setHidden:NO];
+        
+    }
 	// Do any additional setup after loading the view.
+}
+
+- (UIInterfaceOrientation)preferredInterfaceOrientationForPresentation{
+    return UIInterfaceOrientationLandscapeRight;
 }
 
 
