@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "ECSlidingViewController.h" 
 
-@interface InitialView : UINavigationController
+@interface InitialView : ECSlidingViewController
 
 
 
