@@ -20,7 +20,10 @@
     [super viewDidLoad];
 	//self.topViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"ViewController"];
 }
-
+-(UIStatusBarStyle)preferredStatusBarStyle{
+    
+    return UIStatusBarStyleLightContent;
+}
 
 
 

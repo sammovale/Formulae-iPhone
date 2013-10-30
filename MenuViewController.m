@@ -54,7 +54,10 @@
     
 }
 
-
+-(UIStatusBarStyle)preferredStatusBarStyle{
+    
+    return UIStatusBarStyleLightContent;
+}
 
 -(void)viewDidAppear:(BOOL)animated {
     self.scrollView.scrollEnabled = NO;
